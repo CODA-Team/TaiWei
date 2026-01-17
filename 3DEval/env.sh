@@ -12,8 +12,16 @@
 # Toolchain paths (override in your shell if needed)
 # ------------------------------------------------------------------------------
 export PIN3D_DIR="${PIN3D_DIR:-$(pwd)}"
+export NUM_CORES="${NUM_CORES:-16}"
+
+# OpenROAD toolchain
 export ORFS_DIR="${ORFS_DIR:-$(pwd)/../OpenROAD-flow-scripts}"
 export OPENROAD_EXE="${OPENROAD_EXE:-${ORFS_DIR}/tools/install/OpenROAD/bin/openroad}"
 export YOSYS_EXE="${YOSYS_EXE:-${ORFS_DIR}/tools/install/yosys/bin/yosys}"
 export STA_EXE="${STA_EXE:-${ORFS_DIR}/tools/install/OpenROAD/bin/sta}"
-export NUM_CORES="${NUM_CORES:-16}"
+
+# Cadence toolchain
+export GENUS_EXE="${GENUS_EXE:-$(which genus)}"
+export INNOVUS_EXE="${INNOVUS_EXE:-$(which innovus)}"
+GENUS_CMD="${GENUS_EXE} -64 -abort_on_error"
+INNOVUS_CMD="${INNOVUS_EXE} -64 -abort_on_error"
