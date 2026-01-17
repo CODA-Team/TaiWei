@@ -32,6 +32,36 @@ python3 run_experiments.py --flow ord --tech asap7_3D --case gcd
 python3 run_experiments.py --flow cds --tech asap7_nangate45_3D --case gcd 
 ```
 
+## [Enablements](#enablements)
+PDK (Process Design Kit) preparation is a foundational component of a robust 3D physical design flow. 
+In this repository, we open-source three representative 3D stacking configurations derived from the NanGate45 and ASAP7 platforms in OpenROAD-flow-scripts:
+- NanGate45-NanGate45 
+- ASAP7-ASAP7
+- NanGate45-ASAP7
+These configurations cover both **homogeneous** and **heterogeneous** technology stacks and are suitable for benchmarking, algorithm development, and flow validation.
+
+
+
+### Example: Build your own 3D PDK 
+To illustrate the enablement methodology, we use the **ASAP7–ASAP7** configuration as a representative example. Starting from the standard 2D ASAP7 PDK, we derive a 3D-capable PDK by systematically extending the technology and library views.
+
+
+- **Face-to-Face (F2F) Stack Modeling**: we model a **face-to-face (F2F)** stack by (i) replicating the original 2D metal stack on each tier, and (ii) introducing a **dedicated cut layer** to represent **hybrid bonding terminals (HBTs)** as vertical vias between tiers. Since the two dies in an F2F configuration are fabricated independently prior to bonding, we implement **symmetric yet electrically isolated power delivery networks (PDNs)** on the top and bottom tiers. This enables independent power supplies and voltage domains, which is essential for modeling heterogeneous 3D integration scenarios.
+
+- **3D Standard-Cell Library Enablement**: we derive **tier-specific standard-cell libraries** from the base 2D library: (i) for each logical cell, we generate two physical LEF masters, where `*_bottom*` is used for the bottom tier and `*_upper*` for the top tier, and (ii) metal layers in each LEF are reassigned to the corresponding tier-local metal stack.
+
+- **Die by Die Optimization**: we provide **COVER LEF** views for both tiers to enable die by die optimization. These views act as physical abstractions that: (i) exclude the inactive tier from overlap, density and congestion calculations, and (ii) preserve cross-tier connectivity and logical correctness.
+
+This enablement strategy allows existing 2D physical design engines to operate on 3D designs with minimal modification, while retaining sufficient fidelity for meaningful tool and algorithm evaluation.
+
+
+<p align="center">
+  <img alt="ASAP7_3D_PDK" width="750" src="./README.assets/ASAP7_3D_PDK.png">
+  <br>
+  <em>Figure: Metal stack, PDN strategy, and tier abstraction in the 3D ASAP7 PDK.</em>
+</p>
+
+
 
 ## Table of Contents
 
@@ -386,8 +416,5 @@ We welcome suggestions for improvements or contributions of better materials to 
 Please contact us via email or through GitHub issues and pull requests; our contact information is listed below. Finally, please read the header notices in all TCL scripts that invoke commercial EDA tools. We thank Cadence and Synopsys for allowing us to share, in this academic context, excerpts of their copyrighted intellectual property for researchers’ use.
 
 ## Contacts
-
 *   **Zhiang Wang** — [zhiangwang@fudan.edu.cn](mailto:zhiangwang@fudan.edu.cn)
 *   **Zhiyu Zheng** — [zyzheng24@m.fudan.edu.cn](mailto:zyzheng24@m.fudan.edu.cn)
-*   **Keren Zhu** — [krzhu@fudan.edu.cn](mailto:krzhu@fudan.edu.cn)
-*   **Yuhao Ren** — [yhren24@m.fudan.edu.cn](mailto:yhren24@m.fudan.edu.cn)
