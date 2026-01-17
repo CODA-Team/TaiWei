@@ -1,118 +1,113 @@
-# Process node
-export PROCESS = 45
+# =====================================================
+# Platform / Process
+# =====================================================
+export PROCESS                  = 45
 
-#-----------------------------------------------------
-# Tech/Libs
-# ----------------------------------------------------
-export TECH_LEF = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.tech.lef
-export SC_LEF = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.macro.mod.lef
+# =====================================================
+# Tech / LEF / LIB (aggregation-friendly)
+# =====================================================
+export TECH_LEF                 = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.tech.lef
+export SC_LEF                   = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.macro.mod.lef
 
-export LIB_FILES = $(PLATFORM_DIR)/lib/NangateOpenCellLibrary_typical.lib \
-                     $(ADDITIONAL_LIBS)
-export GDS_FILES = $(sort $(wildcard $(PLATFORM_DIR)/gds/*.gds)) \
-                     $(ADDITIONAL_GDS)
-# Dont use cells to ease congestion
-# Specify at least one filler cell if none
-export DONT_USE_CELLS = TAPCELL_X1 FILLCELL_X1 AOI211_X1 OAI211_X1
+export LIB_FILES               ?= $(PLATFORM_DIR)/lib/NangateOpenCellLibrary_typical.lib $(ADDITIONAL_LIBS)
+export LEF_FILES               ?= $(TECH_LEF) $(SC_LEF) $(ADDITIONAL_LEFS)
 
-# Fill cells used in fill cell insertion
-export FILL_CELLS = FILLCELL_X1 FILLCELL_X2 FILLCELL_X4 FILLCELL_X8 FILLCELL_X16 FILLCELL_X32
+# 目录便捷变量
+export LIB_DIR                 ?= $(PLATFORM_DIR)/lib
+export LEF_DIR                 ?= $(dir $(TECH_LEF))
 
-# -----------------------------------------------------
-#  Yosys
-#  ----------------------------------------------------
-# Ungroup size for hierarchical synthesis
-export MAX_UNGROUP_SIZE ?= 10000
-# Set the TIEHI/TIELO cells
-# These are used in yosys synthesis to avoid logical 1/0's in the netlist
-export TIEHI_CELL_AND_PORT = LOGIC1_X1 Z
-export TIELO_CELL_AND_PORT = LOGIC0_X1 Z
+# QRC（可选）
+export QRC_FILE                ?= $(PLATFORM_DIR)/qrc/NG45.tch
+export SET_RC_TCL               ?= $(PLATFORM_DIR)/setRC.tcl
+# =====================================================
+# GDS
+# =====================================================
+export GDS_FILES                = $(sort $(wildcard $(PLATFORM_DIR)/gds/*.gds))
+export GDS_FILES               += $(ADDITIONAL_GDS)
+export GDS_ALLOW_EMPTY         ?= fakeram.*
 
-# Used in synthesis
-export MIN_BUF_CELL_AND_PORTS = BUF_X1 A Z
+# =====================================================
+# Synthesis / Yosys
+# =====================================================
+export RTL_SEARCH_DIRS         ?= $(dir $(firstword $(VERILOG_FILES)))
+export MAX_UNGROUP_SIZE        ?= 10000
 
+# 常量单元
+export TIEHI_CELL_AND_PORT      = LOGIC1_X1 Z
+export TIELO_CELL_AND_PORT      = LOGIC0_X1 Z
 
-# Yosys mapping files
-export LATCH_MAP_FILE = $(PLATFORM_DIR)/cells_latch.v
-export CLKGATE_MAP_FILE = $(PLATFORM_DIR)/cells_clkgate.v
-export ADDER_MAP_FILE ?= $(PLATFORM_DIR)/cells_adders.v
-#
-export ABC_DRIVER_CELL = BUF_X1
-# BUF_X1, pin (A) = 0.974659. Arbitrarily multiply by 4
-export ABC_LOAD_IN_FF = 3.898
+# 缓冲单元
+export MIN_BUF_CELL_AND_PORTS   = BUF_X1 A Z
+export ABC_DRIVER_CELL          = BUF_X1
+export ABC_LOAD_IN_FF           = 3.898
 
-#--------------------------------------------------------
+# 映射文件
+export LATCH_MAP_FILE           = $(PLATFORM_DIR)/cells_latch.v
+export CLKGATE_MAP_FILE         = $(PLATFORM_DIR)/cells_clkgate.v
+export ADDER_MAP_FILE          ?= $(PLATFORM_DIR)/cells_adders.v
+
+# 不使用的单元 & 填充单元
+export DONT_USE_CELLS           = TAPCELL_X1 FILLCELL_X1 AOI211_X1 OAI211_X1
+export FILL_CELLS               = FILLCELL_X1 FILLCELL_X2 FILLCELL_X4 FILLCELL_X8 FILLCELL_X16 FILLCELL_X32
+
+# =====================================================
 # Floorplan
-# -------------------------------------------------------
+# =====================================================
+export PLACE_SITE               = FreePDK45_38x28_10R_NP_162NW_34O
+export IO_PLACER_H              = M5
+export IO_PLACER_V              = M6
+export PAR_BAL_LO ?= 1.0
+export PAR_BAL_HI ?= 6.0
+export PAR_BAL_ITERATION ?= 11
+# PDN
+export PDN_TCL                 ?= $(PLATFORM_DIR)/grid_strategy-M1-M4-M7.tcl
+export TAPCELL_TCL              = $(PLATFORM_DIR)/tapcell.tcl
 
-# Placement site for core cells
-# This can be found in the technology lef
-export PLACE_SITE = FreePDK45_38x28_10R_NP_162NW_34O
+# 宏块留白
+export MACRO_PLACE_HALO        ?= 22.4 15.12
+export MACRO_PLACE_CHANNEL     ?= 18.8 19.95
 
-# IO Placer pin layers
-export IO_PLACER_H = metal5
-export IO_PLACER_V = metal6
-
-# Define default PDN config
-export PDN_TCL ?= $(PLATFORM_DIR)/grid_strategy-M1-M4-M7.tcl
-
-# Endcap and Welltie cells
-export TAPCELL_TCL = $(PLATFORM_DIR)/tapcell.tcl
-
-export MACRO_PLACE_HALO ?= 22.4 15.12
-export MACRO_PLACE_CHANNEL ?= 18.8 19.95
-
-#---------------------------------------------------------
+# =====================================================
 # Place
-# --------------------------------------------------------
-# Cell padding in SITE widths to ease rout-ability.  Applied to both sides
+# =====================================================
+export PLACE_DENSITY           ?= 0.30
 export CELL_PAD_IN_SITES_GLOBAL_PLACEMENT ?= 0
 export CELL_PAD_IN_SITES_DETAIL_PLACEMENT ?= 0
-#
 
-export PLACE_DENSITY ?= 0.30
+# =====================================================
+# CTS
+# =====================================================
+export CTS_BUF_CELL            ?= BUF_X4
 
-# --------------------------------------------------------
-#  CTS
-#  -------------------------------------------------------
-# TritonCTS options
-export CTS_BUF_CELL   ?= BUF_X4
+# =====================================================
+# Route
+# =====================================================
+export MIN_ROUTING_LAYER        = M2
+export MAX_ROUTING_LAYER        = M10
+export FASTROUTE_TCL           ?= $(PLATFORM_DIR)/fastroute.tcl
 
-# ---------------------------------------------------------
-#  Route
-# ---------------------------------------------------------
-# FastRoute options
-export MIN_ROUTING_LAYER = metal2
-export MAX_ROUTING_LAYER = metal10
+# =====================================================
+# KLayout (tech/DRC/LVS)
+# =====================================================
+export KLAYOUT_TECH_FILE        = $(PLATFORM_DIR)/FreePDK45.lyt
+export KLAYOUT_DRC_FILE         = $(PLATFORM_DIR)/drc/FreePDK45.lydrc
+export KLAYOUT_LVS_FILE         = $(PLATFORM_DIR)/lvs/FreePDK45.lylvs
 
-# Define fastRoute tcl
-export FASTROUTE_TCL ?= $(PLATFORM_DIR)/fastroute.tcl
+# =====================================================
+# Netlist / PG analysis (optional)
+# =====================================================
+export CDL_FILE                 = $(PLATFORM_DIR)/cdl/NangateOpenCellLibrary.cdl
+export TEMPLATE_PGA_CFG        ?= $(PLATFORM_DIR)/template_pga.cfg
 
-# KLayout technology file
-export KLAYOUT_TECH_FILE = $(PLATFORM_DIR)/FreePDK45.lyt
+# =====================================================
+# RC / Extraction
+# =====================================================
+export RCX_RULES                = $(PLATFORM_DIR)/rcx_patterns.rules
 
-# KLayout DRC ruledeck
-export KLAYOUT_DRC_FILE = $(PLATFORM_DIR)/drc/FreePDK45.lydrc
-
-# KLayout LVS ruledeck
-export KLAYOUT_LVS_FILE = $(PLATFORM_DIR)/lvs/FreePDK45.lylvs
-
-# Allow empty GDS cell
-export GDS_ALLOW_EMPTY ?= fakeram.*
-
-export CDL_FILE = $(PLATFORM_DIR)/cdl/NangateOpenCellLibrary.cdl
-
-# Template definition for power grid analysis
-export TEMPLATE_PGA_CFG ?= $(PLATFORM_DIR)/template_pga.cfg
-
-# OpenRCX extRules
-export RCX_RULES               = $(PLATFORM_DIR)/rcx_patterns.rules
-# ---------------------------------------------------------
-#  IR Drop
-# ---------------------------------------------------------
-
-# IR drop estimation supply net name to be analyzed and supply voltage variable
-# For multiple nets: PWR_NETS_VOLTAGES  = "VDD1 1.8 VDD2 1.2"
-export PWR_NETS_VOLTAGES  ?= "VDD 1.1"
-export GND_NETS_VOLTAGES  ?= "VSS 0.0"
-export IR_DROP_LAYER ?= metal1
+# =====================================================
+# IR Drop
+# =====================================================
+# 多电源示例："VDD1 1.8 VDD2 1.2"
+export PWR_NETS_VOLTAGES       ?= "VDD 1.1"
+export GND_NETS_VOLTAGES       ?= "VSS 0.0"
+export IR_DROP_LAYER           ?= M1

@@ -21,7 +21,7 @@
   </common>
   <lefdef>
    <read-all-layers>true</read-all-layers>
-   <layer-map>layer_map('OUTLINE : 235/0';'metal1 : 11/0';'metal1.LABEL : 11/0';'metal1.PIN : 11/0';'metal2 : 13/0';'metal2.LABEL : 13/0';'metal2.PIN : 13/0';'metal3 : 15/0';'metal3.LABEL : 15/0';'metal3.PIN : 15/0';'metal4 : 17/0';'metal4.LABEL : 17/0';'metal4.PIN : 17/0';'metal5 : 19/0';'metal5.LABEL : 19/0';'metal5.PIN : 19/0';'metal6 : 21/0';'metal6.LABEL : 21/0';'metal6.PIN : 21/0';'metal7 : 23/0';'metal7.LABEL : 23/0';'metal7.PIN : 23/0';'metal8 : 25/0';'metal8.LABEL : 25/0';'metal8.PIN : 25/0';'metal9 : 27/0';'metal9.LABEL : 27/0';'metal9.PIN : 27/0';'metal10 : 29/0';'metal10.LABEL : 29/0';'metal10.PIN : 29/0';'via1 : 12/0';'via1.LABEL : 12/0';'via1.PIN : 12/0';'via2 : 14/0';'via2.LABEL : 14/0';'via2.PIN : 14/0';'via3 : 16/0';'via3.LABEL : 16/0';'via3.PIN : 16/0';'via4 : 18/0';'via4.LABEL : 18/0';'via4.PIN : 18/0';'via5 : 20/0';'via5.LABEL : 20/0';'via5.PIN : 20/0';'via6 : 22/0';'via6.LABEL : 22/0';'via6.PIN : 22/0';'via7 : 24/0';'via7.LABEL : 24/0';'via7.PIN : 24/0';'via8 : 26/0';'via8.LABEL : 26/0';'via8.PIN : 26/0';'via9 : 28/0';'via9.LABEL : 28/0';'via9.PIN : 28/0';'via10 : 30/0';'via10.LABEL : 30/0';'via10.PIN : 30/0')</layer-map>
+   <layer-map>layer_map('OUTLINE : 235/0';'M1 : 11/0';'M1.LABEL : 11/0';'M1.PIN : 11/0';'M2 : 13/0';'M2.LABEL : 13/0';'M2.PIN : 13/0';'M3 : 15/0';'M3.LABEL : 15/0';'M3.PIN : 15/0';'M4 : 17/0';'M4.LABEL : 17/0';'M4.PIN : 17/0';'M5 : 19/0';'M5.LABEL : 19/0';'M5.PIN : 19/0';'M6 : 21/0';'M6.LABEL : 21/0';'M6.PIN : 21/0';'M7 : 23/0';'M7.LABEL : 23/0';'M7.PIN : 23/0';'M8 : 25/0';'M8.LABEL : 25/0';'M8.PIN : 25/0';'M9 : 27/0';'M9.LABEL : 27/0';'M9.PIN : 27/0';'M10 : 29/0';'M10.LABEL : 29/0';'M10.PIN : 29/0';'via1 : 12/0';'via1.LABEL : 12/0';'via1.PIN : 12/0';'via2 : 14/0';'via2.LABEL : 14/0';'via2.PIN : 14/0';'via3 : 16/0';'via3.LABEL : 16/0';'via3.PIN : 16/0';'via4 : 18/0';'via4.LABEL : 18/0';'via4.PIN : 18/0';'via5 : 20/0';'via5.LABEL : 20/0';'via5.PIN : 20/0';'via6 : 22/0';'via6.LABEL : 22/0';'via6.PIN : 22/0';'via7 : 24/0';'via7.LABEL : 24/0';'via7.PIN : 24/0';'via8 : 26/0';'via8.LABEL : 26/0';'via8.PIN : 26/0';'via9 : 28/0';'via9.LABEL : 28/0';'via9.PIN : 28/0';'via10 : 30/0';'via10.LABEL : 30/0';'via10.PIN : 30/0')</layer-map>
    <dbu>0.0001</dbu>
    <produce-net-names>true</produce-net-names>
    <net-property-name>#1</net-property-name>
@@ -103,38 +103,38 @@
   </cif>
  </writer-options>
  <connectivity>
-  <connection>DrainSource,contact,metal1</connection>
-  <connection>poly,contact,metal1</connection>
-  <connection>metal1,via1,metal2</connection>
-  <connection>metal2,via2,metal3</connection>
-  <connection>metal3,via3,metal4</connection>
-  <connection>metal4,via4,metal5</connection>
-  <connection>metal5,via5,metal6</connection>
-  <connection>metal6,via6,metal7</connection>
-  <connection>metal7,via7,metal8</connection>
-  <connection>metal8,via8,metal9</connection>
-  <connection>metal9,via9,metal10</connection>
+  <connection>DrainSource,contact,M1</connection>
+  <connection>poly,contact,M1</connection>
+  <connection>M1,via1,M2</connection>
+  <connection>M2,via2,M3</connection>
+  <connection>M3,via3,M4</connection>
+  <connection>M4,via4,M5</connection>
+  <connection>M5,via5,M6</connection>
+  <connection>M6,via6,M7</connection>
+  <connection>M7,via7,M8</connection>
+  <connection>M8,via8,M9</connection>
+  <connection>M9,via9,M10</connection>
   <symbols>DrainSource='1/0 - 9/0'</symbols>
   <symbols>poly='9/0'</symbols>
   <symbols>contact='10/0'</symbols>
-  <symbols>metal1='11/0'</symbols>
+  <symbols>M1='11/0'</symbols>
   <symbols>via1='12/0'</symbols>
-  <symbols>metal2='13/0'</symbols>
+  <symbols>M2='13/0'</symbols>
   <symbols>via2='14/0'</symbols>
-  <symbols>metal3.='15/0'</symbols>
+  <symbols>M3.='15/0'</symbols>
   <symbols>via3.drawin='16/0'</symbols>
-  <symbols>metal4='17/0'</symbols>
+  <symbols>M4='17/0'</symbols>
   <symbols>via4='18/0'</symbols>
-  <symbols>metal5='19/0'</symbols>
+  <symbols>M5='19/0'</symbols>
   <symbols>via5='20/0'</symbols>
-  <symbols>metal6='21/0'</symbols>
+  <symbols>M6='21/0'</symbols>
   <symbols>via6='22/0'</symbols>
-  <symbols>metal7='23/0'</symbols>
+  <symbols>M7='23/0'</symbols>
   <symbols>via7='24/0'</symbols>
-  <symbols>metal8='25/0'</symbols>
+  <symbols>M8='25/0'</symbols>
   <symbols>via8='26/0'</symbols>
-  <symbols>metal9='27/0'</symbols>
+  <symbols>M9='27/0'</symbols>
   <symbols>via9='28/0'</symbols>
-  <symbols>metal10='29/0'</symbols>
+  <symbols>M10='29/0'</symbols>
  </connectivity>
 </technology>

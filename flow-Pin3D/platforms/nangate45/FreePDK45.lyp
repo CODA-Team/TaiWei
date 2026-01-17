@@ -185,7 +185,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal1.drawing - 11/0</name>
+   <name>M1.drawing - 11/0</name>
    <source>11/0@1</source>
   </properties>
   <properties>
@@ -219,7 +219,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal2.drawing - 13/0</name>
+   <name>M2.drawing - 13/0</name>
    <source>13/0@1</source>
   </properties>
   <properties>
@@ -253,7 +253,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal3.drawing - 15/0</name>
+   <name>M3.drawing - 15/0</name>
    <source>15/0@1</source>
   </properties>
   <properties>
@@ -287,7 +287,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal4.drawing - 17/0</name>
+   <name>M4.drawing - 17/0</name>
    <source>17/0@1</source>
   </properties>
   <properties>
@@ -321,7 +321,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal5.drawing - 19/0</name>
+   <name>M5.drawing - 19/0</name>
    <source>19/0@1</source>
   </properties>
   <properties>
@@ -355,7 +355,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal6.drawing - 21/0</name>
+   <name>M6.drawing - 21/0</name>
    <source>21/0@1</source>
   </properties>
   <properties>
@@ -389,7 +389,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal7.drawing - 23/0</name>
+   <name>M7.drawing - 23/0</name>
    <source>23/0@1</source>
   </properties>
   <properties>
@@ -423,7 +423,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal8.drawing - 25/0</name>
+   <name>M8.drawing - 25/0</name>
    <source>25/0@1</source>
   </properties>
   <properties>
@@ -457,7 +457,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal9.drawing - 27/0</name>
+   <name>M9.drawing - 27/0</name>
    <source>27/0@1</source>
   </properties>
   <properties>
@@ -491,7 +491,7 @@
    <marked>false</marked>
    <xfill>false</xfill>
    <animation>0</animation>
-   <name>metal10.drawing - 29/0</name>
+   <name>M10.drawing - 29/0</name>
    <source>29/0@1</source>
   </properties>
   <properties>
@@ -594,7 +594,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal1.LABEL 3/1@1</source>
+   <source>M1.LABEL 3/1@1</source>
   </properties>
   <properties>
    <frame-color>#9580ff</frame-color>
@@ -611,7 +611,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal1.PIN 3/2@1</source>
+   <source>M1.PIN 3/2@1</source>
   </properties>
   <properties>
    <frame-color>#9580ff</frame-color>
@@ -628,7 +628,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal1.OBS 3/3@1</source>
+   <source>M1.OBS 3/3@1</source>
   </properties>
   <properties>
    <frame-color>#80a8ff</frame-color>
@@ -645,7 +645,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal2.LABEL 5/1@1</source>
+   <source>M2.LABEL 5/1@1</source>
   </properties>
   <properties>
    <frame-color>#80a8ff</frame-color>
@@ -662,7 +662,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal2.PIN 5/2@1</source>
+   <source>M2.PIN 5/2@1</source>
   </properties>
   <properties>
    <frame-color>#ff0080</frame-color>
@@ -679,7 +679,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal3.LABEL 7/1@1</source>
+   <source>M3.LABEL 7/1@1</source>
   </properties>
   <properties>
    <frame-color>#ff0080</frame-color>
@@ -696,7 +696,7 @@
    <xfill>false</xfill>
    <animation>0</animation>
    <name/>
-   <source>metal3.PIN 7/2@1</source>
+   <source>M3.PIN 7/2@1</source>
   </properties>
   <properties>
    <frame-color>#ffffff</frame-color>
@@ -1337,7 +1337,7 @@
     <line>..............**</line>
    </pattern>
    <order>29</order>
-   <name>metal1S</name>
+   <name>M1S</name>
   </custom-dither-pattern>
   <custom-dither-pattern>
    <pattern>
@@ -1359,7 +1359,7 @@
     <line>*..............*</line>
    </pattern>
    <order>30</order>
-   <name>metal2S</name>
+   <name>M2S</name>
   </custom-dither-pattern>
   <custom-dither-pattern>
    <pattern>

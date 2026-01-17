@@ -13,7 +13,7 @@ MACRO AND2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -21,7 +21,7 @@ MACRO AND2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A2
@@ -29,7 +29,7 @@ MACRO AND2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.61 0.19 0.7 1.25 ;
     END
   END ZN
@@ -38,7 +38,7 @@ MACRO AND2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.415 0.975 0.485 1.485 ;
         RECT 0.04 0.975 0.11 1.485 ;
@@ -49,13 +49,13 @@ MACRO AND2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.415 -0.085 0.485 0.325 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.235 0.84 0.305 1.25 ;
       RECT 0.235 0.84 0.54 0.91 ;
       RECT 0.47 0.39 0.54 0.91 ;
@@ -75,7 +75,7 @@ MACRO AND2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -83,7 +83,7 @@ MACRO AND2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A2
@@ -91,7 +91,7 @@ MACRO AND2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.615 0.15 0.7 1.25 ;
     END
   END ZN
@@ -100,7 +100,7 @@ MACRO AND2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
         RECT 0.415 0.975 0.485 1.485 ;
@@ -112,14 +112,14 @@ MACRO AND2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.795 -0.085 0.865 0.425 ;
         RECT 0.415 -0.085 0.485 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.235 0.84 0.305 1.25 ;
       RECT 0.235 0.84 0.545 0.91 ;
       RECT 0.475 0.39 0.545 0.91 ;
@@ -139,7 +139,7 @@ MACRO AND2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.42 0.38 0.66 ;
     END
   END A1
@@ -147,7 +147,7 @@ MACRO AND2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.725 0.76 0.795 ;
         RECT 0.69 0.525 0.76 0.795 ;
         RECT 0.06 0.42 0.185 0.795 ;
@@ -157,7 +157,7 @@ MACRO AND2_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.365 0.15 1.435 1.25 ;
         RECT 0.995 0.68 1.435 0.75 ;
         RECT 0.995 0.15 1.08 1.25 ;
@@ -168,7 +168,7 @@ MACRO AND2_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.555 0.995 1.625 1.485 ;
         RECT 1.175 0.995 1.245 1.485 ;
@@ -182,7 +182,7 @@ MACRO AND2_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.555 -0.085 1.625 0.355 ;
         RECT 1.175 -0.085 1.245 0.355 ;
@@ -191,7 +191,7 @@ MACRO AND2_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.605 0.86 0.675 1.25 ;
       RECT 0.235 0.86 0.305 1.25 ;
       RECT 0.235 0.86 0.92 0.93 ;
@@ -212,7 +212,7 @@ MACRO AND3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -220,7 +220,7 @@ MACRO AND3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -228,7 +228,7 @@ MACRO AND3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.57 0.7 ;
     END
   END A3
@@ -236,7 +236,7 @@ MACRO AND3_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.8 0.975 0.89 1.25 ;
         RECT 0.82 0.15 0.89 1.25 ;
         RECT 0.8 0.15 0.89 0.425 ;
@@ -247,7 +247,7 @@ MACRO AND3_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.605 1 0.675 1.485 ;
         RECT 0.225 1.04 0.295 1.485 ;
@@ -258,13 +258,13 @@ MACRO AND3_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.605 -0.085 0.675 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.415 0.865 0.485 1.25 ;
       RECT 0.045 0.865 0.115 1.25 ;
       RECT 0.045 0.865 0.705 0.935 ;
@@ -286,7 +286,7 @@ MACRO AND3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -294,7 +294,7 @@ MACRO AND3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -302,7 +302,7 @@ MACRO AND3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.57 0.7 ;
     END
   END A3
@@ -310,7 +310,7 @@ MACRO AND3_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.805 0.15 0.89 1.25 ;
     END
   END ZN
@@ -319,7 +319,7 @@ MACRO AND3_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.99 0.975 1.06 1.485 ;
         RECT 0.605 0.975 0.675 1.485 ;
@@ -331,14 +331,14 @@ MACRO AND3_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.99 -0.085 1.06 0.425 ;
         RECT 0.605 -0.085 0.675 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.415 0.8 0.485 1.25 ;
       RECT 0.045 0.8 0.115 1.25 ;
       RECT 0.045 0.8 0.735 0.87 ;
@@ -359,7 +359,7 @@ MACRO AND3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.595 0.555 0.73 0.7 ;
     END
   END A1
@@ -367,7 +367,7 @@ MACRO AND3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.42 0.95 0.7 ;
         RECT 0.34 0.42 0.95 0.49 ;
         RECT 0.34 0.42 0.41 0.66 ;
@@ -377,7 +377,7 @@ MACRO AND3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.12 0.765 1.14 0.835 ;
         RECT 1.07 0.525 1.14 0.835 ;
         RECT 0.12 0.525 0.19 0.835 ;
@@ -388,7 +388,7 @@ MACRO AND3_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.745 0.15 1.815 1.25 ;
         RECT 1.375 0.56 1.815 0.7 ;
         RECT 1.375 0.15 1.445 1.25 ;
@@ -399,7 +399,7 @@ MACRO AND3_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.935 1.035 2.005 1.485 ;
         RECT 1.555 1.035 1.625 1.485 ;
@@ -414,7 +414,7 @@ MACRO AND3_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.935 -0.085 2.005 0.425 ;
         RECT 1.555 -0.085 1.625 0.425 ;
@@ -423,7 +423,7 @@ MACRO AND3_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.985 0.9 1.055 1.25 ;
       RECT 0.605 0.9 0.675 1.25 ;
       RECT 0.235 0.9 0.305 1.25 ;
@@ -445,7 +445,7 @@ MACRO AND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -453,7 +453,7 @@ MACRO AND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -461,7 +461,7 @@ MACRO AND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A3
@@ -469,7 +469,7 @@ MACRO AND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.76 0.7 ;
     END
   END A4
@@ -477,7 +477,7 @@ MACRO AND4_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.99 0.15 1.08 1.25 ;
     END
   END ZN
@@ -486,7 +486,7 @@ MACRO AND4_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
         RECT 0.415 0.975 0.485 1.485 ;
@@ -498,13 +498,13 @@ MACRO AND4_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.795 -0.085 0.865 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.605 0.84 0.675 1.25 ;
       RECT 0.235 0.84 0.305 1.25 ;
       RECT 0.235 0.84 0.925 0.91 ;
@@ -525,7 +525,7 @@ MACRO AND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -533,7 +533,7 @@ MACRO AND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -541,7 +541,7 @@ MACRO AND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A3
@@ -549,7 +549,7 @@ MACRO AND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.76 0.7 ;
     END
   END A4
@@ -557,7 +557,7 @@ MACRO AND4_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.995 0.15 1.08 1.25 ;
     END
   END ZN
@@ -566,7 +566,7 @@ MACRO AND4_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.18 0.975 1.25 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
@@ -579,14 +579,14 @@ MACRO AND4_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 1.18 -0.085 1.25 0.425 ;
         RECT 0.795 -0.085 0.865 0.27 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.605 0.8 0.675 1.25 ;
       RECT 0.235 0.8 0.305 1.25 ;
       RECT 0.235 0.8 0.925 0.87 ;
@@ -607,7 +607,7 @@ MACRO AND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.8 0.56 0.935 0.7 ;
     END
   END A1
@@ -615,7 +615,7 @@ MACRO AND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.065 0.425 1.135 0.66 ;
         RECT 0.565 0.425 1.135 0.495 ;
         RECT 0.565 0.425 0.7 0.7 ;
@@ -625,7 +625,7 @@ MACRO AND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.355 0.77 1.345 0.84 ;
         RECT 1.2 0.525 1.345 0.84 ;
         RECT 0.355 0.525 0.425 0.84 ;
@@ -635,7 +635,7 @@ MACRO AND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.135 0.905 1.535 0.975 ;
         RECT 1.465 0.525 1.535 0.975 ;
         RECT 0.135 0.525 0.205 0.975 ;
@@ -646,7 +646,7 @@ MACRO AND4_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.14 0.15 2.21 0.925 ;
         RECT 1.77 0.56 2.21 0.7 ;
         RECT 1.77 0.15 1.84 0.925 ;
@@ -657,7 +657,7 @@ MACRO AND4_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.33 1.065 2.4 1.485 ;
         RECT 1.95 1.065 2.02 1.485 ;
@@ -673,7 +673,7 @@ MACRO AND4_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.33 -0.085 2.4 0.425 ;
         RECT 1.95 -0.085 2.02 0.425 ;
@@ -682,7 +682,7 @@ MACRO AND4_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.215 1.04 1.705 1.11 ;
       RECT 1.635 0.29 1.705 1.11 ;
       RECT 0.785 0.29 1.705 0.36 ;
@@ -702,7 +702,7 @@ MACRO ANTENNA_X1
     # unknown
     ANTENNADIFFAREA  0.0 ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.42 0.13 0.75 ;
     END
   END A
@@ -711,7 +711,7 @@ MACRO ANTENNA_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.19 1.485 ;
     END
   END VDD
@@ -720,7 +720,7 @@ MACRO ANTENNA_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.19 0.085 ;
     END
   END VSS
@@ -737,7 +737,7 @@ MACRO AOI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.525 0.89 0.7 ;
     END
   END A
@@ -745,7 +745,7 @@ MACRO AOI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END B
@@ -753,7 +753,7 @@ MACRO AOI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.41 0.525 0.51 0.7 ;
     END
   END C1
@@ -761,7 +761,7 @@ MACRO AOI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.21 0.7 ;
     END
   END C2
@@ -769,7 +769,7 @@ MACRO AOI211_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.275 0.355 0.905 0.425 ;
         RECT 0.835 0.15 0.905 0.425 ;
         RECT 0.44 0.15 0.525 0.425 ;
@@ -781,7 +781,7 @@ MACRO AOI211_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.835 0.905 0.905 1.485 ;
     END
@@ -791,14 +791,14 @@ MACRO AOI211_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.645 -0.085 0.715 0.285 ;
         RECT 0.08 -0.085 0.15 0.425 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.085 1.18 0.525 1.25 ;
       RECT 0.455 0.905 0.525 1.25 ;
       RECT 0.085 0.905 0.155 1.25 ;
@@ -816,7 +816,7 @@ MACRO AOI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.39 0.56 0.525 0.7 ;
     END
   END A
@@ -824,7 +824,7 @@ MACRO AOI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.765 0.75 0.835 ;
         RECT 0.68 0.525 0.75 0.835 ;
         RECT 0.06 0.525 0.185 0.835 ;
@@ -834,7 +834,7 @@ MACRO AOI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.19 0.56 1.325 0.7 ;
     END
   END C1
@@ -842,7 +842,7 @@ MACRO AOI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.54 0.425 1.65 0.7 ;
         RECT 0.965 0.425 1.65 0.495 ;
         RECT 0.965 0.425 1.035 0.66 ;
@@ -852,7 +852,7 @@ MACRO AOI211_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.405 0.765 1.475 1.055 ;
         RECT 0.82 0.765 1.475 0.835 ;
         RECT 0.2 0.285 1.32 0.355 ;
@@ -867,7 +867,7 @@ MACRO AOI211_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 0.42 1.035 0.49 1.485 ;
     END
@@ -877,7 +877,7 @@ MACRO AOI211_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.595 -0.085 1.665 0.355 ;
         RECT 0.825 -0.085 0.895 0.215 ;
@@ -886,7 +886,7 @@ MACRO AOI211_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.815 1.18 1.665 1.25 ;
       RECT 1.595 0.975 1.665 1.25 ;
       RECT 0.05 0.9 0.12 1.25 ;
@@ -907,7 +907,7 @@ MACRO AOI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.76 0.7 ;
     END
   END A
@@ -915,7 +915,7 @@ MACRO AOI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END B
@@ -923,7 +923,7 @@ MACRO AOI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END C1
@@ -931,7 +931,7 @@ MACRO AOI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END C2
@@ -939,7 +939,7 @@ MACRO AOI211_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.75 0.15 1.82 1.175 ;
         RECT 1.375 0.56 1.82 0.7 ;
         RECT 1.375 0.15 1.445 1.175 ;
@@ -950,7 +950,7 @@ MACRO AOI211_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.935 0.9 2.005 1.485 ;
         RECT 1.555 0.9 1.625 1.485 ;
@@ -963,7 +963,7 @@ MACRO AOI211_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.935 -0.085 2.005 0.425 ;
         RECT 1.555 -0.085 1.625 0.425 ;
@@ -973,7 +973,7 @@ MACRO AOI211_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.995 0.15 1.065 1.175 ;
       RECT 0.995 0.525 1.31 0.66 ;
       RECT 0.235 0.765 0.305 1.115 ;
@@ -999,7 +999,7 @@ MACRO AOI21_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END A
@@ -1007,7 +1007,7 @@ MACRO AOI21_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.4 0.525 0.51 0.7 ;
     END
   END B1
@@ -1015,7 +1015,7 @@ MACRO AOI21_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.2 0.7 ;
     END
   END B2
@@ -1023,7 +1023,7 @@ MACRO AOI21_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.265 0.355 0.525 0.425 ;
         RECT 0.44 0.15 0.525 0.425 ;
         RECT 0.265 0.355 0.335 1.115 ;
@@ -1034,7 +1034,7 @@ MACRO AOI21_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.645 0.905 0.715 1.485 ;
     END
@@ -1044,14 +1044,14 @@ MACRO AOI21_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.645 -0.085 0.715 0.355 ;
         RECT 0.08 -0.085 0.15 0.425 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.085 1.18 0.525 1.25 ;
       RECT 0.455 0.905 0.525 1.25 ;
       RECT 0.085 0.905 0.155 1.25 ;
@@ -1069,7 +1069,7 @@ MACRO AOI21_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.215 0.56 0.35 0.7 ;
     END
   END A
@@ -1077,7 +1077,7 @@ MACRO AOI21_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.56 0.9 0.7 ;
     END
   END B1
@@ -1085,7 +1085,7 @@ MACRO AOI21_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.77 1.18 0.84 ;
         RECT 1.11 0.525 1.18 0.84 ;
         RECT 0.63 0.525 0.7 0.84 ;
@@ -1096,7 +1096,7 @@ MACRO AOI21_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.435 0.905 1.13 0.975 ;
         RECT 0.25 0.355 0.905 0.425 ;
         RECT 0.835 0.15 0.905 0.425 ;
@@ -1109,7 +1109,7 @@ MACRO AOI21_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 0.265 1.205 0.335 1.485 ;
     END
@@ -1119,7 +1119,7 @@ MACRO AOI21_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 1.215 -0.085 1.285 0.425 ;
         RECT 0.455 -0.085 0.525 0.285 ;
@@ -1127,7 +1127,7 @@ MACRO AOI21_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.215 0.975 1.285 1.25 ;
       RECT 0.085 0.975 0.155 1.25 ;
       RECT 0.085 1.07 1.285 1.14 ;
@@ -1145,7 +1145,7 @@ MACRO AOI21_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.4 0.525 0.535 0.7 ;
     END
   END A
@@ -1153,7 +1153,7 @@ MACRO AOI21_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.165 0.69 2.06 0.76 ;
         RECT 1.925 0.56 2.06 0.76 ;
         RECT 1.165 0.56 1.3 0.76 ;
@@ -1163,7 +1163,7 @@ MACRO AOI21_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.25 0.42 2.32 0.66 ;
         RECT 0.925 0.42 2.32 0.49 ;
         RECT 1.525 0.42 1.66 0.625 ;
@@ -1174,7 +1174,7 @@ MACRO AOI21_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.14 0.825 2.21 1.115 ;
         RECT 0.63 0.825 2.21 0.895 ;
         RECT 0.63 0.26 2.055 0.33 ;
@@ -1191,7 +1191,7 @@ MACRO AOI21_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 0.62 1.205 0.69 1.485 ;
         RECT 0.24 1.205 0.31 1.485 ;
@@ -1202,7 +1202,7 @@ MACRO AOI21_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.33 -0.085 2.4 0.35 ;
         RECT 1.57 -0.085 1.64 0.195 ;
@@ -1212,7 +1212,7 @@ MACRO AOI21_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.81 1.18 2.4 1.25 ;
       RECT 2.33 0.84 2.4 1.25 ;
       RECT 0.43 0.965 0.5 1.24 ;
@@ -1236,7 +1236,7 @@ MACRO AOI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A
@@ -1244,7 +1244,7 @@ MACRO AOI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END B1
@@ -1252,7 +1252,7 @@ MACRO AOI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END B2
@@ -1260,7 +1260,7 @@ MACRO AOI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.955 0.525 1.08 0.7 ;
     END
   END C1
@@ -1268,7 +1268,7 @@ MACRO AOI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.74 0.7 ;
     END
   END C2
@@ -1276,7 +1276,7 @@ MACRO AOI221_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.355 1.055 0.425 ;
         RECT 0.985 0.15 1.055 0.425 ;
         RECT 0.805 0.355 0.89 1.115 ;
@@ -1288,7 +1288,7 @@ MACRO AOI221_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.225 0.905 0.295 1.485 ;
     END
@@ -1298,14 +1298,14 @@ MACRO AOI221_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.605 -0.085 0.675 0.215 ;
         RECT 0.04 -0.085 0.11 0.355 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.615 1.18 1.055 1.25 ;
       RECT 0.985 0.905 1.055 1.25 ;
       RECT 0.615 0.905 0.685 1.25 ;
@@ -1326,7 +1326,7 @@ MACRO AOI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.18 0.79 1.13 0.86 ;
         RECT 1.06 0.525 1.13 0.86 ;
         RECT 0.18 0.56 0.25 0.86 ;
@@ -1337,7 +1337,7 @@ MACRO AOI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.42 0.945 0.7 ;
         RECT 0.34 0.42 0.945 0.49 ;
         RECT 0.34 0.42 0.41 0.66 ;
@@ -1347,7 +1347,7 @@ MACRO AOI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.585 0.56 0.725 0.7 ;
     END
   END B2
@@ -1355,7 +1355,7 @@ MACRO AOI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.57 0.525 1.66 0.7 ;
     END
   END C1
@@ -1363,7 +1363,7 @@ MACRO AOI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.77 0.525 1.91 0.7 ;
         RECT 1.34 0.765 1.84 0.835 ;
         RECT 1.77 0.525 1.84 0.835 ;
@@ -1374,7 +1374,7 @@ MACRO AOI221_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.195 0.9 1.86 0.97 ;
         RECT 0.2 0.28 1.675 0.35 ;
         RECT 1.195 0.28 1.275 0.97 ;
@@ -1385,7 +1385,7 @@ MACRO AOI221_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 0.795 1.205 0.865 1.485 ;
         RECT 0.415 1.205 0.485 1.485 ;
@@ -1396,7 +1396,7 @@ MACRO AOI221_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.945 -0.085 2.015 0.425 ;
         RECT 1.175 -0.085 1.245 0.195 ;
@@ -1405,7 +1405,7 @@ MACRO AOI221_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 1.07 2.015 1.14 ;
       RECT 1.945 0.865 2.015 1.14 ;
       RECT 0.045 0.865 0.115 1.14 ;
@@ -1424,7 +1424,7 @@ MACRO AOI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.61 0.525 0.7 0.7 ;
     END
   END A
@@ -1432,7 +1432,7 @@ MACRO AOI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.8 0.525 0.89 0.7 ;
     END
   END B1
@@ -1440,7 +1440,7 @@ MACRO AOI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.18 0.7 ;
     END
   END B2
@@ -1448,7 +1448,7 @@ MACRO AOI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.27 0.7 ;
     END
   END C1
@@ -1456,7 +1456,7 @@ MACRO AOI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.42 0.525 0.51 0.7 ;
     END
   END C2
@@ -1464,7 +1464,7 @@ MACRO AOI221_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.17 0.15 2.24 1.25 ;
         RECT 1.795 0.56 2.24 0.7 ;
         RECT 1.795 0.15 1.885 0.7 ;
@@ -1476,7 +1476,7 @@ MACRO AOI221_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.355 0.975 2.425 1.485 ;
         RECT 1.975 0.975 2.045 1.485 ;
@@ -1490,7 +1490,7 @@ MACRO AOI221_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.355 -0.085 2.425 0.425 ;
         RECT 1.975 -0.085 2.045 0.425 ;
@@ -1500,7 +1500,7 @@ MACRO AOI221_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.415 0.15 1.485 1.25 ;
       RECT 1.415 0.525 1.73 0.66 ;
       RECT 0.315 0.765 0.385 1.04 ;
@@ -1529,7 +1529,7 @@ MACRO AOI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.315 0.525 1.46 0.7 ;
     END
   END A1
@@ -1537,7 +1537,7 @@ MACRO AOI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.995 0.525 1.08 0.7 ;
     END
   END A2
@@ -1545,7 +1545,7 @@ MACRO AOI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.62 0.525 0.72 0.7 ;
     END
   END B1
@@ -1553,7 +1553,7 @@ MACRO AOI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.525 0.91 0.7 ;
     END
   END B2
@@ -1561,7 +1561,7 @@ MACRO AOI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.525 0.51 0.7 ;
     END
   END C1
@@ -1569,7 +1569,7 @@ MACRO AOI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.215 0.7 ;
     END
   END C2
@@ -1577,7 +1577,7 @@ MACRO AOI222_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.5 0.375 1.46 0.45 ;
         RECT 1.325 0.175 1.46 0.45 ;
         RECT 1.145 0.375 1.215 1.115 ;
@@ -1589,7 +1589,7 @@ MACRO AOI222_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.52 1.485 ;
         RECT 0.415 0.905 0.485 1.485 ;
         RECT 0.04 0.905 0.11 1.485 ;
@@ -1600,14 +1600,14 @@ MACRO AOI222_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.52 0.085 ;
         RECT 0.945 -0.085 1.015 0.31 ;
         RECT 0.04 -0.085 0.11 0.45 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.575 1.18 1.395 1.25 ;
       RECT 1.325 0.905 1.395 1.25 ;
       RECT 0.945 0.905 1.015 1.25 ;
@@ -1629,7 +1629,7 @@ MACRO AOI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.91 0.56 2.045 0.7 ;
     END
   END A1
@@ -1637,7 +1637,7 @@ MACRO AOI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.285 0.56 2.42 0.7 ;
     END
   END A2
@@ -1645,7 +1645,7 @@ MACRO AOI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.145 0.56 1.28 0.7 ;
     END
   END B1
@@ -1653,7 +1653,7 @@ MACRO AOI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.475 0.42 1.545 0.66 ;
         RECT 0.91 0.42 1.545 0.49 ;
         RECT 0.91 0.42 1.08 0.66 ;
@@ -1663,7 +1663,7 @@ MACRO AOI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.56 0.52 0.7 ;
     END
   END C1
@@ -1671,7 +1671,7 @@ MACRO AOI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.69 0.425 0.76 0.66 ;
         RECT 0.06 0.425 0.76 0.495 ;
         RECT 0.06 0.425 0.19 0.7 ;
@@ -1681,7 +1681,7 @@ MACRO AOI222_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.31 0.77 2.38 1.115 ;
         RECT 1.77 0.77 2.38 0.84 ;
         RECT 0.39 0.285 2.035 0.355 ;
@@ -1696,7 +1696,7 @@ MACRO AOI222_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.66 1.485 ;
         RECT 0.605 0.905 0.675 1.485 ;
         RECT 0.225 0.905 0.295 1.485 ;
@@ -1707,7 +1707,7 @@ MACRO AOI222_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.66 0.085 ;
         RECT 2.31 -0.085 2.38 0.25 ;
         RECT 1.555 -0.085 1.625 0.195 ;
@@ -1716,7 +1716,7 @@ MACRO AOI222_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.1 0.355 2.57 0.425 ;
       RECT 2.5 0.15 2.57 0.425 ;
       RECT 2.1 0.15 2.17 0.425 ;
@@ -1747,7 +1747,7 @@ MACRO AOI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.235 0.7 ;
     END
   END A1
@@ -1755,7 +1755,7 @@ MACRO AOI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.525 0.51 0.7 ;
     END
   END A2
@@ -1763,7 +1763,7 @@ MACRO AOI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.525 0.89 0.7 ;
     END
   END B1
@@ -1771,7 +1771,7 @@ MACRO AOI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END B2
@@ -1779,7 +1779,7 @@ MACRO AOI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.135 0.7 ;
     END
   END C1
@@ -1787,7 +1787,7 @@ MACRO AOI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.525 1.335 0.7 ;
     END
   END C2
@@ -1795,7 +1795,7 @@ MACRO AOI222_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.33 0.15 2.41 1.205 ;
         RECT 1.95 0.56 2.41 0.7 ;
         RECT 2.325 0.15 2.41 0.7 ;
@@ -1807,7 +1807,7 @@ MACRO AOI222_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.66 1.485 ;
         RECT 2.51 0.93 2.58 1.485 ;
         RECT 2.13 0.93 2.2 1.485 ;
@@ -1821,7 +1821,7 @@ MACRO AOI222_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.66 0.085 ;
         RECT 2.51 -0.085 2.58 0.425 ;
         RECT 2.14 -0.085 2.21 0.425 ;
@@ -1831,7 +1831,7 @@ MACRO AOI222_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.57 0.15 1.64 1.205 ;
       RECT 1.57 0.525 1.885 0.66 ;
       RECT 0.28 0.765 0.35 1.04 ;
@@ -1861,7 +1861,7 @@ MACRO AOI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.42 0.7 0.66 ;
     END
   END A1
@@ -1869,7 +1869,7 @@ MACRO AOI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.42 0.89 0.66 ;
     END
   END A2
@@ -1877,7 +1877,7 @@ MACRO AOI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END B1
@@ -1885,7 +1885,7 @@ MACRO AOI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END B2
@@ -1893,7 +1893,7 @@ MACRO AOI22_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.62 0.725 0.69 1.005 ;
         RECT 0.44 0.725 0.69 0.795 ;
         RECT 0.44 0.15 0.51 0.795 ;
@@ -1904,7 +1904,7 @@ MACRO AOI22_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.24 1.205 0.31 1.485 ;
     END
@@ -1914,14 +1914,14 @@ MACRO AOI22_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.81 -0.085 0.88 0.355 ;
         RECT 0.055 -0.085 0.125 0.355 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.06 1.07 0.88 1.14 ;
       RECT 0.81 0.865 0.88 1.14 ;
       RECT 0.435 0.865 0.505 1.14 ;
@@ -1940,7 +1940,7 @@ MACRO AOI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.155 0.56 1.29 0.7 ;
     END
   END A1
@@ -1948,7 +1948,7 @@ MACRO AOI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.48 0.425 1.55 0.66 ;
         RECT 0.955 0.425 1.55 0.495 ;
         RECT 0.955 0.425 1.08 0.7 ;
@@ -1958,7 +1958,7 @@ MACRO AOI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.395 0.56 0.53 0.7 ;
     END
   END B1
@@ -1966,7 +1966,7 @@ MACRO AOI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.765 0.755 0.835 ;
         RECT 0.685 0.525 0.755 0.835 ;
         RECT 0.06 0.525 0.195 0.835 ;
@@ -1976,7 +1976,7 @@ MACRO AOI22_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.375 0.765 1.445 1.065 ;
         RECT 0.82 0.765 1.445 0.835 ;
         RECT 0.395 0.28 1.285 0.355 ;
@@ -1991,7 +1991,7 @@ MACRO AOI22_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 0.61 1.035 0.68 1.485 ;
         RECT 0.23 1.035 0.3 1.485 ;
@@ -2002,7 +2002,7 @@ MACRO AOI22_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.56 -0.085 1.63 0.36 ;
         RECT 0.77 -0.085 0.905 0.205 ;
@@ -2010,7 +2010,7 @@ MACRO AOI22_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.8 1.18 1.63 1.25 ;
       RECT 1.56 0.975 1.63 1.25 ;
       RECT 0.42 0.9 0.49 1.25 ;
@@ -2032,7 +2032,7 @@ MACRO AOI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.915 0.69 2.79 0.76 ;
         RECT 2.655 0.56 2.79 0.76 ;
         RECT 1.915 0.56 2.05 0.76 ;
@@ -2042,7 +2042,7 @@ MACRO AOI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.91 0.42 3.045 0.66 ;
         RECT 1.715 0.42 3.045 0.49 ;
         RECT 2.295 0.42 2.43 0.625 ;
@@ -2053,7 +2053,7 @@ MACRO AOI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.395 0.69 1.29 0.76 ;
         RECT 1.155 0.56 1.29 0.76 ;
         RECT 0.395 0.56 0.53 0.76 ;
@@ -2063,7 +2063,7 @@ MACRO AOI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.445 0.42 1.515 0.66 ;
         RECT 0.125 0.42 1.515 0.49 ;
         RECT 0.755 0.42 0.89 0.625 ;
@@ -2074,7 +2074,7 @@ MACRO AOI22_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.89 0.825 2.96 1.115 ;
         RECT 1.75 0.825 2.96 0.895 ;
         RECT 0.395 0.26 2.805 0.33 ;
@@ -2090,7 +2090,7 @@ MACRO AOI22_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.23 1.485 ;
         RECT 1.37 1.065 1.44 1.485 ;
         RECT 0.99 1.065 1.06 1.485 ;
@@ -2103,7 +2103,7 @@ MACRO AOI22_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.23 0.085 ;
         RECT 3.08 -0.085 3.15 0.335 ;
         RECT 2.29 -0.085 2.425 0.16 ;
@@ -2113,7 +2113,7 @@ MACRO AOI22_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.56 1.18 3.15 1.25 ;
       RECT 3.08 0.84 3.15 1.25 ;
       RECT 2.7 0.96 2.77 1.25 ;
@@ -2139,7 +2139,7 @@ MACRO BUF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.19 0.7 ;
     END
   END A
@@ -2147,7 +2147,7 @@ MACRO BUF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.42 0.19 0.51 1.24 ;
     END
   END Z
@@ -2156,7 +2156,7 @@ MACRO BUF_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.57 1.485 ;
         RECT 0.225 0.965 0.295 1.485 ;
     END
@@ -2166,13 +2166,13 @@ MACRO BUF_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.57 0.085 ;
         RECT 0.225 -0.085 0.295 0.325 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.83 0.115 1.24 ;
       RECT 0.045 0.83 0.355 0.9 ;
       RECT 0.285 0.39 0.355 0.9 ;
@@ -2192,7 +2192,7 @@ MACRO BUF_X16
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.715 ;
     END
   END A
@@ -2200,7 +2200,7 @@ MACRO BUF_X16
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.42 0.15 4.49 0.925 ;
         RECT 1.77 0.28 4.49 0.42 ;
         RECT 4.05 0.28 4.12 0.925 ;
@@ -2218,7 +2218,7 @@ MACRO BUF_X16
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.75 1.485 ;
         RECT 4.61 1.205 4.68 1.485 ;
         RECT 4.23 1.205 4.3 1.485 ;
@@ -2240,7 +2240,7 @@ MACRO BUF_X16
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.75 0.085 ;
         RECT 4.61 -0.085 4.68 0.2 ;
         RECT 4.23 -0.085 4.3 0.2 ;
@@ -2258,7 +2258,7 @@ MACRO BUF_X16
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.38 0.15 1.45 1.25 ;
       RECT 1 0.15 1.07 1.25 ;
       RECT 0.62 0.15 0.69 1.25 ;
@@ -2283,7 +2283,7 @@ MACRO BUF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.23 0.7 ;
     END
   END A
@@ -2291,7 +2291,7 @@ MACRO BUF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.465 0.56 0.7 0.7 ;
         RECT 0.465 0.15 0.535 1.25 ;
     END
@@ -2301,7 +2301,7 @@ MACRO BUF_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.645 0.975 0.715 1.485 ;
         RECT 0.265 1.04 0.335 1.485 ;
@@ -2312,14 +2312,14 @@ MACRO BUF_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.645 -0.085 0.715 0.425 ;
         RECT 0.265 -0.085 0.335 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.085 0.82 0.155 1.25 ;
       RECT 0.085 0.82 0.395 0.89 ;
       RECT 0.325 0.39 0.395 0.89 ;
@@ -2339,7 +2339,7 @@ MACRO BUF_X32
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.1 0.93 2.8 1 ;
         RECT 2.665 0.56 2.8 1 ;
         RECT 1.905 0.56 2.04 1 ;
@@ -2351,7 +2351,7 @@ MACRO BUF_X32
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 8.99 0.15 9.06 1.25 ;
         RECT 3.3 0.28 9.06 0.42 ;
         RECT 8.61 0.15 8.68 0.785 ;
@@ -2376,7 +2376,7 @@ MACRO BUF_X32
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 9.31 1.485 ;
         RECT 9.18 1.065 9.25 1.485 ;
         RECT 8.8 1.065 8.87 1.485 ;
@@ -2410,7 +2410,7 @@ MACRO BUF_X32
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 9.31 0.085 ;
         RECT 9.18 -0.085 9.25 0.2 ;
         RECT 8.8 -0.085 8.87 0.2 ;
@@ -2440,7 +2440,7 @@ MACRO BUF_X32
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.165 0.85 8.88 0.92 ;
       RECT 8.745 0.56 8.88 0.92 ;
       RECT 2.885 0.405 2.955 0.865 ;
@@ -2474,7 +2474,7 @@ MACRO BUF_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.17 0.7 ;
     END
   END A
@@ -2482,7 +2482,7 @@ MACRO BUF_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.995 0.15 1.065 1.25 ;
         RECT 0.615 0.56 1.065 0.7 ;
         RECT 0.615 0.15 0.685 1.25 ;
@@ -2493,7 +2493,7 @@ MACRO BUF_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.175 0.975 1.245 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
@@ -2506,7 +2506,7 @@ MACRO BUF_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 1.175 -0.085 1.245 0.37 ;
         RECT 0.795 -0.085 0.865 0.37 ;
@@ -2515,7 +2515,7 @@ MACRO BUF_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.235 0.15 0.305 1.25 ;
       RECT 0.235 0.525 0.55 0.66 ;
   END
@@ -2532,7 +2532,7 @@ MACRO BUF_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.17 0.7 ;
     END
   END A
@@ -2540,7 +2540,7 @@ MACRO BUF_X8
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.125 0.15 2.195 1.25 ;
         RECT 0.995 0.56 2.195 0.7 ;
         RECT 1.755 0.56 1.825 1.25 ;
@@ -2554,7 +2554,7 @@ MACRO BUF_X8
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.315 0.975 2.385 1.485 ;
         RECT 1.935 0.975 2.005 1.485 ;
@@ -2570,7 +2570,7 @@ MACRO BUF_X8
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.315 -0.085 2.385 0.425 ;
         RECT 1.935 -0.085 2.005 0.425 ;
@@ -2582,7 +2582,7 @@ MACRO BUF_X8
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.605 0.15 0.675 1.25 ;
       RECT 0.235 0.15 0.305 1.25 ;
       RECT 0.235 0.525 0.925 0.66 ;
@@ -2600,7 +2600,7 @@ MACRO CLKBUF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.21 0.7 ;
     END
   END A
@@ -2608,7 +2608,7 @@ MACRO CLKBUF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.15 0.51 1.24 ;
     END
   END Z
@@ -2617,7 +2617,7 @@ MACRO CLKBUF_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.57 1.485 ;
         RECT 0.245 0.965 0.315 1.485 ;
     END
@@ -2627,13 +2627,13 @@ MACRO CLKBUF_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.57 0.085 ;
         RECT 0.245 -0.085 0.315 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.065 0.83 0.135 1.24 ;
       RECT 0.065 0.83 0.37 0.9 ;
       RECT 0.3 0.35 0.37 0.9 ;
@@ -2653,7 +2653,7 @@ MACRO CLKBUF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.19 0.7 ;
     END
   END A
@@ -2661,7 +2661,7 @@ MACRO CLKBUF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.15 0.51 1.25 ;
     END
   END Z
@@ -2670,7 +2670,7 @@ MACRO CLKBUF_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.605 0.975 0.675 1.485 ;
         RECT 0.225 1.04 0.295 1.485 ;
@@ -2681,14 +2681,14 @@ MACRO CLKBUF_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.605 -0.085 0.675 0.285 ;
         RECT 0.225 -0.085 0.295 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.905 0.115 1.25 ;
       RECT 0.045 0.905 0.36 0.975 ;
       RECT 0.29 0.35 0.36 0.975 ;
@@ -2708,7 +2708,7 @@ MACRO CLKBUF_X3
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.19 0.7 ;
     END
   END A
@@ -2716,7 +2716,7 @@ MACRO CLKBUF_X3
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.795 0.18 0.865 1.175 ;
         RECT 0.425 0.42 0.865 0.56 ;
         RECT 0.425 0.18 0.495 1.175 ;
@@ -2727,7 +2727,7 @@ MACRO CLKBUF_X3
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.605 0.9 0.675 1.485 ;
         RECT 0.225 0.9 0.295 1.485 ;
@@ -2738,14 +2738,14 @@ MACRO CLKBUF_X3
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.605 -0.085 0.675 0.235 ;
         RECT 0.225 -0.085 0.295 0.235 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.765 0.115 1.175 ;
       RECT 0.045 0.765 0.355 0.835 ;
       RECT 0.285 0.38 0.355 0.835 ;
@@ -2765,7 +2765,7 @@ MACRO CLKGATETST_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.075 0.7 2.22 0.84 ;
     END
   END CK
@@ -2773,7 +2773,7 @@ MACRO CLKGATETST_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.7 0.38 0.84 ;
     END
   END E
@@ -2781,7 +2781,7 @@ MACRO CLKGATETST_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.7 0.185 0.84 ;
     END
   END SE
@@ -2789,7 +2789,7 @@ MACRO CLKGATETST_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.705 0.35 2.79 1.235 ;
     END
   END GCK
@@ -2798,7 +2798,7 @@ MACRO CLKGATETST_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.85 1.485 ;
         RECT 2.48 1.045 2.615 1.485 ;
         RECT 2.135 0.94 2.205 1.485 ;
@@ -2812,7 +2812,7 @@ MACRO CLKGATETST_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.85 0.085 ;
         RECT 2.485 -0.085 2.62 0.385 ;
         RECT 1.75 -0.085 1.82 0.42 ;
@@ -2822,7 +2822,7 @@ MACRO CLKGATETST_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.33 0.525 2.4 1.005 ;
       RECT 2.33 0.525 2.64 0.66 ;
       RECT 2.14 0.525 2.64 0.595 ;
@@ -2863,7 +2863,7 @@ MACRO CLKGATETST_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.18 0.85 2.825 0.92 ;
         RECT 2.72 0.525 2.825 0.92 ;
         RECT 2.18 0.525 2.25 0.92 ;
@@ -2873,7 +2873,7 @@ MACRO CLKGATETST_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.56 0.375 0.725 ;
     END
   END E
@@ -2881,7 +2881,7 @@ MACRO CLKGATETST_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.56 0.545 0.725 ;
     END
   END SE
@@ -2889,7 +2889,7 @@ MACRO CLKGATETST_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.52 0.15 2.6 0.785 ;
     END
   END GCK
@@ -2898,7 +2898,7 @@ MACRO CLKGATETST_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.04 1.485 ;
         RECT 2.675 1.24 2.81 1.485 ;
         RECT 2.275 1.24 2.41 1.485 ;
@@ -2913,7 +2913,7 @@ MACRO CLKGATETST_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.04 0.085 ;
         RECT 2.7 -0.085 2.77 0.195 ;
         RECT 2.325 -0.085 2.395 0.195 ;
@@ -2924,7 +2924,7 @@ MACRO CLKGATETST_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.68 1.08 1.75 1.245 ;
       RECT 2.895 0.15 2.965 1.24 ;
       RECT 1.68 1.08 2.965 1.15 ;
@@ -2963,7 +2963,7 @@ MACRO CLKGATETST_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.21 0.77 2.85 0.85 ;
         RECT 2.72 0.525 2.85 0.85 ;
         RECT 2.21 0.525 2.28 0.85 ;
@@ -2973,7 +2973,7 @@ MACRO CLKGATETST_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.56 0.38 0.775 ;
     END
   END E
@@ -2981,7 +2981,7 @@ MACRO CLKGATETST_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.56 0.185 0.775 ;
     END
   END SE
@@ -2989,7 +2989,7 @@ MACRO CLKGATETST_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.455 0.18 3.525 0.925 ;
         RECT 3.085 0.42 3.525 0.56 ;
         RECT 3.085 0.18 3.155 0.925 ;
@@ -3000,7 +3000,7 @@ MACRO CLKGATETST_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.8 1.485 ;
         RECT 3.645 0.975 3.715 1.485 ;
         RECT 3.265 0.975 3.335 1.485 ;
@@ -3017,7 +3017,7 @@ MACRO CLKGATETST_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.8 0.085 ;
         RECT 3.645 -0.085 3.715 0.2 ;
         RECT 3.265 -0.085 3.335 0.2 ;
@@ -3030,7 +3030,7 @@ MACRO CLKGATETST_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.29 0.93 3.015 1 ;
       RECT 2.945 0.35 3.015 1 ;
       RECT 2.655 0.35 3.015 0.42 ;
@@ -3076,7 +3076,7 @@ MACRO CLKGATETST_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.385 0.845 3.925 0.915 ;
         RECT 3.855 0.56 3.925 0.915 ;
         RECT 3.765 0.56 3.925 0.63 ;
@@ -3089,7 +3089,7 @@ MACRO CLKGATETST_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.33 0.7 0.51 0.84 ;
     END
   END E
@@ -3097,7 +3097,7 @@ MACRO CLKGATETST_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.7 0.25 0.84 ;
     END
   END SE
@@ -3105,7 +3105,7 @@ MACRO CLKGATETST_X8
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 5.205 0.15 5.275 1.25 ;
         RECT 4.12 0.56 5.275 0.7 ;
         RECT 4.825 0.15 4.895 1.25 ;
@@ -3120,7 +3120,7 @@ MACRO CLKGATETST_X8
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 5.51 1.485 ;
         RECT 5.395 0.975 5.465 1.485 ;
         RECT 5.015 0.975 5.085 1.485 ;
@@ -3142,7 +3142,7 @@ MACRO CLKGATETST_X8
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 5.51 0.085 ;
         RECT 5.395 -0.085 5.465 0.285 ;
         RECT 5.015 -0.085 5.085 0.285 ;
@@ -3159,7 +3159,7 @@ MACRO CLKGATETST_X8
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.235 0.71 3.79 0.78 ;
       RECT 2.52 0.71 3.03 0.78 ;
       RECT 3.235 0.705 3.7 0.78 ;
@@ -3210,7 +3210,7 @@ MACRO CLKGATE_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.54 0.42 1.895 0.56 ;
     END
   END CK
@@ -3218,7 +3218,7 @@ MACRO CLKGATE_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.91 0.525 1.08 0.7 ;
     END
   END E
@@ -3226,7 +3226,7 @@ MACRO CLKGATE_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.31 0.175 2.41 1.09 ;
     END
   END GCK
@@ -3235,7 +3235,7 @@ MACRO CLKGATE_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.03 0.915 2.1 1.485 ;
         RECT 1.585 0.89 1.655 1.485 ;
@@ -3248,7 +3248,7 @@ MACRO CLKGATE_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.12 -0.085 2.19 0.225 ;
         RECT 1.585 -0.085 1.655 0.195 ;
@@ -3257,7 +3257,7 @@ MACRO CLKGATE_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.785 0.765 1.855 1.09 ;
       RECT 1.785 0.765 2.245 0.835 ;
       RECT 2.175 0.35 2.245 0.835 ;
@@ -3290,7 +3290,7 @@ MACRO CLKGATE_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.58 0.42 1.65 0.66 ;
     END
   END CK
@@ -3298,7 +3298,7 @@ MACRO CLKGATE_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.34 0.42 0.51 0.59 ;
     END
   END E
@@ -3306,7 +3306,7 @@ MACRO CLKGATE_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.32 0.185 2.41 1.215 ;
     END
   END GCK
@@ -3315,7 +3315,7 @@ MACRO CLKGATE_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.66 1.485 ;
         RECT 2.505 0.94 2.575 1.485 ;
         RECT 2.095 0.94 2.165 1.485 ;
@@ -3329,7 +3329,7 @@ MACRO CLKGATE_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.66 0.085 ;
         RECT 2.505 -0.085 2.575 0.22 ;
         RECT 2.095 -0.085 2.165 0.22 ;
@@ -3339,7 +3339,7 @@ MACRO CLKGATE_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.915 0.805 1.985 1.215 ;
       RECT 1.915 0.805 2.255 0.875 ;
       RECT 2.185 0.39 2.255 0.875 ;
@@ -3382,7 +3382,7 @@ MACRO CLKGATE_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.895 0.39 1.965 0.66 ;
         RECT 1.535 0.39 1.965 0.46 ;
         RECT 1.535 0.39 1.65 0.7 ;
@@ -3392,7 +3392,7 @@ MACRO CLKGATE_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.35 0.42 0.51 0.63 ;
     END
   END E
@@ -3400,7 +3400,7 @@ MACRO CLKGATE_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.925 0.15 2.995 1.24 ;
         RECT 2.555 0.42 2.995 0.56 ;
         RECT 2.555 0.15 2.625 1.24 ;
@@ -3411,7 +3411,7 @@ MACRO CLKGATE_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.23 1.485 ;
         RECT 3.115 0.965 3.185 1.485 ;
         RECT 2.735 0.965 2.805 1.485 ;
@@ -3427,7 +3427,7 @@ MACRO CLKGATE_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.23 0.085 ;
         RECT 3.115 -0.085 3.185 0.215 ;
         RECT 2.735 -0.085 2.805 0.215 ;
@@ -3438,7 +3438,7 @@ MACRO CLKGATE_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.165 0.905 2.235 1.24 ;
       RECT 1.79 0.905 1.86 1.24 ;
       RECT 1.79 0.905 2.49 0.975 ;
@@ -3482,7 +3482,7 @@ MACRO CLKGATE_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.625 0.86 2.935 0.93 ;
         RECT 2.865 0.525 2.935 0.93 ;
         RECT 2.13 0.525 2.22 0.93 ;
@@ -3492,7 +3492,7 @@ MACRO CLKGATE_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.345 0.56 0.51 0.7 ;
     END
   END E
@@ -3500,7 +3500,7 @@ MACRO CLKGATE_X8
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.615 0.15 4.685 1.235 ;
         RECT 3.485 0.42 4.685 0.56 ;
         RECT 4.235 0.15 4.305 1.235 ;
@@ -3513,7 +3513,7 @@ MACRO CLKGATE_X8
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.94 1.485 ;
         RECT 4.805 0.96 4.875 1.485 ;
         RECT 4.425 0.96 4.495 1.485 ;
@@ -3534,7 +3534,7 @@ MACRO CLKGATE_X8
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.94 0.085 ;
         RECT 4.805 -0.085 4.875 0.285 ;
         RECT 4.425 -0.085 4.495 0.285 ;
@@ -3549,7 +3549,7 @@ MACRO CLKGATE_X8
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.07 0.725 3.14 1.235 ;
       RECT 2.66 0.995 2.795 1.2 ;
       RECT 2.28 0.995 2.415 1.2 ;
@@ -3600,7 +3600,7 @@ MACRO DFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.12 0.585 4.31 0.84 ;
     END
   END D
@@ -3608,7 +3608,7 @@ MACRO DFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.7 1.345 0.84 ;
     END
   END RN
@@ -3616,7 +3616,7 @@ MACRO DFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.8 0.7 0.89 0.84 ;
     END
   END SN
@@ -3624,7 +3624,7 @@ MACRO DFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.24 0.28 4.385 0.495 ;
     END
   END CK
@@ -3632,7 +3632,7 @@ MACRO DFFRS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.4 0.51 0.875 ;
     END
   END Q
@@ -3640,7 +3640,7 @@ MACRO DFFRS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.185 0.13 1.075 ;
     END
   END QN
@@ -3649,7 +3649,7 @@ MACRO DFFRS_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.56 1.485 ;
         RECT 4.255 0.915 4.325 1.485 ;
         RECT 3.325 1.03 3.46 1.485 ;
@@ -3667,7 +3667,7 @@ MACRO DFFRS_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.56 0.085 ;
         RECT 4.225 -0.085 4.36 0.16 ;
         RECT 3.135 -0.085 3.27 0.285 ;
@@ -3678,7 +3678,7 @@ MACRO DFFRS_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.68 1.18 4.055 1.25 ;
       RECT 3.985 0.15 4.055 1.25 ;
       RECT 1.955 1.165 2.275 1.235 ;
@@ -3732,7 +3732,7 @@ MACRO DFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.485 0.28 4.69 0.46 ;
         RECT 4.485 0.28 4.555 0.575 ;
     END
@@ -3741,7 +3741,7 @@ MACRO DFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.39 0.545 1.46 0.7 ;
     END
   END RN
@@ -3749,7 +3749,7 @@ MACRO DFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.545 1.27 0.7 ;
     END
   END SN
@@ -3757,7 +3757,7 @@ MACRO DFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.62 0.54 4.72 0.7 ;
     END
   END CK
@@ -3765,7 +3765,7 @@ MACRO DFFRS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.625 0.4 0.7 0.965 ;
     END
   END Q
@@ -3773,7 +3773,7 @@ MACRO DFFRS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.24 0.2 0.32 0.965 ;
     END
   END QN
@@ -3782,7 +3782,7 @@ MACRO DFFRS_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.94 1.485 ;
         RECT 4.59 0.765 4.66 1.485 ;
         RECT 3.695 1.03 3.83 1.485 ;
@@ -3801,7 +3801,7 @@ MACRO DFFRS_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.94 0.085 ;
         RECT 4.56 -0.085 4.695 0.215 ;
         RECT 3.505 -0.085 3.64 0.285 ;
@@ -3814,7 +3814,7 @@ MACRO DFFRS_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 4.05 1.18 4.39 1.25 ;
       RECT 4.32 0.15 4.39 1.25 ;
       RECT 2.325 1.14 2.64 1.21 ;
@@ -3869,7 +3869,7 @@ MACRO DFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.6 0.56 0.72 0.745 ;
     END
   END D
@@ -3877,7 +3877,7 @@ MACRO DFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.455 0.64 2.89 0.71 ;
         RECT 2.455 0.56 2.6 0.71 ;
         RECT 2.105 1.18 2.525 1.25 ;
@@ -3892,7 +3892,7 @@ MACRO DFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.175 0.42 0.32 0.56 ;
     END
   END CK
@@ -3900,7 +3900,7 @@ MACRO DFFR_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.66 0.185 3.74 1.25 ;
     END
   END Q
@@ -3908,7 +3908,7 @@ MACRO DFFR_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.285 0.4 3.36 1.25 ;
     END
   END QN
@@ -3917,7 +3917,7 @@ MACRO DFFR_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.8 1.485 ;
         RECT 3.465 0.975 3.535 1.485 ;
         RECT 3.08 1.065 3.15 1.485 ;
@@ -3933,7 +3933,7 @@ MACRO DFFR_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.8 0.085 ;
         RECT 3.465 -0.085 3.535 0.195 ;
         RECT 2.7 -0.085 2.77 0.32 ;
@@ -3944,7 +3944,7 @@ MACRO DFFR_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.89 0.81 2.96 1.25 ;
       RECT 2.59 0.81 3.185 0.88 ;
       RECT 3.115 0.265 3.185 0.88 ;
@@ -3987,7 +3987,7 @@ MACRO DFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.52 0.74 0.7 ;
     END
   END D
@@ -3995,7 +3995,7 @@ MACRO DFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.52 0.56 2.905 0.7 ;
         RECT 2.17 1.15 2.59 1.22 ;
         RECT 2.52 0.56 2.59 1.22 ;
@@ -4009,7 +4009,7 @@ MACRO DFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.42 0.32 0.56 ;
     END
   END CK
@@ -4017,7 +4017,7 @@ MACRO DFFR_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.86 0.185 3.935 1.08 ;
     END
   END Q
@@ -4025,7 +4025,7 @@ MACRO DFFR_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.41 0.645 3.55 0.785 ;
         RECT 3.48 0.185 3.55 0.785 ;
     END
@@ -4035,7 +4035,7 @@ MACRO DFFR_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.18 1.485 ;
         RECT 4.05 1.065 4.12 1.485 ;
         RECT 3.67 1.065 3.74 1.485 ;
@@ -4052,7 +4052,7 @@ MACRO DFFR_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.18 0.085 ;
         RECT 4.05 -0.085 4.12 0.335 ;
         RECT 3.67 -0.085 3.74 0.335 ;
@@ -4065,7 +4065,7 @@ MACRO DFFR_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.97 0.85 3.04 1.22 ;
       RECT 2.655 0.85 3.79 0.92 ;
       RECT 3.72 0.525 3.79 0.92 ;
@@ -4113,7 +4113,7 @@ MACRO DFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.34 0.56 0.51 0.7 ;
     END
   END D
@@ -4121,7 +4121,7 @@ MACRO DFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.625 0.7 2.79 0.84 ;
     END
   END SN
@@ -4129,7 +4129,7 @@ MACRO DFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.77 0.59 1.84 0.84 ;
         RECT 1.705 0.59 1.84 0.725 ;
     END
@@ -4138,7 +4138,7 @@ MACRO DFFS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.575 0.56 3.74 0.7 ;
         RECT 3.575 0.185 3.645 1.16 ;
     END
@@ -4147,7 +4147,7 @@ MACRO DFFS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.195 0.56 3.36 0.7 ;
         RECT 3.195 0.185 3.265 0.925 ;
     END
@@ -4157,7 +4157,7 @@ MACRO DFFS_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.8 1.485 ;
         RECT 3.38 1.205 3.45 1.485 ;
         RECT 2.855 1.005 2.925 1.485 ;
@@ -4173,7 +4173,7 @@ MACRO DFFS_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.8 0.085 ;
         RECT 3.385 -0.085 3.455 0.46 ;
         RECT 2.67 -0.085 2.805 0.34 ;
@@ -4183,7 +4183,7 @@ MACRO DFFS_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.01 0.995 3.505 1.065 ;
       RECT 3.435 0.525 3.505 1.065 ;
       RECT 3.01 0.42 3.08 1.065 ;
@@ -4238,7 +4238,7 @@ MACRO DFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.35 0.56 0.51 0.7 ;
     END
   END D
@@ -4246,7 +4246,7 @@ MACRO DFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.675 0.56 2.79 0.7 ;
     END
   END SN
@@ -4254,7 +4254,7 @@ MACRO DFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.75 0.59 1.84 0.84 ;
     END
   END CK
@@ -4262,7 +4262,7 @@ MACRO DFFS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.1 0.4 3.17 0.925 ;
     END
   END Q
@@ -4270,7 +4270,7 @@ MACRO DFFS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.48 0.4 3.55 0.925 ;
     END
   END QN
@@ -4279,7 +4279,7 @@ MACRO DFFS_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.99 1.485 ;
         RECT 3.66 1.205 3.73 1.485 ;
         RECT 3.285 1.205 3.355 1.485 ;
@@ -4296,7 +4296,7 @@ MACRO DFFS_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.99 0.085 ;
         RECT 3.66 -0.085 3.73 0.195 ;
         RECT 3.28 -0.085 3.35 0.195 ;
@@ -4307,7 +4307,7 @@ MACRO DFFS_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.85 0.26 3.92 1.215 ;
       RECT 2.92 0.99 3.92 1.06 ;
       RECT 3.235 0.525 3.305 1.06 ;
@@ -4361,7 +4361,7 @@ MACRO DFF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.81 0.53 0.97 0.7 ;
     END
   END D
@@ -4369,7 +4369,7 @@ MACRO DFF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.56 0.53 1.67 0.7 ;
     END
   END CK
@@ -4377,7 +4377,7 @@ MACRO DFF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.1 0.26 3.17 1.13 ;
     END
   END Q
@@ -4385,7 +4385,7 @@ MACRO DFF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.72 0.26 2.79 0.785 ;
     END
   END QN
@@ -4394,7 +4394,7 @@ MACRO DFF_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.23 1.485 ;
         RECT 2.905 0.985 2.975 1.485 ;
         RECT 2.345 1.1 2.48 1.485 ;
@@ -4408,7 +4408,7 @@ MACRO DFF_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.23 0.085 ;
         RECT 2.905 -0.085 2.975 0.46 ;
         RECT 2.345 -0.085 2.48 0.37 ;
@@ -4418,7 +4418,7 @@ MACRO DFF_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.57 0.225 2.64 1.115 ;
       RECT 2.57 0.85 3.035 0.92 ;
       RECT 2.965 0.525 3.035 0.92 ;
@@ -4459,7 +4459,7 @@ MACRO DFF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.94 0.56 1.08 0.7 ;
     END
   END D
@@ -4467,7 +4467,7 @@ MACRO DFF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.57 0.56 1.65 0.7 ;
     END
   END CK
@@ -4475,7 +4475,7 @@ MACRO DFF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.29 0.25 3.36 1.115 ;
     END
   END Q
@@ -4483,7 +4483,7 @@ MACRO DFF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.91 0.25 2.98 0.925 ;
     END
   END QN
@@ -4492,7 +4492,7 @@ MACRO DFF_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.61 1.485 ;
         RECT 3.485 0.84 3.555 1.485 ;
         RECT 3.105 1.205 3.175 1.485 ;
@@ -4508,7 +4508,7 @@ MACRO DFF_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.61 0.085 ;
         RECT 3.485 -0.085 3.555 0.46 ;
         RECT 3.105 -0.085 3.175 0.46 ;
@@ -4520,7 +4520,7 @@ MACRO DFF_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.575 1.045 3.215 1.115 ;
       RECT 3.145 0.525 3.215 1.115 ;
       RECT 2.575 0.2 2.645 1.115 ;
@@ -4563,7 +4563,7 @@ MACRO DLH_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.95 0.525 1.08 0.7 ;
     END
   END D
@@ -4571,7 +4571,7 @@ MACRO DLH_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.2 0.525 0.32 0.7 ;
     END
   END G
@@ -4579,7 +4579,7 @@ MACRO DLH_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.185 0.51 0.785 ;
     END
   END Q
@@ -4588,7 +4588,7 @@ MACRO DLH_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.9 1.485 ;
         RECT 1.595 1.025 1.665 1.485 ;
         RECT 0.845 0.965 0.915 1.485 ;
@@ -4600,7 +4600,7 @@ MACRO DLH_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.9 0.085 ;
         RECT 1.595 -0.085 1.665 0.445 ;
         RECT 0.805 -0.085 0.94 0.285 ;
@@ -4608,7 +4608,7 @@ MACRO DLH_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.79 0.32 1.86 1.16 ;
       RECT 1.485 0.525 1.86 0.595 ;
       RECT 1.19 1.045 1.415 1.115 ;
@@ -4640,7 +4640,7 @@ MACRO DLH_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.135 0.525 1.27 0.7 ;
     END
   END D
@@ -4648,7 +4648,7 @@ MACRO DLH_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.18 0.525 0.32 0.7 ;
     END
   END G
@@ -4656,7 +4656,7 @@ MACRO DLH_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.185 0.51 0.785 ;
     END
   END Q
@@ -4665,7 +4665,7 @@ MACRO DLH_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.78 1.08 1.85 1.485 ;
         RECT 1.03 1.04 1.1 1.485 ;
@@ -4678,7 +4678,7 @@ MACRO DLH_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.78 -0.085 1.85 0.32 ;
         RECT 1.03 -0.085 1.1 0.32 ;
@@ -4687,7 +4687,7 @@ MACRO DLH_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.975 0.185 2.045 1.215 ;
       RECT 1.705 0.495 2.045 0.63 ;
       RECT 1.4 0.78 1.47 1.2 ;
@@ -4719,7 +4719,7 @@ MACRO DLL_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.56 0.43 0.7 ;
     END
   END D
@@ -4727,7 +4727,7 @@ MACRO DLL_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.58 0.525 1.705 0.7 ;
     END
   END GN
@@ -4735,7 +4735,7 @@ MACRO DLL_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.39 0.26 1.46 0.84 ;
     END
   END Q
@@ -4744,7 +4744,7 @@ MACRO DLL_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.9 1.485 ;
         RECT 1.575 1.04 1.645 1.485 ;
         RECT 1.035 0.95 1.105 1.485 ;
@@ -4756,7 +4756,7 @@ MACRO DLL_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.9 0.085 ;
         RECT 1.575 -0.085 1.645 0.235 ;
         RECT 1.035 -0.085 1.105 0.42 ;
@@ -4764,7 +4764,7 @@ MACRO DLL_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.235 1.18 1.51 1.25 ;
       RECT 1.44 0.905 1.51 1.25 ;
       RECT 1.77 0.195 1.84 1.24 ;
@@ -4791,7 +4791,7 @@ MACRO DLL_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.51 0.38 0.7 ;
     END
   END D
@@ -4799,7 +4799,7 @@ MACRO DLL_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.77 0.525 1.89 0.7 ;
     END
   END GN
@@ -4807,7 +4807,7 @@ MACRO DLL_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.58 0.26 1.65 1.005 ;
     END
   END Q
@@ -4816,7 +4816,7 @@ MACRO DLL_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.76 1.205 1.83 1.485 ;
         RECT 1.385 1.205 1.455 1.485 ;
@@ -4829,7 +4829,7 @@ MACRO DLL_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.76 -0.085 1.83 0.195 ;
         RECT 1.385 -0.085 1.455 0.395 ;
@@ -4838,7 +4838,7 @@ MACRO DLL_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.185 1.07 1.32 1.25 ;
       RECT 1.955 0.195 2.025 1.24 ;
       RECT 1.185 1.07 2.025 1.14 ;
@@ -4864,7 +4864,7 @@ MACRO FA_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.905 0.825 2.66 0.895 ;
         RECT 2.53 0.7 2.66 0.895 ;
     END
@@ -4873,7 +4873,7 @@ MACRO FA_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.34 0.42 2.47 0.56 ;
         RECT 1.41 0.42 2.47 0.49 ;
     END
@@ -4882,7 +4882,7 @@ MACRO FA_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.555 2.275 0.625 ;
         RECT 0.63 0.42 0.7 0.625 ;
     END
@@ -4891,7 +4891,7 @@ MACRO FA_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.195 0.135 1.215 ;
     END
   END CO
@@ -4899,7 +4899,7 @@ MACRO FA_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.89 0.195 2.98 1.215 ;
     END
   END S
@@ -4908,7 +4908,7 @@ MACRO FA_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.04 1.485 ;
         RECT 2.695 1.205 2.765 1.485 ;
         RECT 1.705 1.095 1.84 1.485 ;
@@ -4922,7 +4922,7 @@ MACRO FA_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.04 0.085 ;
         RECT 2.665 -0.085 2.8 0.16 ;
         RECT 1.705 -0.085 1.84 0.16 ;
@@ -4932,7 +4932,7 @@ MACRO FA_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.13 0.96 2.2 1.24 ;
       RECT 2.13 0.96 2.82 1.03 ;
       RECT 2.75 0.225 2.82 1.03 ;
@@ -4968,7 +4968,7 @@ MACRO TAPCELL_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.19 1.485 ;
         RECT 0.06 0.975 0.13 1.315 ;
     END
@@ -4978,7 +4978,7 @@ MACRO TAPCELL_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.19 0.085 ;
         RECT 0.06 0.085 0.13 0.425 ;
     END
@@ -4998,7 +4998,7 @@ MACRO FILLCELL_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.19 1.485 ;
     END
   END VDD
@@ -5007,7 +5007,7 @@ MACRO FILLCELL_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.19 0.085 ;
     END
   END VSS
@@ -5026,7 +5026,7 @@ MACRO FILLCELL_X16
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.04 1.485 ;
     END
   END VDD
@@ -5035,7 +5035,7 @@ MACRO FILLCELL_X16
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.04 0.085 ;
     END
   END VSS
@@ -5054,7 +5054,7 @@ MACRO FILLCELL_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.19 1.485 ;
     END
   END VDD
@@ -5063,7 +5063,7 @@ MACRO FILLCELL_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.19 0.085 ;
     END
   END VSS
@@ -5082,7 +5082,7 @@ MACRO FILLCELL_X32
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 6.08 1.485 ;
     END
   END VDD
@@ -5091,7 +5091,7 @@ MACRO FILLCELL_X32
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 6.08 0.085 ;
     END
   END VSS
@@ -5110,7 +5110,7 @@ MACRO FILLCELL_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
     END
   END VDD
@@ -5119,7 +5119,7 @@ MACRO FILLCELL_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
     END
   END VSS
@@ -5138,7 +5138,7 @@ MACRO FILLCELL_X8
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.52 1.485 ;
     END
   END VDD
@@ -5147,7 +5147,7 @@ MACRO FILLCELL_X8
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.52 0.085 ;
     END
   END VSS
@@ -5164,7 +5164,7 @@ MACRO HA_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.56 1.08 0.7 ;
         RECT 0.67 0.56 1.08 0.63 ;
         RECT 0.355 0.725 0.74 0.795 ;
@@ -5176,7 +5176,7 @@ MACRO HA_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.86 0.89 0.93 ;
         RECT 0.805 0.7 0.89 0.93 ;
         RECT 0.195 0.525 0.265 0.93 ;
@@ -5186,7 +5186,7 @@ MACRO HA_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.77 0.15 1.85 1.25 ;
     END
   END CO
@@ -5194,7 +5194,7 @@ MACRO HA_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.29 0.525 0.36 ;
         RECT 0.455 0.15 0.525 0.36 ;
         RECT 0.06 0.995 0.37 1.065 ;
@@ -5206,7 +5206,7 @@ MACRO HA_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.9 1.485 ;
         RECT 1.59 1.08 1.66 1.485 ;
         RECT 1.22 0.94 1.29 1.485 ;
@@ -5218,7 +5218,7 @@ MACRO HA_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.9 0.085 ;
         RECT 1.59 -0.085 1.66 0.285 ;
         RECT 1.03 -0.085 1.1 0.285 ;
@@ -5227,7 +5227,7 @@ MACRO HA_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.4 0.15 1.47 1.115 ;
       RECT 1.4 0.525 1.705 0.66 ;
       RECT 1.22 0.15 1.47 0.285 ;
@@ -5252,7 +5252,7 @@ MACRO INV_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.165 0.7 ;
     END
   END A
@@ -5260,7 +5260,7 @@ MACRO INV_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.23 0.15 0.325 1.25 ;
     END
   END ZN
@@ -5269,7 +5269,7 @@ MACRO INV_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.38 1.485 ;
         RECT 0.04 0.975 0.11 1.485 ;
     END
@@ -5279,7 +5279,7 @@ MACRO INV_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.38 0.085 ;
         RECT 0.04 -0.085 0.11 0.425 ;
     END
@@ -5297,7 +5297,7 @@ MACRO INV_X16
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.095 1.05 3.095 1.12 ;
         RECT 3.025 0.525 3.095 1.12 ;
         RECT 2 0.525 2.07 1.12 ;
@@ -5309,7 +5309,7 @@ MACRO INV_X16
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.885 0.15 2.955 0.985 ;
         RECT 0.235 0.28 2.955 0.42 ;
         RECT 2.505 0.15 2.575 0.985 ;
@@ -5327,7 +5327,7 @@ MACRO INV_X16
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.23 1.485 ;
         RECT 3.075 1.205 3.145 1.485 ;
         RECT 2.695 1.205 2.765 1.485 ;
@@ -5345,7 +5345,7 @@ MACRO INV_X16
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.23 0.085 ;
         RECT 3.075 -0.085 3.145 0.365 ;
         RECT 2.695 -0.085 2.765 0.21 ;
@@ -5371,7 +5371,7 @@ MACRO INV_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A
@@ -5379,7 +5379,7 @@ MACRO INV_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.15 0.32 1.25 ;
     END
   END ZN
@@ -5388,7 +5388,7 @@ MACRO INV_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.57 1.485 ;
         RECT 0.43 0.975 0.5 1.485 ;
         RECT 0.055 0.975 0.125 1.485 ;
@@ -5399,7 +5399,7 @@ MACRO INV_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.57 0.085 ;
         RECT 0.43 -0.085 0.5 0.425 ;
         RECT 0.055 -0.085 0.125 0.425 ;
@@ -5418,7 +5418,7 @@ MACRO INV_X32
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.115 0.93 5.85 1 ;
         RECT 5.78 0.525 5.85 1 ;
         RECT 4.62 0.525 4.69 1 ;
@@ -5432,7 +5432,7 @@ MACRO INV_X32
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 5.945 0.16 6.015 1.005 ;
         RECT 0.25 0.28 6.015 0.42 ;
         RECT 5.56 0.16 5.63 0.865 ;
@@ -5458,7 +5458,7 @@ MACRO INV_X32
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 6.27 1.485 ;
         RECT 6.13 1.065 6.2 1.485 ;
         RECT 5.75 1.065 5.82 1.485 ;
@@ -5484,7 +5484,7 @@ MACRO INV_X32
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 6.27 0.085 ;
         RECT 6.13 -0.085 6.2 0.335 ;
         RECT 5.75 -0.085 5.82 0.195 ;
@@ -5518,7 +5518,7 @@ MACRO INV_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.17 0.7 ;
     END
   END A
@@ -5526,7 +5526,7 @@ MACRO INV_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.615 0.15 0.685 1.04 ;
         RECT 0.235 0.56 0.685 0.7 ;
         RECT 0.61 0.15 0.685 0.7 ;
@@ -5538,7 +5538,7 @@ MACRO INV_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.795 0.98 0.865 1.485 ;
         RECT 0.415 0.98 0.485 1.485 ;
@@ -5550,7 +5550,7 @@ MACRO INV_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.795 -0.085 0.865 0.425 ;
         RECT 0.415 -0.085 0.485 0.425 ;
@@ -5570,7 +5570,7 @@ MACRO INV_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.17 0.7 ;
     END
   END A
@@ -5578,7 +5578,7 @@ MACRO INV_X8
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.375 0.15 1.445 1.04 ;
         RECT 0.235 0.56 1.445 0.7 ;
         RECT 0.985 0.15 1.055 1.04 ;
@@ -5591,7 +5591,7 @@ MACRO INV_X8
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.555 0.97 1.625 1.485 ;
         RECT 1.175 0.97 1.245 1.485 ;
@@ -5605,7 +5605,7 @@ MACRO INV_X8
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.555 -0.085 1.625 0.36 ;
         RECT 1.175 -0.085 1.245 0.36 ;
@@ -5627,7 +5627,7 @@ MACRO LOGIC0_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.15 0.13 0.84 ;
     END
   END Z
@@ -5636,7 +5636,7 @@ MACRO LOGIC0_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.38 1.485 ;
         RECT 0.245 1.115 0.315 1.485 ;
     END
@@ -5646,13 +5646,13 @@ MACRO LOGIC0_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.38 0.085 ;
         RECT 0.24 -0.085 0.31 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.06 0.975 0.18 1.25 ;
   END
 END LOGIC0_X1
@@ -5668,7 +5668,7 @@ MACRO LOGIC1_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.56 0.13 1.25 ;
     END
   END Z
@@ -5677,7 +5677,7 @@ MACRO LOGIC1_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.38 1.485 ;
         RECT 0.24 1.115 0.31 1.485 ;
     END
@@ -5687,13 +5687,13 @@ MACRO LOGIC1_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.38 0.085 ;
         RECT 0.245 -0.085 0.315 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.06 0.15 0.18 0.425 ;
   END
 END LOGIC1_X1
@@ -5709,7 +5709,7 @@ MACRO MUX2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A
@@ -5717,7 +5717,7 @@ MACRO MUX2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.525 0.95 0.7 ;
     END
   END B
@@ -5725,7 +5725,7 @@ MACRO MUX2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.765 0.595 0.835 ;
         RECT 0.525 0.535 0.595 0.835 ;
         RECT 0.06 0.525 0.185 0.835 ;
@@ -5735,7 +5735,7 @@ MACRO MUX2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.18 0.19 1.27 1.23 ;
     END
   END Z
@@ -5744,7 +5744,7 @@ MACRO MUX2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 0.985 0.975 1.055 1.485 ;
         RECT 0.225 1.035 0.295 1.485 ;
@@ -5755,14 +5755,14 @@ MACRO MUX2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 0.985 -0.085 1.055 0.24 ;
         RECT 0.225 -0.085 0.295 0.24 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.58 1.07 0.92 1.14 ;
       RECT 0.85 0.84 0.92 1.14 ;
       RECT 0.85 0.84 1.115 0.91 ;
@@ -5789,7 +5789,7 @@ MACRO MUX2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.225 0.7 ;
     END
   END A
@@ -5797,7 +5797,7 @@ MACRO MUX2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END B
@@ -5805,7 +5805,7 @@ MACRO MUX2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.925 0.85 1.535 0.92 ;
         RECT 1.465 0.525 1.535 0.92 ;
         RECT 0.925 0.525 0.995 0.92 ;
@@ -5816,7 +5816,7 @@ MACRO MUX2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.15 1.29 0.785 ;
     END
   END Z
@@ -5825,7 +5825,7 @@ MACRO MUX2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.405 1.205 1.475 1.485 ;
         RECT 1.035 1.205 1.105 1.485 ;
@@ -5837,7 +5837,7 @@ MACRO MUX2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.405 -0.085 1.475 0.285 ;
         RECT 1.03 -0.085 1.1 0.285 ;
@@ -5845,7 +5845,7 @@ MACRO MUX2_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.6 0.15 1.67 1.25 ;
       RECT 0.79 0.985 1.67 1.055 ;
       RECT 0.79 0.765 0.86 1.055 ;
@@ -5876,7 +5876,7 @@ MACRO NAND2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.525 0.51 0.7 ;
     END
   END A1
@@ -5884,7 +5884,7 @@ MACRO NAND2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A2
@@ -5892,7 +5892,7 @@ MACRO NAND2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.355 0.5 0.425 ;
         RECT 0.43 0.15 0.5 0.425 ;
         RECT 0.25 0.355 0.32 1.25 ;
@@ -5903,7 +5903,7 @@ MACRO NAND2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.57 1.485 ;
         RECT 0.43 0.975 0.5 1.485 ;
         RECT 0.055 0.975 0.125 1.485 ;
@@ -5914,7 +5914,7 @@ MACRO NAND2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.57 0.085 ;
         RECT 0.055 -0.085 0.125 0.425 ;
     END
@@ -5932,7 +5932,7 @@ MACRO NAND2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.51 0.7 ;
     END
   END A1
@@ -5940,7 +5940,7 @@ MACRO NAND2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.77 0.81 0.84 ;
         RECT 0.74 0.525 0.81 0.84 ;
         RECT 0.25 0.525 0.32 0.84 ;
@@ -5951,7 +5951,7 @@ MACRO NAND2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.905 0.7 1.25 ;
         RECT 0.04 0.905 0.7 0.975 ;
         RECT 0.04 0.39 0.51 0.46 ;
@@ -5965,7 +5965,7 @@ MACRO NAND2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.82 1.04 0.89 1.485 ;
         RECT 0.44 1.04 0.51 1.485 ;
@@ -5977,7 +5977,7 @@ MACRO NAND2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.82 -0.085 0.89 0.425 ;
         RECT 0.065 -0.085 0.135 0.285 ;
@@ -5996,7 +5996,7 @@ MACRO NAND2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.14 0.7 ;
     END
   END A1
@@ -6004,7 +6004,7 @@ MACRO NAND2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.38 0.525 0.51 0.7 ;
     END
   END A2
@@ -6012,7 +6012,7 @@ MACRO NAND2_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.405 0.35 1.475 1.07 ;
         RECT 0.275 0.785 1.475 0.855 ;
         RECT 1.39 0.35 1.475 0.855 ;
@@ -6027,7 +6027,7 @@ MACRO NAND2_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.595 1.04 1.665 1.485 ;
         RECT 1.215 1.04 1.285 1.485 ;
@@ -6041,14 +6041,14 @@ MACRO NAND2_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 0.645 -0.085 0.715 0.285 ;
         RECT 0.265 -0.085 0.335 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.595 0.15 1.665 0.425 ;
       RECT 0.085 0.355 0.905 0.425 ;
       RECT 0.835 0.15 0.905 0.425 ;
@@ -6069,7 +6069,7 @@ MACRO NAND3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.54 0.7 ;
     END
   END A1
@@ -6077,7 +6077,7 @@ MACRO NAND3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -6085,7 +6085,7 @@ MACRO NAND3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A3
@@ -6093,7 +6093,7 @@ MACRO NAND3_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.605 0.15 0.675 1.25 ;
         RECT 0.235 0.8 0.675 0.87 ;
         RECT 0.235 0.8 0.32 1.25 ;
@@ -6104,7 +6104,7 @@ MACRO NAND3_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.415 0.975 0.485 1.485 ;
         RECT 0.04 0.975 0.11 1.485 ;
@@ -6115,7 +6115,7 @@ MACRO NAND3_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.04 -0.085 0.11 0.425 ;
     END
@@ -6133,7 +6133,7 @@ MACRO NAND3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.595 0.56 0.73 0.7 ;
     END
   END A1
@@ -6141,7 +6141,7 @@ MACRO NAND3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.95 0.42 1.08 0.7 ;
         RECT 0.38 0.42 1.08 0.49 ;
         RECT 0.38 0.42 0.45 0.66 ;
@@ -6151,7 +6151,7 @@ MACRO NAND3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.77 1.215 0.84 ;
         RECT 1.145 0.525 1.215 0.84 ;
         RECT 0.195 0.7 0.32 0.84 ;
@@ -6162,7 +6162,7 @@ MACRO NAND3_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.025 0.905 1.095 1.25 ;
         RECT 0.06 0.905 1.095 0.975 ;
         RECT 0.06 0.265 0.75 0.335 ;
@@ -6176,7 +6176,7 @@ MACRO NAND3_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.215 1.04 1.285 1.485 ;
         RECT 0.835 1.04 0.905 1.485 ;
@@ -6189,7 +6189,7 @@ MACRO NAND3_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 1.215 -0.085 1.285 0.335 ;
         RECT 0.08 -0.085 0.15 0.195 ;
@@ -6208,7 +6208,7 @@ MACRO NAND3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.66 0.555 1.89 0.625 ;
         RECT 1.66 0.29 1.73 0.625 ;
         RECT 0.82 0.29 1.73 0.36 ;
@@ -6220,7 +6220,7 @@ MACRO NAND3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.525 0.69 2.13 0.76 ;
         RECT 2.06 0.525 2.13 0.76 ;
         RECT 1.525 0.425 1.595 0.76 ;
@@ -6234,7 +6234,7 @@ MACRO NAND3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.19 0.825 2.3 0.895 ;
         RECT 2.23 0.525 2.3 0.895 ;
         RECT 1.19 0.56 1.325 0.895 ;
@@ -6245,7 +6245,7 @@ MACRO NAND3_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.055 0.98 2.435 1.05 ;
         RECT 2.365 0.355 2.435 1.05 ;
         RECT 1.795 0.355 2.435 0.425 ;
@@ -6267,7 +6267,7 @@ MACRO NAND3_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.355 1.17 2.425 1.485 ;
         RECT 1.945 1.205 2.08 1.485 ;
@@ -6283,7 +6283,7 @@ MACRO NAND3_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.355 -0.085 2.425 0.195 ;
         RECT 1.215 -0.085 1.285 0.195 ;
@@ -6303,7 +6303,7 @@ MACRO NAND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.525 0.89 0.7 ;
     END
   END A1
@@ -6311,7 +6311,7 @@ MACRO NAND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.42 0.555 0.66 ;
     END
   END A2
@@ -6319,7 +6319,7 @@ MACRO NAND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.42 0.375 0.66 ;
     END
   END A3
@@ -6327,7 +6327,7 @@ MACRO NAND4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.42 0.185 0.66 ;
     END
   END A4
@@ -6335,7 +6335,7 @@ MACRO NAND4_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.355 0.865 0.425 ;
         RECT 0.795 0.15 0.865 0.425 ;
         RECT 0.615 0.84 0.7 1.25 ;
@@ -6349,7 +6349,7 @@ MACRO NAND4_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
         RECT 0.415 0.975 0.485 1.485 ;
@@ -6361,7 +6361,7 @@ MACRO NAND4_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.04 -0.085 0.11 0.355 ;
     END
@@ -6379,7 +6379,7 @@ MACRO NAND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.81 0.42 0.945 0.625 ;
     END
   END A1
@@ -6387,7 +6387,7 @@ MACRO NAND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.145 0.285 1.27 0.66 ;
         RECT 0.575 0.285 1.27 0.355 ;
         RECT 0.575 0.285 0.645 0.66 ;
@@ -6397,7 +6397,7 @@ MACRO NAND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.39 0.725 1.405 0.795 ;
         RECT 1.335 0.525 1.405 0.795 ;
         RECT 0.39 0.525 0.51 0.795 ;
@@ -6407,7 +6407,7 @@ MACRO NAND4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.86 1.59 0.93 ;
         RECT 1.52 0.525 1.59 0.93 ;
         RECT 0.195 0.525 0.32 0.93 ;
@@ -6417,7 +6417,7 @@ MACRO NAND4_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.375 0.995 1.51 1.25 ;
         RECT 0.06 0.995 1.51 1.065 ;
         RECT 0.995 0.995 1.13 1.25 ;
@@ -6434,7 +6434,7 @@ MACRO NAND4_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.595 1.065 1.665 1.485 ;
         RECT 1.215 1.13 1.285 1.485 ;
@@ -6448,7 +6448,7 @@ MACRO NAND4_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.595 -0.085 1.665 0.39 ;
         RECT 0.08 -0.085 0.15 0.25 ;
@@ -6467,7 +6467,7 @@ MACRO NAND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.405 0.525 0.51 0.7 ;
     END
   END A1
@@ -6475,7 +6475,7 @@ MACRO NAND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.17 0.525 1.27 0.7 ;
     END
   END A2
@@ -6483,7 +6483,7 @@ MACRO NAND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.15 0.525 2.22 0.7 ;
     END
   END A3
@@ -6491,7 +6491,7 @@ MACRO NAND4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.91 0.525 2.98 0.7 ;
     END
   END A4
@@ -6499,7 +6499,7 @@ MACRO NAND4_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.27 0.84 3.34 1.155 ;
         RECT 0.09 0.84 3.34 0.98 ;
         RECT 2.89 0.84 2.96 1.155 ;
@@ -6519,7 +6519,7 @@ MACRO NAND4_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.42 1.485 ;
         RECT 3.05 1.095 3.185 1.485 ;
         RECT 2.67 1.095 2.805 1.485 ;
@@ -6536,14 +6536,14 @@ MACRO NAND4_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.42 0.085 ;
         RECT 3.05 -0.085 3.185 0.3 ;
         RECT 2.67 -0.085 2.805 0.3 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.51 0.39 3.34 0.46 ;
       RECT 3.27 0.185 3.34 0.46 ;
       RECT 1.76 0.15 1.83 0.46 ;
@@ -6573,7 +6573,7 @@ MACRO NOR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.525 0.51 0.7 ;
     END
   END A1
@@ -6581,7 +6581,7 @@ MACRO NOR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A2
@@ -6589,7 +6589,7 @@ MACRO NOR2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.43 0.975 0.5 1.25 ;
         RECT 0.25 0.975 0.5 1.045 ;
         RECT 0.25 0.15 0.32 1.045 ;
@@ -6600,7 +6600,7 @@ MACRO NOR2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.57 1.485 ;
         RECT 0.055 0.975 0.125 1.485 ;
     END
@@ -6610,7 +6610,7 @@ MACRO NOR2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.57 0.085 ;
         RECT 0.43 -0.085 0.5 0.425 ;
         RECT 0.055 -0.085 0.125 0.425 ;
@@ -6629,7 +6629,7 @@ MACRO NOR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.42 0.51 0.66 ;
     END
   END A1
@@ -6637,7 +6637,7 @@ MACRO NOR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.725 0.89 0.795 ;
         RECT 0.76 0.525 0.89 0.795 ;
         RECT 0.195 0.525 0.265 0.795 ;
@@ -6647,7 +6647,7 @@ MACRO NOR2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.26 0.75 0.33 ;
         RECT 0.455 0.91 0.525 1.25 ;
         RECT 0.06 0.91 0.525 0.98 ;
@@ -6659,7 +6659,7 @@ MACRO NOR2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.835 1.045 0.905 1.485 ;
         RECT 0.08 1.045 0.15 1.485 ;
@@ -6670,7 +6670,7 @@ MACRO NOR2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.835 -0.085 0.905 0.335 ;
         RECT 0.455 -0.085 0.525 0.195 ;
@@ -6690,7 +6690,7 @@ MACRO NOR2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.09 0.42 1.16 0.66 ;
         RECT 0.59 0.42 1.16 0.49 ;
         RECT 0.59 0.42 0.7 0.66 ;
@@ -6700,7 +6700,7 @@ MACRO NOR2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.215 0.91 1.535 0.98 ;
         RECT 1.465 0.525 1.535 0.98 ;
         RECT 0.805 0.56 0.94 0.98 ;
@@ -6711,7 +6711,7 @@ MACRO NOR2_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.24 0.28 1.51 0.35 ;
         RECT 1.225 0.28 1.295 0.845 ;
         RECT 0.44 0.28 0.525 0.845 ;
@@ -6722,7 +6722,7 @@ MACRO NOR2_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.6 0.71 1.67 1.485 ;
         RECT 0.835 1.045 0.905 1.485 ;
@@ -6734,7 +6734,7 @@ MACRO NOR2_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.595 -0.085 1.665 0.39 ;
         RECT 1.215 -0.085 1.285 0.195 ;
@@ -6756,7 +6756,7 @@ MACRO NOR3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.545 0.7 ;
     END
   END A1
@@ -6764,7 +6764,7 @@ MACRO NOR3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -6772,7 +6772,7 @@ MACRO NOR3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.175 0.7 ;
     END
   END A3
@@ -6780,7 +6780,7 @@ MACRO NOR3_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.61 0.15 0.7 1 ;
         RECT 0.235 0.355 0.7 0.425 ;
         RECT 0.235 0.15 0.305 0.425 ;
@@ -6791,7 +6791,7 @@ MACRO NOR3_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.04 0.975 0.11 1.485 ;
     END
@@ -6801,7 +6801,7 @@ MACRO NOR3_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.415 -0.085 0.485 0.22 ;
         RECT 0.04 -0.085 0.11 0.425 ;
@@ -6820,7 +6820,7 @@ MACRO NOR3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.62 0.56 0.755 0.7 ;
     END
   END A1
@@ -6828,7 +6828,7 @@ MACRO NOR3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.92 0.425 0.99 0.66 ;
         RECT 0.39 0.425 0.99 0.495 ;
         RECT 0.39 0.425 0.51 0.7 ;
@@ -6838,7 +6838,7 @@ MACRO NOR3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.77 1.27 0.84 ;
         RECT 1.145 0.525 1.27 0.84 ;
         RECT 0.195 0.525 0.265 0.84 ;
@@ -6848,7 +6848,7 @@ MACRO NOR3_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.285 1.13 0.355 ;
         RECT 0.645 0.905 0.715 1.18 ;
         RECT 0.06 0.905 0.715 0.975 ;
@@ -6860,7 +6860,7 @@ MACRO NOR3_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.215 1.065 1.285 1.485 ;
         RECT 0.08 1.065 0.15 1.485 ;
@@ -6871,7 +6871,7 @@ MACRO NOR3_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 1.215 -0.085 1.285 0.335 ;
         RECT 0.835 -0.085 0.905 0.195 ;
@@ -6892,7 +6892,7 @@ MACRO NOR3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.525 0.51 0.7 ;
     END
   END A1
@@ -6900,7 +6900,7 @@ MACRO NOR3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.185 0.525 1.27 0.7 ;
     END
   END A2
@@ -6908,7 +6908,7 @@ MACRO NOR3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.13 0.525 2.23 0.7 ;
     END
   END A3
@@ -6916,7 +6916,7 @@ MACRO NOR3_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.235 0.39 2.38 0.46 ;
         RECT 2.31 0.15 2.38 0.46 ;
         RECT 1.93 0.15 2 0.46 ;
@@ -6934,7 +6934,7 @@ MACRO NOR3_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.66 1.485 ;
         RECT 2.5 0.9 2.57 1.485 ;
         RECT 2.09 0.935 2.225 1.485 ;
@@ -6946,7 +6946,7 @@ MACRO NOR3_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.66 0.085 ;
         RECT 2.505 -0.085 2.575 0.425 ;
         RECT 2.09 -0.085 2.225 0.325 ;
@@ -6958,7 +6958,7 @@ MACRO NOR3_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.31 0.765 2.38 1.175 ;
       RECT 1.93 0.765 2 1.175 ;
       RECT 1.365 0.765 1.435 1.115 ;
@@ -6984,7 +6984,7 @@ MACRO NOR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.525 0.89 0.7 ;
     END
   END A1
@@ -6992,7 +6992,7 @@ MACRO NOR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A2
@@ -7000,7 +7000,7 @@ MACRO NOR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A3
@@ -7008,7 +7008,7 @@ MACRO NOR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A4
@@ -7016,7 +7016,7 @@ MACRO NOR4_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.795 0.975 0.865 1.25 ;
         RECT 0.63 0.975 0.865 1.045 ;
         RECT 0.63 0.15 0.7 1.045 ;
@@ -7030,7 +7030,7 @@ MACRO NOR4_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.04 0.975 0.11 1.485 ;
     END
@@ -7040,7 +7040,7 @@ MACRO NOR4_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.795 -0.085 0.865 0.425 ;
         RECT 0.415 -0.085 0.485 0.285 ;
@@ -7060,7 +7060,7 @@ MACRO NOR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.81 0.56 0.945 0.7 ;
     END
   END A1
@@ -7068,7 +7068,7 @@ MACRO NOR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.11 0.42 1.18 0.66 ;
         RECT 0.57 0.42 1.18 0.49 ;
         RECT 0.57 0.42 0.7 0.7 ;
@@ -7078,7 +7078,7 @@ MACRO NOR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.38 0.765 1.46 0.835 ;
         RECT 1.33 0.525 1.46 0.835 ;
         RECT 0.38 0.525 0.45 0.835 ;
@@ -7088,7 +7088,7 @@ MACRO NOR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.2 0.91 1.65 0.98 ;
         RECT 1.525 0.84 1.65 0.98 ;
         RECT 1.525 0.525 1.595 0.98 ;
@@ -7099,7 +7099,7 @@ MACRO NOR4_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.405 0.15 1.475 0.425 ;
         RECT 0.055 0.26 1.475 0.33 ;
         RECT 0.055 1.055 0.94 1.125 ;
@@ -7111,7 +7111,7 @@ MACRO NOR4_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.595 1.065 1.665 1.485 ;
         RECT 0.08 1.205 0.15 1.485 ;
@@ -7122,7 +7122,7 @@ MACRO NOR4_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.595 -0.085 1.665 0.335 ;
         RECT 1.185 -0.085 1.32 0.16 ;
@@ -7144,7 +7144,7 @@ MACRO NOR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.525 0.51 0.7 ;
     END
   END A1
@@ -7152,7 +7152,7 @@ MACRO NOR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.18 0.525 1.27 0.7 ;
     END
   END A2
@@ -7160,7 +7160,7 @@ MACRO NOR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.15 0.525 2.245 0.7 ;
     END
   END A3
@@ -7168,7 +7168,7 @@ MACRO NOR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.91 0.525 3 0.7 ;
     END
   END A4
@@ -7176,7 +7176,7 @@ MACRO NOR4_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.235 0.39 3.375 0.46 ;
         RECT 3.305 0.15 3.375 0.46 ;
         RECT 2.925 0.15 2.995 0.46 ;
@@ -7197,7 +7197,7 @@ MACRO NOR4_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.42 1.485 ;
         RECT 3.085 0.935 3.22 1.485 ;
         RECT 2.705 0.935 2.84 1.485 ;
@@ -7208,7 +7208,7 @@ MACRO NOR4_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.42 0.085 ;
         RECT 3.085 -0.085 3.22 0.325 ;
         RECT 2.705 -0.085 2.84 0.325 ;
@@ -7222,7 +7222,7 @@ MACRO NOR4_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.305 0.765 3.375 1.175 ;
       RECT 2.925 0.765 2.995 1.175 ;
       RECT 2.545 0.765 2.615 1.175 ;
@@ -7255,7 +7255,7 @@ MACRO OAI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END A
@@ -7263,7 +7263,7 @@ MACRO OAI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.79 0.525 0.89 0.7 ;
     END
   END B
@@ -7271,7 +7271,7 @@ MACRO OAI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.4 0.525 0.51 0.7 ;
     END
   END C1
@@ -7279,7 +7279,7 @@ MACRO OAI211_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END C2
@@ -7287,7 +7287,7 @@ MACRO OAI211_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.835 0.78 0.905 1.055 ;
         RECT 0.25 0.78 0.905 0.85 ;
         RECT 0.455 0.78 0.525 1.055 ;
@@ -7300,7 +7300,7 @@ MACRO OAI211_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.645 1.04 0.715 1.485 ;
         RECT 0.08 1.04 0.15 1.485 ;
@@ -7311,13 +7311,13 @@ MACRO OAI211_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.835 -0.085 0.905 0.46 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.455 0.15 0.525 0.425 ;
       RECT 0.085 0.15 0.155 0.425 ;
       RECT 0.085 0.15 0.525 0.22 ;
@@ -7335,7 +7335,7 @@ MACRO OAI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.185 0.765 0.755 0.835 ;
         RECT 0.685 0.525 0.755 0.835 ;
         RECT 0.185 0.525 0.32 0.835 ;
@@ -7345,7 +7345,7 @@ MACRO OAI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.53 0.7 ;
     END
   END B
@@ -7353,7 +7353,7 @@ MACRO OAI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.19 0.525 1.29 0.7 ;
     END
   END C1
@@ -7361,7 +7361,7 @@ MACRO OAI211_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.96 0.77 1.65 0.84 ;
         RECT 1.525 0.525 1.65 0.84 ;
         RECT 0.96 0.525 1.03 0.84 ;
@@ -7371,7 +7371,7 @@ MACRO OAI211_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.39 1.51 0.46 ;
         RECT 1.215 0.905 1.285 1.25 ;
         RECT 0.27 0.905 1.285 0.975 ;
@@ -7385,7 +7385,7 @@ MACRO OAI211_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.595 1.04 1.665 1.485 ;
         RECT 0.835 1.04 0.905 1.485 ;
@@ -7398,13 +7398,13 @@ MACRO OAI211_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 0.45 -0.085 0.52 0.32 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.595 0.185 1.665 0.46 ;
       RECT 0.08 0.39 0.66 0.46 ;
       RECT 0.59 0.185 0.66 0.46 ;
@@ -7424,7 +7424,7 @@ MACRO OAI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.39 0.39 1.52 0.66 ;
         RECT 0.125 0.39 1.52 0.46 ;
         RECT 0.805 0.39 0.875 0.66 ;
@@ -7435,7 +7435,7 @@ MACRO OAI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.42 0.77 1.245 0.84 ;
         RECT 1.175 0.525 1.245 0.84 ;
         RECT 0.42 0.525 0.51 0.84 ;
@@ -7445,7 +7445,7 @@ MACRO OAI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.91 0.77 2.8 0.84 ;
         RECT 2.665 0.56 2.8 0.84 ;
         RECT 1.91 0.56 2.045 0.84 ;
@@ -7455,7 +7455,7 @@ MACRO OAI211_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.965 0.425 3.035 0.66 ;
         RECT 1.67 0.425 3.035 0.495 ;
         RECT 2.31 0.425 2.41 0.7 ;
@@ -7466,7 +7466,7 @@ MACRO OAI211_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.235 0.905 3.17 0.975 ;
         RECT 3.1 0.29 3.17 0.975 ;
         RECT 1.72 0.29 3.17 0.36 ;
@@ -7483,7 +7483,7 @@ MACRO OAI211_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.23 1.485 ;
         RECT 3.075 1.04 3.145 1.485 ;
         RECT 2.315 1.04 2.385 1.485 ;
@@ -7499,14 +7499,14 @@ MACRO OAI211_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.23 0.085 ;
         RECT 1.145 -0.085 1.28 0.16 ;
         RECT 0.385 -0.085 0.52 0.16 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.225 1.625 0.295 ;
       RECT 1.555 0.15 1.625 0.295 ;
       RECT 0.045 0.15 0.115 0.295 ;
@@ -7525,7 +7525,7 @@ MACRO OAI21_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END A
@@ -7533,7 +7533,7 @@ MACRO OAI21_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.525 0.51 0.7 ;
     END
   END B1
@@ -7541,7 +7541,7 @@ MACRO OAI21_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END B2
@@ -7549,7 +7549,7 @@ MACRO OAI21_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.765 0.51 1.25 ;
         RECT 0.25 0.765 0.51 0.835 ;
         RECT 0.25 0.285 0.32 0.835 ;
@@ -7560,7 +7560,7 @@ MACRO OAI21_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.63 0.975 0.7 1.485 ;
         RECT 0.065 0.975 0.135 1.485 ;
@@ -7571,13 +7571,13 @@ MACRO OAI21_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.63 -0.085 0.7 0.46 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.44 0.15 0.51 0.425 ;
       RECT 0.07 0.15 0.14 0.425 ;
       RECT 0.07 0.15 0.51 0.22 ;
@@ -7595,7 +7595,7 @@ MACRO OAI21_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.19 0.7 ;
     END
   END A
@@ -7603,7 +7603,7 @@ MACRO OAI21_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.805 0.525 0.89 0.7 ;
     END
   END B1
@@ -7611,7 +7611,7 @@ MACRO OAI21_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.77 1.135 0.84 ;
         RECT 1.065 0.525 1.135 0.84 ;
         RECT 0.44 0.525 0.57 0.84 ;
@@ -7621,7 +7621,7 @@ MACRO OAI21_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.235 0.905 1.27 0.975 ;
         RECT 1.2 0.355 1.27 0.975 ;
         RECT 0.58 0.355 1.27 0.425 ;
@@ -7634,7 +7634,7 @@ MACRO OAI21_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.175 1.04 1.245 1.485 ;
         RECT 0.415 1.04 0.485 1.485 ;
@@ -7646,13 +7646,13 @@ MACRO OAI21_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 0.225 -0.085 0.295 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.355 0.485 0.425 ;
       RECT 0.415 0.15 0.485 0.425 ;
       RECT 0.045 0.15 0.115 0.425 ;
@@ -7671,7 +7671,7 @@ MACRO OAI21_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.43 0.525 0.515 0.7 ;
     END
   END A
@@ -7679,7 +7679,7 @@ MACRO OAI21_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.15 0.69 2.04 0.76 ;
         RECT 1.905 0.56 2.04 0.76 ;
         RECT 1.15 0.56 1.285 0.76 ;
@@ -7689,7 +7689,7 @@ MACRO OAI21_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.15 0.42 2.275 0.66 ;
         RECT 0.91 0.42 2.275 0.49 ;
         RECT 1.525 0.42 1.66 0.625 ;
@@ -7700,7 +7700,7 @@ MACRO OAI21_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.235 0.845 2.41 0.915 ;
         RECT 2.34 0.285 2.41 0.915 ;
         RECT 0.96 0.285 2.41 0.355 ;
@@ -7715,7 +7715,7 @@ MACRO OAI21_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.315 1.04 2.385 1.485 ;
         RECT 1.555 1.04 1.625 1.485 ;
@@ -7729,14 +7729,14 @@ MACRO OAI21_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 0.605 -0.085 0.675 0.285 ;
         RECT 0.225 -0.085 0.295 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.355 0.83 0.425 ;
       RECT 0.76 0.15 0.83 0.425 ;
       RECT 0.42 0.15 0.49 0.425 ;
@@ -7756,7 +7756,7 @@ MACRO OAI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A
@@ -7764,7 +7764,7 @@ MACRO OAI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END B1
@@ -7772,7 +7772,7 @@ MACRO OAI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END B2
@@ -7780,7 +7780,7 @@ MACRO OAI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.955 0.525 1.08 0.7 ;
     END
   END C1
@@ -7788,7 +7788,7 @@ MACRO OAI221_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.74 0.7 ;
     END
   END C2
@@ -7796,7 +7796,7 @@ MACRO OAI221_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.985 0.85 1.055 1.25 ;
         RECT 0.425 0.85 1.055 0.92 ;
         RECT 0.805 0.4 0.89 0.92 ;
@@ -7808,7 +7808,7 @@ MACRO OAI221_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.605 1.04 0.675 1.485 ;
         RECT 0.04 1.04 0.11 1.485 ;
@@ -7819,13 +7819,13 @@ MACRO OAI221_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.225 -0.085 0.295 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.985 0.15 1.055 0.425 ;
       RECT 0.615 0.15 0.685 0.425 ;
       RECT 0.615 0.15 1.055 0.22 ;
@@ -7846,7 +7846,7 @@ MACRO OAI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.955 0.9 2.03 0.97 ;
         RECT 1.93 0.525 2.03 0.97 ;
         RECT 0.955 0.525 1.025 0.97 ;
@@ -7856,7 +7856,7 @@ MACRO OAI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.155 0.765 1.84 0.835 ;
         RECT 1.715 0.525 1.84 0.835 ;
         RECT 1.155 0.525 1.225 0.835 ;
@@ -7866,7 +7866,7 @@ MACRO OAI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.38 0.525 1.48 0.7 ;
     END
   END B2
@@ -7874,7 +7874,7 @@ MACRO OAI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.525 0.7 ;
     END
   END C1
@@ -7882,7 +7882,7 @@ MACRO OAI221_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.77 0.89 0.84 ;
         RECT 0.76 0.525 0.89 0.84 ;
         RECT 0.195 0.525 0.265 0.84 ;
@@ -7892,7 +7892,7 @@ MACRO OAI221_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.755 1.035 1.89 1.245 ;
         RECT 0.06 1.035 1.89 1.105 ;
         RECT 0.995 1.035 1.13 1.245 ;
@@ -7906,7 +7906,7 @@ MACRO OAI221_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.975 1.065 2.045 1.485 ;
         RECT 1.405 1.17 1.475 1.485 ;
@@ -7919,14 +7919,14 @@ MACRO OAI221_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.565 -0.085 1.7 0.19 ;
         RECT 1.185 -0.085 1.32 0.19 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.975 0.15 2.045 0.425 ;
       RECT 0.05 0.255 2.045 0.325 ;
       RECT 1 0.39 1.89 0.46 ;
@@ -7944,7 +7944,7 @@ MACRO OAI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.585 0.525 0.7 0.7 ;
     END
   END A
@@ -7952,7 +7952,7 @@ MACRO OAI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.775 0.525 0.9 0.7 ;
     END
   END B1
@@ -7960,7 +7960,7 @@ MACRO OAI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.155 0.7 ;
     END
   END B2
@@ -7968,7 +7968,7 @@ MACRO OAI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.245 0.7 ;
     END
   END C1
@@ -7976,7 +7976,7 @@ MACRO OAI221_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.395 0.525 0.51 0.7 ;
     END
   END C2
@@ -7984,7 +7984,7 @@ MACRO OAI221_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.165 0.185 2.235 1.25 ;
         RECT 1.795 0.7 2.235 0.84 ;
         RECT 1.795 0.185 1.865 1.25 ;
@@ -7995,7 +7995,7 @@ MACRO OAI221_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.355 0.975 2.425 1.485 ;
         RECT 1.975 0.975 2.045 1.485 ;
@@ -8009,7 +8009,7 @@ MACRO OAI221_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.355 -0.085 2.425 0.46 ;
         RECT 1.975 -0.085 2.045 0.46 ;
@@ -8019,7 +8019,7 @@ MACRO OAI221_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.415 0.185 1.485 1.25 ;
       RECT 1.415 0.525 1.73 0.66 ;
       RECT 0.66 0.775 0.73 1.12 ;
@@ -8047,7 +8047,7 @@ MACRO OAI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.34 0.525 1.46 0.7 ;
     END
   END A1
@@ -8055,7 +8055,7 @@ MACRO OAI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.115 0.7 ;
     END
   END A2
@@ -8063,7 +8063,7 @@ MACRO OAI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.755 0.7 ;
     END
   END B1
@@ -8071,7 +8071,7 @@ MACRO OAI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.525 0.945 0.7 ;
     END
   END B2
@@ -8079,7 +8079,7 @@ MACRO OAI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.35 0.525 0.51 0.7 ;
     END
   END C1
@@ -8087,7 +8087,7 @@ MACRO OAI222_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.2 0.7 ;
     END
   END C2
@@ -8095,7 +8095,7 @@ MACRO OAI222_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.36 0.795 1.43 1.14 ;
         RECT 0.52 0.795 1.43 0.865 ;
         RECT 1.18 0.4 1.27 0.865 ;
@@ -8107,7 +8107,7 @@ MACRO OAI222_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.52 1.485 ;
         RECT 0.98 1.04 1.05 1.485 ;
         RECT 0.05 1.04 0.12 1.485 ;
@@ -8118,14 +8118,14 @@ MACRO OAI222_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.52 0.085 ;
         RECT 0.395 -0.085 0.53 0.19 ;
         RECT 0.05 -0.085 0.12 0.425 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.575 0.39 1.05 0.46 ;
       RECT 0.98 0.15 1.05 0.46 ;
       RECT 1.36 0.15 1.43 0.425 ;
@@ -8147,7 +8147,7 @@ MACRO OAI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.85 0.725 2.465 0.795 ;
         RECT 2.34 0.525 2.465 0.795 ;
         RECT 1.85 0.525 1.92 0.795 ;
@@ -8157,7 +8157,7 @@ MACRO OAI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.15 0.42 2.22 0.66 ;
     END
   END A2
@@ -8165,7 +8165,7 @@ MACRO OAI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.955 0.77 1.65 0.84 ;
         RECT 1.525 0.525 1.65 0.84 ;
         RECT 0.955 0.525 1.025 0.84 ;
@@ -8175,7 +8175,7 @@ MACRO OAI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.525 1.29 0.7 ;
     END
   END B2
@@ -8183,7 +8183,7 @@ MACRO OAI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.195 0.77 0.83 0.84 ;
         RECT 0.76 0.525 0.83 0.84 ;
         RECT 0.195 0.525 0.32 0.84 ;
@@ -8193,7 +8193,7 @@ MACRO OAI222_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.53 0.7 ;
     END
   END C2
@@ -8201,7 +8201,7 @@ MACRO OAI222_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.53 0.285 2.6 1.25 ;
         RECT 0.09 0.905 2.6 0.975 ;
         RECT 1.925 0.285 2.6 0.355 ;
@@ -8215,7 +8215,7 @@ MACRO OAI222_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.66 1.485 ;
         RECT 2.14 1.04 2.21 1.485 ;
         RECT 1.22 1.04 1.29 1.485 ;
@@ -8227,14 +8227,14 @@ MACRO OAI222_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.66 0.085 ;
         RECT 0.65 -0.085 0.72 0.285 ;
         RECT 0.27 -0.085 0.34 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.005 0.355 1.84 0.425 ;
       RECT 1.77 0.15 1.84 0.425 ;
       RECT 1.77 0.15 2.625 0.22 ;
@@ -8257,7 +8257,7 @@ MACRO OAI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -8265,7 +8265,7 @@ MACRO OAI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A2
@@ -8273,7 +8273,7 @@ MACRO OAI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.56 0.9 0.7 ;
     END
   END B1
@@ -8281,7 +8281,7 @@ MACRO OAI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.495 0.56 0.7 0.7 ;
     END
   END B2
@@ -8289,7 +8289,7 @@ MACRO OAI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.995 0.56 1.13 0.7 ;
     END
   END C1
@@ -8297,7 +8297,7 @@ MACRO OAI222_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.195 0.56 1.33 0.7 ;
     END
   END C2
@@ -8305,7 +8305,7 @@ MACRO OAI222_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.29 0.15 2.36 1.25 ;
         RECT 1.915 0.56 2.36 0.7 ;
         RECT 1.915 0.15 1.985 1.25 ;
@@ -8316,7 +8316,7 @@ MACRO OAI222_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.66 1.485 ;
         RECT 2.475 0.975 2.545 1.485 ;
         RECT 2.095 0.975 2.165 1.485 ;
@@ -8330,7 +8330,7 @@ MACRO OAI222_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.66 0.085 ;
         RECT 2.475 -0.085 2.545 0.425 ;
         RECT 2.095 -0.085 2.165 0.425 ;
@@ -8340,7 +8340,7 @@ MACRO OAI222_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.535 0.15 1.605 1.16 ;
       RECT 1.535 0.525 1.85 0.66 ;
       RECT 0.88 0.785 0.95 1.075 ;
@@ -8365,7 +8365,7 @@ MACRO OAI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.575 0.525 0.7 0.7 ;
     END
   END A1
@@ -8373,7 +8373,7 @@ MACRO OAI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.525 0.89 0.7 ;
     END
   END A2
@@ -8381,7 +8381,7 @@ MACRO OAI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END B1
@@ -8389,7 +8389,7 @@ MACRO OAI22_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END B2
@@ -8397,7 +8397,7 @@ MACRO OAI22_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.39 0.725 0.46 ;
         RECT 0.44 0.39 0.51 1.05 ;
     END
@@ -8407,7 +8407,7 @@ MACRO OAI22_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.81 0.975 0.88 1.485 ;
         RECT 0.055 0.975 0.125 1.485 ;
@@ -8418,13 +8418,13 @@ MACRO OAI22_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.21 -0.085 0.345 0.16 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.81 0.185 0.88 0.46 ;
       RECT 0.06 0.185 0.13 0.46 ;
       RECT 0.06 0.245 0.88 0.315 ;
@@ -8442,7 +8442,7 @@ MACRO OAI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.185 0.525 1.27 0.7 ;
     END
   END A1
@@ -8450,7 +8450,7 @@ MACRO OAI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.765 1.515 0.835 ;
         RECT 1.445 0.525 1.515 0.835 ;
         RECT 0.82 0.525 0.95 0.835 ;
@@ -8460,7 +8460,7 @@ MACRO OAI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.525 0.525 0.7 ;
     END
   END B1
@@ -8468,7 +8468,7 @@ MACRO OAI22_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.765 0.75 0.835 ;
         RECT 0.68 0.525 0.75 0.835 ;
         RECT 0.06 0.525 0.185 0.835 ;
@@ -8478,7 +8478,7 @@ MACRO OAI22_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.9 1.65 0.97 ;
         RECT 1.58 0.39 1.65 0.97 ;
         RECT 0.96 0.39 1.65 0.46 ;
@@ -8491,7 +8491,7 @@ MACRO OAI22_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.555 1.035 1.625 1.485 ;
         RECT 0.795 1.035 0.865 1.485 ;
@@ -8503,14 +8503,14 @@ MACRO OAI22_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 0.605 -0.085 0.675 0.285 ;
         RECT 0.225 -0.085 0.295 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.355 0.865 0.425 ;
       RECT 0.795 0.15 0.865 0.425 ;
       RECT 0.415 0.15 0.485 0.425 ;
@@ -8530,7 +8530,7 @@ MACRO OAI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.91 0.725 2.805 0.795 ;
         RECT 2.67 0.56 2.805 0.795 ;
         RECT 1.91 0.56 2.045 0.795 ;
@@ -8540,7 +8540,7 @@ MACRO OAI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.91 0.425 3.035 0.7 ;
         RECT 1.645 0.425 3.035 0.495 ;
         RECT 2.32 0.425 2.39 0.66 ;
@@ -8551,7 +8551,7 @@ MACRO OAI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.385 0.725 1.28 0.795 ;
         RECT 1.145 0.56 1.28 0.795 ;
         RECT 0.385 0.56 0.52 0.795 ;
@@ -8561,7 +8561,7 @@ MACRO OAI22_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.39 0.425 1.52 0.7 ;
         RECT 0.15 0.425 1.52 0.495 ;
         RECT 0.795 0.425 0.865 0.66 ;
@@ -8572,7 +8572,7 @@ MACRO OAI22_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.865 3.17 0.935 ;
         RECT 3.1 0.29 3.17 0.935 ;
         RECT 1.72 0.29 3.17 0.36 ;
@@ -8587,7 +8587,7 @@ MACRO OAI22_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.23 1.485 ;
         RECT 3.075 1.04 3.145 1.485 ;
         RECT 2.315 1.04 2.385 1.485 ;
@@ -8601,7 +8601,7 @@ MACRO OAI22_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.23 0.085 ;
         RECT 1.365 -0.085 1.435 0.195 ;
         RECT 0.985 -0.085 1.055 0.195 ;
@@ -8610,7 +8610,7 @@ MACRO OAI22_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.26 1.595 0.33 ;
       RECT 1.525 0.15 1.595 0.33 ;
       RECT 0.045 0.185 0.115 0.33 ;
@@ -8629,7 +8629,7 @@ MACRO OAI33_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.765 0.525 0.89 0.7 ;
     END
   END A1
@@ -8637,7 +8637,7 @@ MACRO OAI33_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.955 0.525 1.08 0.7 ;
     END
   END A2
@@ -8645,7 +8645,7 @@ MACRO OAI33_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.145 0.525 1.27 0.7 ;
     END
   END A3
@@ -8653,7 +8653,7 @@ MACRO OAI33_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END B1
@@ -8661,7 +8661,7 @@ MACRO OAI33_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END B2
@@ -8669,7 +8669,7 @@ MACRO OAI33_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END B3
@@ -8677,7 +8677,7 @@ MACRO OAI33_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.365 1.26 0.435 ;
         RECT 1.19 0.15 1.26 0.435 ;
         RECT 0.63 0.365 0.7 1 ;
@@ -8688,7 +8688,7 @@ MACRO OAI33_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.19 0.975 1.26 1.485 ;
         RECT 0.055 0.975 0.125 1.485 ;
@@ -8699,14 +8699,14 @@ MACRO OAI33_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 0.4 -0.085 0.535 0.16 ;
         RECT 0.055 -0.085 0.125 0.335 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.215 0.225 1.105 0.295 ;
   END
 END OAI33_X1
@@ -8722,7 +8722,7 @@ MACRO OR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -8730,7 +8730,7 @@ MACRO OR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A2
@@ -8738,7 +8738,7 @@ MACRO OR2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.61 0.15 0.7 1.24 ;
     END
   END ZN
@@ -8747,7 +8747,7 @@ MACRO OR2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.415 0.965 0.485 1.485 ;
     END
@@ -8757,14 +8757,14 @@ MACRO OR2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.415 -0.085 0.485 0.285 ;
         RECT 0.04 -0.085 0.11 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.83 0.115 1.24 ;
       RECT 0.045 0.83 0.54 0.9 ;
       RECT 0.47 0.35 0.54 0.9 ;
@@ -8784,7 +8784,7 @@ MACRO OR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -8792,7 +8792,7 @@ MACRO OR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A2
@@ -8800,7 +8800,7 @@ MACRO OR2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.615 0.15 0.7 1.25 ;
     END
   END ZN
@@ -8809,7 +8809,7 @@ MACRO OR2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
         RECT 0.415 1.04 0.485 1.485 ;
@@ -8820,7 +8820,7 @@ MACRO OR2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.795 -0.085 0.865 0.425 ;
         RECT 0.415 -0.085 0.485 0.285 ;
@@ -8828,7 +8828,7 @@ MACRO OR2_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.905 0.115 1.25 ;
       RECT 0.045 0.905 0.545 0.975 ;
       RECT 0.475 0.355 0.545 0.975 ;
@@ -8848,7 +8848,7 @@ MACRO OR2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.38 0.7 ;
     END
   END A1
@@ -8856,7 +8856,7 @@ MACRO OR2_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.765 0.76 0.835 ;
         RECT 0.69 0.525 0.76 0.835 ;
         RECT 0.06 0.525 0.15 0.835 ;
@@ -8866,7 +8866,7 @@ MACRO OR2_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.365 0.15 1.435 1.095 ;
         RECT 0.995 0.56 1.435 0.7 ;
         RECT 0.995 0.15 1.075 0.7 ;
@@ -8878,7 +8878,7 @@ MACRO OR2_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.555 1.035 1.625 1.485 ;
         RECT 1.175 1.035 1.245 1.485 ;
@@ -8891,7 +8891,7 @@ MACRO OR2_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.555 -0.085 1.625 0.425 ;
         RECT 1.175 -0.085 1.245 0.425 ;
@@ -8901,7 +8901,7 @@ MACRO OR2_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.425 0.9 0.495 1.25 ;
       RECT 0.425 0.9 0.925 0.97 ;
       RECT 0.855 0.355 0.925 0.97 ;
@@ -8922,7 +8922,7 @@ MACRO OR3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -8930,7 +8930,7 @@ MACRO OR3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -8938,7 +8938,7 @@ MACRO OR3_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.57 0.7 ;
     END
   END A3
@@ -8946,7 +8946,7 @@ MACRO OR3_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.8 0.15 0.89 1.24 ;
     END
   END ZN
@@ -8955,7 +8955,7 @@ MACRO OR3_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.95 1.485 ;
         RECT 0.605 0.965 0.675 1.485 ;
     END
@@ -8965,14 +8965,14 @@ MACRO OR3_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.95 0.085 ;
         RECT 0.605 -0.085 0.675 0.285 ;
         RECT 0.225 -0.085 0.295 0.285 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.83 0.115 1.24 ;
       RECT 0.045 0.83 0.73 0.9 ;
       RECT 0.66 0.35 0.73 0.9 ;
@@ -8993,7 +8993,7 @@ MACRO OR3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -9001,7 +9001,7 @@ MACRO OR3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -9009,7 +9009,7 @@ MACRO OR3_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.57 0.7 ;
     END
   END A3
@@ -9017,7 +9017,7 @@ MACRO OR3_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.805 0.15 0.89 1.25 ;
     END
   END ZN
@@ -9026,7 +9026,7 @@ MACRO OR3_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.985 0.975 1.055 1.485 ;
         RECT 0.605 0.975 0.675 1.485 ;
@@ -9037,7 +9037,7 @@ MACRO OR3_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.985 -0.085 1.055 0.425 ;
         RECT 0.605 -0.085 0.675 0.285 ;
@@ -9045,7 +9045,7 @@ MACRO OR3_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.84 0.115 1.25 ;
       RECT 0.045 0.84 0.73 0.91 ;
       RECT 0.66 0.39 0.73 0.91 ;
@@ -9066,7 +9066,7 @@ MACRO OR3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.61 0.56 0.745 0.7 ;
     END
   END A1
@@ -9074,7 +9074,7 @@ MACRO OR3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.915 0.42 0.985 0.66 ;
         RECT 0.375 0.42 0.985 0.49 ;
         RECT 0.375 0.42 0.51 0.66 ;
@@ -9084,7 +9084,7 @@ MACRO OR3_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.185 0.77 1.2 0.84 ;
         RECT 1.13 0.525 1.2 0.84 ;
         RECT 0.185 0.7 0.32 0.84 ;
@@ -9095,7 +9095,7 @@ MACRO OR3_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.79 0.26 1.86 1.25 ;
         RECT 1.415 0.56 1.86 0.7 ;
         RECT 1.415 0.26 1.485 1.25 ;
@@ -9106,7 +9106,7 @@ MACRO OR3_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.975 1.035 2.045 1.485 ;
         RECT 1.595 1.035 1.665 1.485 ;
@@ -9119,7 +9119,7 @@ MACRO OR3_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.975 -0.085 2.045 0.335 ;
         RECT 1.595 -0.085 1.665 0.335 ;
@@ -9130,7 +9130,7 @@ MACRO OR3_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.65 0.91 0.72 1.25 ;
       RECT 0.65 0.91 1.35 0.98 ;
       RECT 1.28 0.26 1.35 0.98 ;
@@ -9149,7 +9149,7 @@ MACRO OR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -9157,7 +9157,7 @@ MACRO OR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -9165,7 +9165,7 @@ MACRO OR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A3
@@ -9173,7 +9173,7 @@ MACRO OR4_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.76 0.7 ;
     END
   END A4
@@ -9181,7 +9181,7 @@ MACRO OR4_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.99 0.15 1.08 1.24 ;
     END
   END ZN
@@ -9190,7 +9190,7 @@ MACRO OR4_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.795 0.965 0.865 1.485 ;
     END
@@ -9200,7 +9200,7 @@ MACRO OR4_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.795 -0.085 0.865 0.285 ;
         RECT 0.415 -0.085 0.485 0.285 ;
@@ -9208,7 +9208,7 @@ MACRO OR4_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.83 0.115 1.24 ;
       RECT 0.045 0.83 0.92 0.9 ;
       RECT 0.85 0.35 0.92 0.9 ;
@@ -9229,7 +9229,7 @@ MACRO OR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.525 0.185 0.7 ;
     END
   END A1
@@ -9237,7 +9237,7 @@ MACRO OR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.525 0.375 0.7 ;
     END
   END A2
@@ -9245,7 +9245,7 @@ MACRO OR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.525 0.565 0.7 ;
     END
   END A3
@@ -9253,7 +9253,7 @@ MACRO OR4_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.76 0.7 ;
     END
   END A4
@@ -9261,7 +9261,7 @@ MACRO OR4_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.995 0.15 1.08 1.25 ;
     END
   END ZN
@@ -9270,7 +9270,7 @@ MACRO OR4_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.33 1.485 ;
         RECT 1.175 0.975 1.245 1.485 ;
         RECT 0.795 0.975 0.865 1.485 ;
@@ -9281,7 +9281,7 @@ MACRO OR4_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.33 0.085 ;
         RECT 1.175 -0.085 1.245 0.425 ;
         RECT 0.795 -0.085 0.865 0.285 ;
@@ -9290,7 +9290,7 @@ MACRO OR4_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.045 0.84 0.115 1.25 ;
       RECT 0.045 0.84 0.925 0.91 ;
       RECT 0.855 0.355 0.925 0.91 ;
@@ -9311,7 +9311,7 @@ MACRO OR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.805 0.525 0.89 0.7 ;
     END
   END A1
@@ -9319,7 +9319,7 @@ MACRO OR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.39 1.14 0.66 ;
         RECT 0.505 0.39 1.14 0.46 ;
         RECT 0.505 0.39 0.575 0.66 ;
@@ -9329,7 +9329,7 @@ MACRO OR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.31 0.77 1.33 0.84 ;
         RECT 1.26 0.525 1.33 0.84 ;
         RECT 0.31 0.525 0.38 0.84 ;
@@ -9340,7 +9340,7 @@ MACRO OR4_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.115 0.905 1.52 0.975 ;
         RECT 1.45 0.525 1.52 0.975 ;
         RECT 0.115 0.525 0.185 0.975 ;
@@ -9351,7 +9351,7 @@ MACRO OR4_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.13 0.15 2.2 1.25 ;
         RECT 1.755 0.56 2.2 0.7 ;
         RECT 1.755 0.15 1.825 1.25 ;
@@ -9362,7 +9362,7 @@ MACRO OR4_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 2.315 1.045 2.385 1.485 ;
         RECT 1.935 1.045 2.005 1.485 ;
@@ -9375,7 +9375,7 @@ MACRO OR4_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 2.315 -0.085 2.385 0.4 ;
         RECT 1.905 -0.085 2.04 0.365 ;
@@ -9387,7 +9387,7 @@ MACRO OR4_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.77 1.04 1.685 1.11 ;
       RECT 1.615 0.39 1.685 1.11 ;
       RECT 1.37 0.39 1.685 0.46 ;
@@ -9408,7 +9408,7 @@ MACRO SDFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 5.07 0.765 5.26 0.98 ;
     END
   END D
@@ -9416,7 +9416,7 @@ MACRO SDFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.525 0.92 0.7 ;
     END
   END RN
@@ -9424,7 +9424,7 @@ MACRO SDFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 5.19 0.39 5.335 0.56 ;
         RECT 4.76 0.39 5.335 0.46 ;
         RECT 4.76 0.765 5.005 0.835 ;
@@ -9435,7 +9435,7 @@ MACRO SDFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.56 0.695 4.69 0.84 ;
     END
   END SI
@@ -9443,7 +9443,7 @@ MACRO SDFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.11 0.7 ;
     END
   END SN
@@ -9451,7 +9451,7 @@ MACRO SDFFRS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.575 0.7 1.67 0.84 ;
     END
   END CK
@@ -9459,7 +9459,7 @@ MACRO SDFFRS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.045 0.26 0.13 1.105 ;
     END
   END Q
@@ -9467,7 +9467,7 @@ MACRO SDFFRS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.36 0.51 0.8 ;
     END
   END QN
@@ -9476,7 +9476,7 @@ MACRO SDFFRS_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 5.51 1.485 ;
         RECT 5.175 1.095 5.31 1.485 ;
         RECT 4.415 1.13 4.55 1.485 ;
@@ -9495,7 +9495,7 @@ MACRO SDFFRS_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 5.51 0.085 ;
         RECT 5.175 -0.085 5.31 0.225 ;
         RECT 4.415 -0.085 4.55 0.225 ;
@@ -9507,7 +9507,7 @@ MACRO SDFFRS_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 5.4 0.215 5.47 1.235 ;
       RECT 4.9 0.625 5.47 0.695 ;
       RECT 4.9 0.56 4.975 0.695 ;
@@ -9578,7 +9578,7 @@ MACRO SDFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 5.495 0.42 5.64 0.56 ;
     END
   END D
@@ -9586,7 +9586,7 @@ MACRO SDFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.545 1.165 0.7 ;
     END
   END RN
@@ -9594,7 +9594,7 @@ MACRO SDFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 5.57 0.675 5.7 0.84 ;
         RECT 5.135 0.72 5.7 0.79 ;
         RECT 5.135 0.385 5.205 0.79 ;
@@ -9604,7 +9604,7 @@ MACRO SDFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.925 0.56 5.07 0.7 ;
     END
   END SI
@@ -9612,7 +9612,7 @@ MACRO SDFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.365 0.545 1.46 0.7 ;
     END
   END SN
@@ -9620,7 +9620,7 @@ MACRO SDFFRS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.9 0.175 2.065 0.245 ;
     END
   END CK
@@ -9628,7 +9628,7 @@ MACRO SDFFRS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.24 0.15 0.32 1.125 ;
     END
   END Q
@@ -9636,7 +9636,7 @@ MACRO SDFFRS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.6 0.435 0.735 0.9 ;
     END
   END QN
@@ -9645,7 +9645,7 @@ MACRO SDFFRS_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 5.89 1.485 ;
         RECT 5.54 1.195 5.675 1.485 ;
         RECT 4.78 1.09 4.915 1.485 ;
@@ -9665,7 +9665,7 @@ MACRO SDFFRS_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 5.89 0.085 ;
         RECT 5.54 -0.085 5.675 0.18 ;
         RECT 4.81 -0.085 4.88 0.27 ;
@@ -9679,7 +9679,7 @@ MACRO SDFFRS_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 5.765 0.15 5.835 1.09 ;
       RECT 5.27 0.565 5.41 0.635 ;
       RECT 5.34 0.285 5.41 0.635 ;
@@ -9751,7 +9751,7 @@ MACRO SDFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.24 0.56 4.365 0.7 ;
     END
   END D
@@ -9759,7 +9759,7 @@ MACRO SDFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.84 0.925 0.98 ;
     END
   END RN
@@ -9767,7 +9767,7 @@ MACRO SDFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.105 0.77 4.53 0.84 ;
         RECT 4.43 0.56 4.53 0.84 ;
         RECT 4.105 0.565 4.175 0.84 ;
@@ -9777,7 +9777,7 @@ MACRO SDFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.67 0.655 3.765 0.84 ;
     END
   END SI
@@ -9785,7 +9785,7 @@ MACRO SDFFR_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.77 0.66 1.995 0.84 ;
     END
   END CK
@@ -9793,7 +9793,7 @@ MACRO SDFFR_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.435 0.185 0.51 1.015 ;
     END
   END Q
@@ -9801,7 +9801,7 @@ MACRO SDFFR_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.185 0.13 1.065 ;
     END
   END QN
@@ -9810,7 +9810,7 @@ MACRO SDFFR_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.75 1.485 ;
         RECT 4.4 1.045 4.47 1.485 ;
         RECT 3.64 1.08 3.71 1.485 ;
@@ -9827,7 +9827,7 @@ MACRO SDFFR_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.75 0.085 ;
         RECT 4.4 -0.085 4.47 0.32 ;
         RECT 3.64 -0.085 3.71 0.32 ;
@@ -9839,7 +9839,7 @@ MACRO SDFFR_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 4.595 0.185 4.665 1.22 ;
       RECT 3.965 0.905 4.665 0.975 ;
       RECT 3.965 0.715 4.035 0.975 ;
@@ -9906,7 +9906,7 @@ MACRO SDFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.565 0.42 4.69 0.625 ;
     END
   END D
@@ -9914,7 +9914,7 @@ MACRO SDFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.145 0.84 1.27 0.98 ;
     END
   END RN
@@ -9922,7 +9922,7 @@ MACRO SDFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.345 0.7 4.765 0.845 ;
         RECT 4.345 0.565 4.415 0.845 ;
     END
@@ -9931,7 +9931,7 @@ MACRO SDFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.86 0.67 4.005 0.84 ;
     END
   END SI
@@ -9939,7 +9939,7 @@ MACRO SDFFR_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.145 0.695 2.28 0.84 ;
     END
   END CK
@@ -9947,7 +9947,7 @@ MACRO SDFFR_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.395 0.51 1.005 ;
     END
   END Q
@@ -9955,7 +9955,7 @@ MACRO SDFFR_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.795 0.56 0.89 1.005 ;
         RECT 0.795 0.395 0.865 1.005 ;
     END
@@ -9965,7 +9965,7 @@ MACRO SDFFR_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.94 1.485 ;
         RECT 4.635 1.045 4.705 1.485 ;
         RECT 3.875 1.08 3.945 1.485 ;
@@ -9983,7 +9983,7 @@ MACRO SDFFR_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.94 0.085 ;
         RECT 4.635 -0.085 4.705 0.195 ;
         RECT 3.875 -0.085 3.945 0.32 ;
@@ -9996,7 +9996,7 @@ MACRO SDFFR_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 4.83 0.195 4.9 1.22 ;
       RECT 4.205 0.91 4.9 0.98 ;
       RECT 4.205 0.715 4.275 0.98 ;
@@ -10066,7 +10066,7 @@ MACRO SDFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.55 0.38 0.7 ;
     END
   END D
@@ -10074,7 +10074,7 @@ MACRO SDFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.765 0.57 0.835 ;
         RECT 0.5 0.55 0.57 0.835 ;
         RECT 0.06 0.55 0.185 0.835 ;
@@ -10084,7 +10084,7 @@ MACRO SDFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.91 0.42 1.08 0.56 ;
     END
   END SI
@@ -10092,7 +10092,7 @@ MACRO SDFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.84 0.42 3.93 0.575 ;
     END
   END SN
@@ -10100,7 +10100,7 @@ MACRO SDFFS_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.785 1.115 0.98 ;
     END
   END CK
@@ -10108,7 +10108,7 @@ MACRO SDFFS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.24 0.98 4.335 1.25 ;
         RECT 4.265 0.4 4.335 1.25 ;
     END
@@ -10117,7 +10117,7 @@ MACRO SDFFS_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.62 0.98 4.705 1.25 ;
         RECT 4.635 0.15 4.705 1.25 ;
     END
@@ -10127,7 +10127,7 @@ MACRO SDFFS_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.75 1.485 ;
         RECT 4.445 0.975 4.515 1.485 ;
         RECT 4.105 0.975 4.175 1.485 ;
@@ -10144,7 +10144,7 @@ MACRO SDFFS_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.75 0.085 ;
         RECT 4.445 -0.085 4.515 0.195 ;
         RECT 3.735 -0.085 3.805 0.32 ;
@@ -10156,7 +10156,7 @@ MACRO SDFFS_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.915 0.775 3.985 1.25 ;
       RECT 3.69 0.775 3.985 0.915 ;
       RECT 3.69 0.775 4.2 0.845 ;
@@ -10230,7 +10230,7 @@ MACRO SDFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.25 0.67 0.375 0.84 ;
     END
   END D
@@ -10238,7 +10238,7 @@ MACRO SDFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.91 0.595 0.98 ;
         RECT 0.525 0.67 0.595 0.98 ;
         RECT 0.06 0.795 0.185 0.98 ;
@@ -10248,7 +10248,7 @@ MACRO SDFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.965 0.42 1.08 0.64 ;
     END
   END SI
@@ -10256,7 +10256,7 @@ MACRO SDFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.34 0.56 4.03 0.63 ;
         RECT 3.34 0.28 3.41 0.63 ;
         RECT 2.91 0.28 3.41 0.35 ;
@@ -10268,7 +10268,7 @@ MACRO SDFFS_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.84 1.13 0.98 ;
     END
   END CK
@@ -10276,7 +10276,7 @@ MACRO SDFFS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.43 0.395 4.5 0.785 ;
     END
   END Q
@@ -10284,7 +10284,7 @@ MACRO SDFFS_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.81 0.395 4.88 0.785 ;
     END
   END QN
@@ -10293,7 +10293,7 @@ MACRO SDFFS_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 5.13 1.485 ;
         RECT 4.99 1.125 5.06 1.485 ;
         RECT 4.58 1.15 4.715 1.485 ;
@@ -10312,7 +10312,7 @@ MACRO SDFFS_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 5.13 0.085 ;
         RECT 4.99 -0.085 5.06 0.195 ;
         RECT 4.58 -0.085 4.715 0.18 ;
@@ -10325,7 +10325,7 @@ MACRO SDFFS_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 2.91 1.18 3.445 1.25 ;
       RECT 3.375 0.985 3.445 1.25 ;
       RECT 2.91 0.83 2.98 1.25 ;
@@ -10396,7 +10396,7 @@ MACRO SDFF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.975 0.42 4.125 0.565 ;
     END
   END D
@@ -10404,7 +10404,7 @@ MACRO SDFF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.05 0.7 4.18 0.84 ;
         RECT 3.75 0.7 4.18 0.77 ;
         RECT 3.75 0.59 3.885 0.77 ;
@@ -10414,7 +10414,7 @@ MACRO SDFF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.415 0.525 3.55 0.7 ;
     END
   END SI
@@ -10422,7 +10422,7 @@ MACRO SDFF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.02 0.42 2.225 0.58 ;
     END
   END CK
@@ -10430,7 +10430,7 @@ MACRO SDFF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.44 0.15 0.51 0.785 ;
     END
   END Q
@@ -10438,7 +10438,7 @@ MACRO SDFF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.15 0.135 1.215 ;
     END
   END QN
@@ -10447,7 +10447,7 @@ MACRO SDFF_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.37 1.485 ;
         RECT 4.02 0.975 4.155 1.485 ;
         RECT 3.295 1.04 3.365 1.485 ;
@@ -10463,7 +10463,7 @@ MACRO SDFF_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.37 0.085 ;
         RECT 4.02 -0.085 4.155 0.16 ;
         RECT 3.295 -0.085 3.365 0.195 ;
@@ -10475,7 +10475,7 @@ MACRO SDFF_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 4.245 0.15 4.315 1.215 ;
       RECT 3.615 0.45 3.685 0.84 ;
       RECT 3.615 0.45 3.88 0.52 ;
@@ -10530,7 +10530,7 @@ MACRO SDFF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.165 0.42 4.33 0.56 ;
     END
   END D
@@ -10538,7 +10538,7 @@ MACRO SDFF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.95 0.7 4.355 0.84 ;
         RECT 3.95 0.595 4.02 0.84 ;
     END
@@ -10547,7 +10547,7 @@ MACRO SDFF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 3.48 0.42 3.58 0.56 ;
     END
   END SI
@@ -10555,7 +10555,7 @@ MACRO SDFF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.225 0.42 2.41 0.58 ;
     END
   END CK
@@ -10563,7 +10563,7 @@ MACRO SDFF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.425 0.4 0.51 0.785 ;
     END
   END Q
@@ -10571,7 +10571,7 @@ MACRO SDFF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.805 0.185 0.89 0.84 ;
     END
   END QN
@@ -10580,7 +10580,7 @@ MACRO SDFF_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.56 1.485 ;
         RECT 4.24 0.965 4.31 1.485 ;
         RECT 3.455 1.24 3.59 1.485 ;
@@ -10597,7 +10597,7 @@ MACRO SDFF_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.56 0.085 ;
         RECT 4.21 -0.085 4.345 0.16 ;
         RECT 3.485 -0.085 3.555 0.255 ;
@@ -10610,7 +10610,7 @@ MACRO SDFF_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 4.43 0.195 4.5 1.24 ;
       RECT 3.78 0.42 3.85 0.895 ;
       RECT 3.78 0.42 4.05 0.49 ;
@@ -10664,7 +10664,7 @@ MACRO TBUF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.495 0.89 0.73 ;
         RECT 0.51 0.495 0.89 0.565 ;
         RECT 0.51 0.495 0.58 0.63 ;
@@ -10674,7 +10674,7 @@ MACRO TBUF_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.695 1.33 0.92 ;
     END
   END EN
@@ -10682,7 +10682,7 @@ MACRO TBUF_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.035 0.97 0.14 1.245 ;
         RECT 0.035 0.15 0.14 0.425 ;
         RECT 0.035 0.15 0.105 1.245 ;
@@ -10693,7 +10693,7 @@ MACRO TBUF_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.52 1.485 ;
         RECT 1.19 1.24 1.325 1.485 ;
         RECT 0.69 1.145 0.76 1.485 ;
@@ -10705,7 +10705,7 @@ MACRO TBUF_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.52 0.085 ;
         RECT 1.15 -0.085 1.285 0.295 ;
         RECT 0.77 -0.085 0.905 0.295 ;
@@ -10713,7 +10713,7 @@ MACRO TBUF_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.41 0.365 1.48 1.245 ;
       RECT 0.875 1.105 1.48 1.175 ;
       RECT 0.875 0.94 0.945 1.175 ;
@@ -10745,7 +10745,7 @@ MACRO TBUF_X16
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.265 0.39 4.335 0.66 ;
         RECT 3.67 0.39 4.335 0.46 ;
         RECT 3.475 0.555 3.74 0.625 ;
@@ -10756,7 +10756,7 @@ MACRO TBUF_X16
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 4.05 0.725 4.6 0.795 ;
         RECT 4.53 0.525 4.6 0.795 ;
         RECT 4.05 0.56 4.12 0.795 ;
@@ -10767,7 +10767,7 @@ MACRO TBUF_X16
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.895 0.36 3.03 1.005 ;
         RECT 0.36 0.56 3.03 0.7 ;
         RECT 2.515 0.36 2.65 1.005 ;
@@ -10790,7 +10790,7 @@ MACRO TBUF_X16
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 4.94 1.485 ;
         RECT 4.605 1.24 4.74 1.485 ;
         RECT 3.845 1.24 3.98 1.485 ;
@@ -10811,7 +10811,7 @@ MACRO TBUF_X16
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 4.94 0.085 ;
         RECT 4.605 -0.085 4.74 0.16 ;
         RECT 4.225 -0.085 4.36 0.16 ;
@@ -10828,7 +10828,7 @@ MACRO TBUF_X16
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 4.825 0.26 4.895 1.25 ;
       RECT 3.86 0.995 4.895 1.065 ;
       RECT 3.86 0.83 3.93 1.065 ;
@@ -10859,7 +10859,7 @@ MACRO TBUF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.56 0.965 0.7 ;
     END
   END A
@@ -10867,7 +10867,7 @@ MACRO TBUF_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.2 0.7 1.535 0.84 ;
         RECT 1.2 0.285 1.27 0.84 ;
         RECT 0.685 0.285 1.27 0.355 ;
@@ -10878,7 +10878,7 @@ MACRO TBUF_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.06 0.8 0.335 0.87 ;
         RECT 0.06 0.35 0.33 0.42 ;
         RECT 0.06 0.35 0.13 0.87 ;
@@ -10889,7 +10889,7 @@ MACRO TBUF_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.39 1.065 1.46 1.485 ;
         RECT 0.975 1.065 1.045 1.485 ;
@@ -10902,7 +10902,7 @@ MACRO TBUF_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.405 -0.085 1.475 0.25 ;
         RECT 0.91 -0.085 0.98 0.2 ;
@@ -10911,7 +10911,7 @@ MACRO TBUF_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.6 0.15 1.67 1.25 ;
       RECT 1.335 0.56 1.67 0.63 ;
       RECT 0.4 0.925 1.27 0.995 ;
@@ -10937,7 +10937,7 @@ MACRO TBUF_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.35 0.525 1.46 0.7 ;
     END
   END A
@@ -10945,7 +10945,7 @@ MACRO TBUF_X4
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.75 0.525 1.84 0.7 ;
     END
   END EN
@@ -10953,7 +10953,7 @@ MACRO TBUF_X4
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.235 1.065 0.745 1.135 ;
         RECT 0.235 0.33 0.745 0.4 ;
         RECT 0.235 0.33 0.32 1.135 ;
@@ -10964,7 +10964,7 @@ MACRO TBUF_X4
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.09 1.485 ;
         RECT 1.745 0.86 1.815 1.485 ;
         RECT 1.21 1.205 1.28 1.485 ;
@@ -10978,7 +10978,7 @@ MACRO TBUF_X4
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.09 0.085 ;
         RECT 1.74 -0.085 1.81 0.195 ;
         RECT 1.365 -0.085 1.435 0.195 ;
@@ -10988,7 +10988,7 @@ MACRO TBUF_X4
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.935 0.15 2.005 0.995 ;
       RECT 0.945 0.265 1.015 0.66 ;
       RECT 0.945 0.265 2.005 0.335 ;
@@ -11013,7 +11013,7 @@ MACRO TBUF_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.72 0.39 2.79 0.66 ;
         RECT 2.14 0.39 2.79 0.46 ;
         RECT 1.95 0.56 2.21 0.63 ;
@@ -11024,7 +11024,7 @@ MACRO TBUF_X8
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.465 0.725 3.08 0.795 ;
         RECT 3.01 0.525 3.08 0.795 ;
         RECT 2.465 0.525 2.6 0.795 ;
@@ -11034,7 +11034,7 @@ MACRO TBUF_X8
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.36 1.01 1.505 1.08 ;
         RECT 1.355 0.375 1.505 0.445 ;
         RECT 1.36 0.775 1.43 1.08 ;
@@ -11051,7 +11051,7 @@ MACRO TBUF_X8
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 3.42 1.485 ;
         RECT 3.085 1.13 3.22 1.485 ;
         RECT 2.32 1.15 2.455 1.485 ;
@@ -11068,7 +11068,7 @@ MACRO TBUF_X8
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 3.42 0.085 ;
         RECT 3.09 -0.085 3.225 0.16 ;
         RECT 2.7 -0.085 2.835 0.16 ;
@@ -11081,7 +11081,7 @@ MACRO TBUF_X8
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 3.305 0.2 3.375 1.25 ;
       RECT 2.295 0.995 3.375 1.065 ;
       RECT 2.295 0.525 2.365 1.065 ;
@@ -11112,7 +11112,7 @@ MACRO TINV_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.45 0.65 0.585 0.72 ;
         RECT 0.175 0.84 0.52 0.98 ;
         RECT 0.45 0.65 0.52 0.98 ;
@@ -11123,7 +11123,7 @@ MACRO TINV_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.31 0.42 0.38 0.6 ;
         RECT 0.25 0.42 0.38 0.56 ;
     END
@@ -11132,7 +11132,7 @@ MACRO TINV_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.84 0.72 1.24 ;
         RECT 0.65 0.155 0.72 1.24 ;
     END
@@ -11142,7 +11142,7 @@ MACRO TINV_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 0.76 1.485 ;
         RECT 0.225 1.065 0.295 1.485 ;
     END
@@ -11152,13 +11152,13 @@ MACRO TINV_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 0.76 0.085 ;
         RECT 0.225 -0.085 0.295 0.195 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.04 0.195 0.11 1.24 ;
       RECT 0.45 0.495 0.585 0.565 ;
       RECT 0.45 0.275 0.52 0.565 ;
@@ -11177,7 +11177,7 @@ MACRO TLAT_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.585 0.73 0.84 ;
     END
   END D
@@ -11185,7 +11185,7 @@ MACRO TLAT_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.185 0.745 0.32 0.98 ;
     END
   END G
@@ -11193,7 +11193,7 @@ MACRO TLAT_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.815 0.5 2.275 0.57 ;
         RECT 1.815 0.5 2.03 0.7 ;
     END
@@ -11202,7 +11202,7 @@ MACRO TLAT_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 2.265 1.01 2.41 1.215 ;
         RECT 2.34 0.22 2.41 1.215 ;
         RECT 2.265 0.22 2.41 0.425 ;
@@ -11213,7 +11213,7 @@ MACRO TLAT_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 2.47 1.485 ;
         RECT 1.87 0.975 1.94 1.485 ;
         RECT 1.305 1.08 1.44 1.485 ;
@@ -11226,7 +11226,7 @@ MACRO TLAT_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 2.47 0.085 ;
         RECT 1.87 -0.085 1.94 0.32 ;
         RECT 1.335 -0.085 1.405 0.32 ;
@@ -11235,7 +11235,7 @@ MACRO TLAT_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 1.68 0.185 1.75 1.245 ;
       RECT 1.68 0.775 2.275 0.855 ;
       RECT 2.14 0.65 2.275 0.855 ;
@@ -11264,7 +11264,7 @@ MACRO XNOR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.65 0.555 0.81 0.625 ;
         RECT 0.65 0.39 0.72 0.625 ;
         RECT 0.185 0.39 0.72 0.46 ;
@@ -11275,7 +11275,7 @@ MACRO XNOR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.35 0.84 0.965 0.91 ;
         RECT 0.895 0.525 0.965 0.91 ;
         RECT 0.35 0.84 0.51 0.98 ;
@@ -11285,7 +11285,7 @@ MACRO XNOR2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.98 1.1 1.05 ;
         RECT 1.03 0.295 1.1 1.05 ;
         RECT 0.785 0.295 1.1 0.365 ;
@@ -11297,7 +11297,7 @@ MACRO XNOR2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 1 1.115 1.07 1.485 ;
         RECT 0.43 1.115 0.5 1.485 ;
@@ -11309,13 +11309,13 @@ MACRO XNOR2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.395 -0.085 0.53 0.25 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.21 1.145 0.345 1.215 ;
       RECT 0.21 0.67 0.28 1.215 ;
       RECT 0.05 0.67 0.585 0.74 ;
@@ -11336,7 +11336,7 @@ MACRO XNOR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.01 0.525 1.08 0.7 ;
     END
   END A
@@ -11344,7 +11344,7 @@ MACRO XNOR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.77 1.65 0.84 ;
         RECT 1.58 0.525 1.65 0.84 ;
         RECT 0.82 0.56 0.89 0.84 ;
@@ -11355,7 +11355,7 @@ MACRO XNOR2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.21 0.905 1.84 0.975 ;
         RECT 1.77 0.19 1.84 0.975 ;
         RECT 0.975 0.36 1.84 0.43 ;
@@ -11367,7 +11367,7 @@ MACRO XNOR2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.9 1.485 ;
         RECT 1.54 1.24 1.675 1.485 ;
         RECT 0.805 1.065 0.875 1.485 ;
@@ -11380,14 +11380,14 @@ MACRO XNOR2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.9 0.085 ;
         RECT 0.395 -0.085 0.53 0.16 ;
         RECT 0.05 -0.085 0.12 0.325 ;
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.245 0.725 0.72 0.795 ;
       RECT 0.245 0.39 0.315 0.795 ;
       RECT 0.245 0.39 0.91 0.46 ;
@@ -11407,7 +11407,7 @@ MACRO XOR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.63 0.525 0.755 0.66 ;
         RECT 0.175 0.73 0.7 0.8 ;
         RECT 0.63 0.525 0.7 0.8 ;
@@ -11418,7 +11418,7 @@ MACRO XOR2_X1
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.82 0.525 0.945 0.66 ;
         RECT 0.305 0.875 0.89 0.945 ;
         RECT 0.82 0.525 0.89 0.945 ;
@@ -11428,7 +11428,7 @@ MACRO XOR2_X1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.775 1.04 1.08 1.11 ;
         RECT 1.01 0.35 1.08 1.11 ;
         RECT 0.62 0.35 1.08 0.42 ;
@@ -11440,7 +11440,7 @@ MACRO XOR2_X1
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.14 1.485 ;
         RECT 0.42 1.15 0.49 1.485 ;
     END
@@ -11450,7 +11450,7 @@ MACRO XOR2_X1
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.14 0.085 ;
         RECT 0.99 -0.085 1.06 0.285 ;
         RECT 0.42 -0.085 0.49 0.285 ;
@@ -11458,7 +11458,7 @@ MACRO XOR2_X1
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.04 0.525 0.11 1.25 ;
       RECT 0.495 0.525 0.565 0.66 ;
       RECT 0.04 0.525 0.565 0.595 ;
@@ -11478,7 +11478,7 @@ MACRO XOR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 1.255 0.395 1.325 0.66 ;
         RECT 0.745 0.395 1.325 0.465 ;
         RECT 0.745 0.285 0.82 0.66 ;
@@ -11490,7 +11490,7 @@ MACRO XOR2_X2
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.365 0.77 1.125 0.84 ;
         RECT 0.99 0.56 1.125 0.84 ;
         RECT 0.365 0.56 0.5 0.84 ;
@@ -11500,7 +11500,7 @@ MACRO XOR2_X2
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0.8 0.905 1.465 0.975 ;
         RECT 1.39 0.26 1.465 0.975 ;
         RECT 0.885 0.26 1.465 0.33 ;
@@ -11513,7 +11513,7 @@ MACRO XOR2_X2
     USE POWER ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 1.315 1.71 1.485 ;
         RECT 1.585 1.205 1.655 1.485 ;
         RECT 0.445 1.205 0.515 1.485 ;
@@ -11524,7 +11524,7 @@ MACRO XOR2_X2
     USE GROUND ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER metal1 ;
+      LAYER M1 ;
         RECT 0 -0.085 1.71 0.085 ;
         RECT 1.585 -0.085 1.655 0.335 ;
         RECT 1.025 -0.085 1.095 0.195 ;
@@ -11533,7 +11533,7 @@ MACRO XOR2_X2
     END
   END VSS
   OBS
-    LAYER metal1 ;
+    LAYER M1 ;
       RECT 0.04 1.04 1.6 1.11 ;
       RECT 1.53 0.525 1.6 1.11 ;
       RECT 0.23 0.425 0.3 1.11 ;

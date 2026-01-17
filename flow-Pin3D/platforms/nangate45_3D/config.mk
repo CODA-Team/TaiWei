@@ -1,126 +1,117 @@
-# Process node
+# =========================================
+# tech config.mk
+# =========================================
+
+# -------- Process --------
 export PROCESS = 45
 
-#-----------------------------------------------------
-# Tech/Libs
-# ----------------------------------------------------
-# export TECH_LEF = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.tech.lef
-# export SC_LEF = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.macro.mod.lef
-export TECH_LEF = $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.tech.lef
-# export SC_LEF = $(PLATFORM_DIR)/lef_upper/NangateOpenCellLibrary.macro.mod.upper.lef \
-#                      $(PLATFORM_DIR)/lef_bottom/NangateOpenCellLibrary.macro.mod.bottom.lef
-export SC_LEF ?= $(PLATFORM_DIR)/lef_bottom/NangateOpenCellLibrary.macro.mod.bottom.lef
+# -------- Tech / Libs --------
+ifeq ($(USE_FLOW),openroad)
+  export TECH_LEF ?= $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.tech21.lef
+  export RCX_RULES         ?= $(PLATFORM_DIR)/NangateOpenCellLibrary.tech21.rcx_patterns.rules
+  export SET_RC_TCL  ?= $(PLATFORM_DIR)/setRC.tech21.tcl
+  export MIN_ROUTING_LAYER ?= M2
+  export MAX_ROUTING_LAYER ?= M3_add
+endif
+export MIN_CLK_ROUTING_LAYER ?= M2
+export TECH_LEF ?= $(PLATFORM_DIR)/lef/NangateOpenCellLibrary.tech.lef
+export RCX_RULES         ?= $(PLATFORM_DIR)/NangateOpenCellLibrary.tech.rcx_patterns.rules
+export SET_RC_TCL  ?= $(PLATFORM_DIR)/setRC.tech.tcl
 
-# export LIB_FILES = $(PLATFORM_DIR)/lib/NangateOpenCellLibrary_typical.lib \
-#                      $(ADDITIONAL_LIBS)
-export LIB_FILES = $(ADDITIONAL_LIBS)
+export SC_LEF  ?= \
+$(PLATFORM_DIR)/lef_bottom/NangateOpenCellLibrary.macro.mod.bottom.lef \
+$(PLATFORM_DIR)/lef_upper/NangateOpenCellLibrary.macro.mod.upper.lef 
 
+export SC_LIB_UPPER  ?= \
+$(PLATFORM_DIR)/lib_upper/NangateOpenCellLibrary_typical.upper.lib
+export SC_LIB_BOTTOM  ?= \
+$(PLATFORM_DIR)/lib_bottom/NangateOpenCellLibrary_typical.bottom.lib
+
+export SC_LIB  ?= $(SC_LIB_BOTTOM) $(SC_LIB_UPPER)
+
+# Unified LEF/LIB list (following Cadence order/naming convention)
+export LEF_FILES = $(TECH_LEF) \
+                   $(SC_LEF) \
+                   $(ADDITIONAL_LEFS)
+export LIB_FILES = $(SC_LIB) \
+                   $(ADDITIONAL_LIBS)
+
+# Directory/Extracted files (Cadence)
+export LIB_DIR ?= $(dir $(SC_LIB))
+export LEF_DIR ?= $(dir $(TECH_LEF))
+export QRC_FILE ?= $(PLATFORM_DIR)/qrc/NG45.tch
+
+# Layout/GDS (supplement for OpenROAD)
 export GDS_FILES = $(sort $(wildcard $(PLATFORM_DIR)/gds/*.gds)) \
-                     $(ADDITIONAL_GDS)
-# Dont use cells to ease congestion
-# Specify at least one filler cell if none
-export DONT_USE_CELLS = TAPCELL_X1_upper FILLCELL_X1_upper AOI211_X1_upper OAI211_X1_upper TAPCELL_X1_bottom FILLCELL_X1_bottom AOI211_X1_bottom OAI211_X1_bottom 
-# BUF_X32_upper BUF_X16_upper BUF_X8_upper BUF_X4_upper BUF_X2_upper BUF_X1_upper CLKBUF_X1_upper CLKBUF_X2_upper CLKBUF_X3_upper
+                   $(ADDITIONAL_GDS)
 
-# Fill cells used in fill cell insertion
-export FILL_CELLS ?= FILLCELL_X1_bottom FILLCELL_X2_bottom FILLCELL_X4_bottom FILLCELL_X8_bottom FILLCELL_X16_bottom FILLCELL_X32_bottom
+# -------- Synthesis / Mapping --------
+# Cadence: RTL search path (for Genus); OpenROAD: Yosys/ABC related switches
+export RTL_SEARCH_DIRS ?= $(dir $(firstword $(VERILOG_FILES)))
 
-# -----------------------------------------------------
-#  Yosys
-#  ----------------------------------------------------
-# Ungroup size for hierarchical synthesis
+# Yosys/ABC (OpenROAD specific, kept for mixed-flow convenience)
 export MAX_UNGROUP_SIZE ?= 10000
-# Set the TIEHI/TIELO cells
-# These are used in yosys synthesis to avoid logical 1/0's in the netlist
-export TIEHI_CELL_AND_PORT = LOGIC1_X1_bottom Z
-export TIELO_CELL_AND_PORT = LOGIC0_X1_bottom Z
+export BOTTOM_TIEHI_CELL_AND_PORT = LOGIC1_X1_bottom Z
+export BOTTOM_TIELO_CELL_AND_PORT = LOGIC0_X1_bottom Z
+export UPPER_TIEHI_CELL_AND_PORT = LOGIC1_X1_upper Z
+export UPPER_TIELO_CELL_AND_PORT = LOGIC0_X1_upper Z
 
-# Used in synthesis
 export MIN_BUF_CELL_AND_PORTS = BUF_X1_bottom A Z
+export LATCH_MAP_FILE    = $(PLATFORM_DIR)/cells_latch.v
+export CLKGATE_MAP_FILE  = $(PLATFORM_DIR)/cells_clkgate.v
+export ADDER_MAP_FILE   ?= $(PLATFORM_DIR)/cells_adders.v
+export ABC_DRIVER_CELL   = BUF_X1_bottom
+export ABC_LOAD_IN_FF    = 3.898
 
-
-# Yosys mapping files
-export LATCH_MAP_FILE = $(PLATFORM_DIR)/cells_latch.v
-export CLKGATE_MAP_FILE = $(PLATFORM_DIR)/cells_clkgate.v
-export ADDER_MAP_FILE ?= $(PLATFORM_DIR)/cells_adders.v
-#
-export ABC_DRIVER_CELL = BUF_X1_bottom
-# BUF_X1, pin (A) = 0.974659. Arbitrarily multiply by 4
-export ABC_LOAD_IN_FF = 3.898
-
-#--------------------------------------------------------
-# Floorplan
-# -------------------------------------------------------
-
-# Placement site for core cells
-# This can be found in the technology lef
-export PLACE_SITE = FreePDK45_38x28_10R_NP_162NW_34O
-
-# IO Placer pin layers
-export IO_PLACER_H = metal5
-export IO_PLACER_V = metal6
-
-# Define default PDN config
-export PDN_TCL ?= $(PLATFORM_DIR)/grid_strategy-M1-M4-M7.tcl
-
-# Endcap and Welltie cells
-export TAPCELL_TCL ?= $(PLATFORM_DIR)/tapcell.tcl
+# -------- Floorplan --------
+export PLACE_SITE   = FreePDK45_38x28_10R_NP_162NW_34O
+export IO_PLACER_H ?= M5
+export IO_PLACER_V ?= M6
+export MAKE_TRACKS ?= $(PLATFORM_DIR)/make_tracks.tcl
+# PDN / Endcap / Welltie (based on Cadence)
+export PDN_TCL      ?= $(PLATFORM_DIR)/grid_strategy-M1-M4-M7.tcl
+export TAPCELL_TCL  ?= $(PLATFORM_DIR)/tapcell.tcl
 export TAP_CELL_NAME = TAPCELL_X1_bottom
 
-export MACRO_PLACE_HALO ?= 22.4 15.12
-export MACRO_PLACE_CHANNEL ?= 18.8 19.95
-
-#---------------------------------------------------------
-# Place
-# --------------------------------------------------------
-# Cell padding in SITE widths to ease rout-ability.  Applied to both sides
+# -------- Placement --------
 export CELL_PAD_IN_SITES_GLOBAL_PLACEMENT ?= 0
 export CELL_PAD_IN_SITES_DETAIL_PLACEMENT ?= 0
-#
-
 export PLACE_DENSITY ?= 0.30
 
-# --------------------------------------------------------
-#  CTS
-#  -------------------------------------------------------
-# TritonCTS options
-export CTS_BUF_CELL   ?= BUF_X4_bottom
+# 3D tier-related (based on Cadence structured variables)
+export FILL_CELLS_UPPER  ?= FILLCELL_X1_upper  FILLCELL_X2_upper  FILLCELL_X4_upper  \
+                             FILLCELL_X8_upper  FILLCELL_X16_upper  FILLCELL_X32_upper
+export FILL_CELLS_BOTTOM ?= FILLCELL_X1_bottom FILLCELL_X2_bottom FILLCELL_X4_bottom \
+                             FILLCELL_X8_bottom FILLCELL_X16_bottom FILLCELL_X32_bottom
+export DONT_USE_CELLS_UPPER  ?= TAPCELL_X1_upper  FILLCELL_X1_upper  AOI211_X1_upper  OAI211_X1_upper
+export DONT_USE_CELLS_BOTTOM ?= TAPCELL_X1_bottom FILLCELL_X1_bottom AOI211_X1_bottom OAI211_X1_bottom
+export DONT_USE_CELLS = $(DONT_USE_CELLS_UPPER) $(DONT_USE_CELLS_BOTTOM)
 
-# ---------------------------------------------------------
-#  Route
-# ---------------------------------------------------------
-# FastRoute options
-export MIN_ROUTING_LAYER = metal2
-export MAX_ROUTING_LAYER = metal20
+# Unified/Derived for Tcl usage
+export FILL_CELLS ?= $(FILL_CELLS_BOTTOM)     # For non-tiered/fallback usage
+export DNU_FOR_UPPER   := $(DONT_USE_CELLS_UPPER) *_bottom
+export DNU_FOR_BOTTOM  := $(DONT_USE_CELLS_BOTTOM)  *_upper
 
-# Define fastRoute tcl
+# -------- CTS --------
+export CTS_BUF_CELL ?= BUF_X4_bottom
+
+# -------- Route --------
+export MIN_ROUTING_LAYER ?= M2
+export MAX_ROUTING_LAYER ?= M2_m
+
+# OpenROAD specific script (kept for mixed-flow)
 export FASTROUTE_TCL ?= $(PLATFORM_DIR)/fastroute.tcl
 
-# KLayout technology file
-export KLAYOUT_TECH_FILE = $(PLATFORM_DIR)/FreePDK45.lyt
-
-# KLayout DRC ruledeck
-# export KLAYOUT_DRC_FILE = $(PLATFORM_DIR)/drc/FreePDK45.lydrc
-
-# KLayout LVS ruledeck
-export KLAYOUT_LVS_FILE = $(PLATFORM_DIR)/lvs/FreePDK45.lylvs
-
-# Allow empty GDS cell
+# Allow empty GDS cell (Cadence)
 export GDS_ALLOW_EMPTY ?= fakeram.*
 
-export CDL_FILE = $(PLATFORM_DIR)/cdl/NangateOpenCellLibrary.cdl
+# -------- Signoff / RCX / IR --------
+export CDL_FILE           = $(PLATFORM_DIR)/cdl/NangateOpenCellLibrary.cdl
+export TEMPLATE_PGA_CFG  ?= $(PLATFORM_DIR)/template_pga.cfg
+export RCX_RULES          = $(PLATFORM_DIR)/NangateOpenCellLibrary.tech21.rcx_patterns.rules
 
-# Template definition for power grid analysis
-export TEMPLATE_PGA_CFG ?= $(PLATFORM_DIR)/template_pga.cfg
+# IR drop settings (consistent for both tiers)
+export PWR_NETS_VOLTAGES ?= "VDD 1.1"
+export GND_NETS_VOLTAGES ?= "VSS 0.0"
+export IR_DROP_LAYER     ?= M1
 
-# OpenRCX extRules
-export RCX_RULES               = $(PLATFORM_DIR)/nangate45_3D.rules
-# ---------------------------------------------------------
-#  IR Drop
-# ---------------------------------------------------------
-
-# IR drop estimation supply net name to be analyzed and supply voltage variable
-# For multiple nets: PWR_NETS_VOLTAGES  = "VDD1 1.8 VDD2 1.2"
-export PWR_NETS_VOLTAGES  ?= "VDD 1.1"
-export GND_NETS_VOLTAGES  ?= "VSS 0.0"
-export IR_DROP_LAYER ?= metal1

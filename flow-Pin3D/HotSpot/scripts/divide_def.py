@@ -1,50 +1,81 @@
+#!/usr/bin/env python3
 import argparse
+import os
 
-def split_def_file(input_file, output_dir):
-    output_bottom = f"{output_dir}/6_final_bottom.def"
-    output_upper = f"{output_dir}/6_final_upper.def"
+
+def split_def_file(input_file: str, output_dir: str, base_name: str = "6_final"):
+    """
+    将 3D DEF 按 master 名字的后缀 (_upper / _bottom) 拆成两份：
+      - <output_dir>/<base_name>_bottom.def
+      - <output_dir>/<base_name>_upper.def
+
+    除 COMPONENTS 段外的其他内容（header、PINS、NETS 等）都会完整复制到两份 DEF。
+    """
+    os.makedirs(output_dir, exist_ok=True)
+
+    bottom_path = os.path.join(output_dir, f"{base_name}_bottom.def")
+    upper_path  = os.path.join(output_dir, f"{base_name}_upper.def")
 
     with open(input_file, "r") as infile, \
-         open(output_bottom, "w") as bottom_file, \
-         open(output_upper, "w") as upper_file:
+         open(bottom_path, "w") as bottom_file, \
+         open(upper_path, "w") as upper_file:
 
-        write_bottom = write_upper = False
+        inside_components = False
 
         for line in infile:
-            if "DIEAREA" in line:
+            stripped = line.lstrip()
+
+            # 进入 COMPONENTS 段
+            if stripped.startswith("COMPONENTS"):
+                inside_components = True
                 bottom_file.write(line)
                 upper_file.write(line)
                 continue
 
-            if line.startswith("COMPONENTS"):
+            # 离开 COMPONENTS 段
+            if inside_components and stripped.startswith("END COMPONENTS"):
+                inside_components = False
                 bottom_file.write(line)
                 upper_file.write(line)
-                write_bottom = write_upper = True
                 continue
 
-            if write_bottom and write_upper:
-                if line.startswith("END COMPONENTS"):
-                    bottom_file.write(line)
-                    upper_file.write(line)
-                    break
-
-                parts = line.strip().split()
+            if inside_components:
+                # 这里的典型行格式类似：
+                #   - inst_name master_name + PLACED ( x y ) N ;
+                parts = stripped.split()
                 if len(parts) >= 3:
-                    comp_type_parts = parts[2].rsplit("_", 1)
-                    if len(comp_type_parts) > 1:
-                        last_part = comp_type_parts[-1].lower()
-                        if last_part == "bottom":
-                            bottom_file.write(line)
-                        elif last_part == "upper":
-                            upper_file.write(line)
+                    master = parts[2]
+                    # master 形如 DFF_X1_bottom / DFF_X1_upper
+                    base, _, tier = master.rpartition("_")
+                    tier = tier.lower()
+                    if tier == "bottom":
+                        bottom_file.write(line)
+                    elif tier == "upper":
+                        upper_file.write(line)
+                    # 其他（没有 _upper/_bottom 后缀）就不写入任何一边，
+                    # 如果你希望“公共单元”同时存在于两层，可以改成：
+                    # else:
+                    #     bottom_file.write(line)
+                    #     upper_file.write(line)
+                continue
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="DEF File Splitter")
-    parser.add_argument("-i", "--input", required=True, help="Input DEF file path")
-    parser.add_argument("-o", "--output", default="output", help="Output directory")
+            # 不在 COMPONENTS 段：完整复制到两份 DEF
+            bottom_file.write(line)
+            upper_file.write(line)
 
+    return bottom_path, upper_path
+
+
+def main():
+    parser = argparse.ArgumentParser(description="DEF File Splitter (upper/bottom)")
+    parser.add_argument("-i", "--input", required=True, help="Input 3D DEF file path")
+    parser.add_argument("-o", "--output", required=True, help="Output directory")
+    parser.add_argument("--base", default="6_final", help="Base DEF name (default: 6_final)")
     args = parser.parse_args()
 
-    split_def_file(args.input, args.output)
+    bottom_path, upper_path = split_def_file(args.input, args.output, args.base)
+    print(f"DEF : {bottom_path} and {upper_path}")
 
-    print(f"DEF : {args.output}6_final_bottom.def and {args.output}6_final_upper.def")
+
+if __name__ == "__main__":
+    main()
