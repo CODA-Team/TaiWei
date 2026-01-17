@@ -6,8 +6,6 @@
 
 # 太维（TaiWei）：三维系统集成自主智能物理设计平台
 
-## 项目简介
-
 太维（TaiWei）是我国首个支持系统工艺协同优化（STCO）的自主智能三维物理设计软件平台。项目面向后摩尔时代的高性能计算、人工智能等复杂系统芯片设计需求，致力于突破三维系统集成在物理设计方面的技术瓶颈。
 
 ## 项目背景
@@ -75,17 +73,23 @@
 
 ### 合作伙伴
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px;">
 
-<img src="images/HiSilicon-logo.svg" alt="华为海思" style="max-width: 200px; height: auto; vertical-align: middle;">
-
-<img src="images/pftn-logo.png" alt="培风图南" style="max-width: 200px; height: auto; vertical-align: middle;">
-
-<img src="images/univista-logo.svg" alt="上海合见工软" style="max-width: 200px; height: auto; vertical-align: middle;">
-
-<img src="images/EDA2-logo.png" alt="EDA²平台" style="max-width: 200px; height: auto; vertical-align: middle;">
-
-</div>
+<table style="border: none; border-collapse: collapse;">
+<tr>
+<td align="center" width="200" style="padding: 20px; border: none;">
+<img src="images/HiSilicon-logo.svg" alt="华为海思" style="max-width: 180px; max-height: 100px;">
+</td>
+<td align="center" width="200" style="padding: 20px; border: none;">
+<img src="images/pftn-logo.png" alt="培风图南" style="max-width: 180px; max-height: 100px;">
+</td>
+<td align="center" width="200" style="padding: 20px; border: none;">
+<img src="images/univista-logo.svg" alt="上海合见工软" style="max-width: 180px; max-height: 100px;">
+</td>
+<td align="center" width="200" style="padding: 20px; border: none;">
+<img src="images/EDA2-logo.png" alt="EDA²平台" style="max-width: 180px; max-height: 100px;">
+</td>
+</tr>
+</table>
 
 
 ## 项目目标
