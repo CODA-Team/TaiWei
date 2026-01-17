@@ -110,9 +110,6 @@ define _cad
 ( $(TIME_CMD) $(1) ) 2>&1 | tee -a $(2)
 endef
 
-define _or_docker
-( $(TIME_CMD) $(OPENROAD_CMD_DOCKER) $(1) ) 2>&1 | tee -a $(2)
-endef
 # Pre-process libraries
 # ==============================================================================
 # Create temporary Liberty files with proper dont_use for Yosys/ABC.
@@ -480,30 +477,6 @@ cds-tier-partition:
 	  $(call _or,$(CADENCE_SCRIPTS_DIR)/tritonpart_tier_partition.tcl,$(LOG_DIR)/2_tritonpart.log); \
 	}
 	
-.PHONY: cds-docker-tier-partition
-cds-docker-tier-partition:
-	@$(call _mkstdirs)
-	@echo "[CDS] Tier partition (OpenROAD in Cadence flow)"
-	@echo "[CDS] Copying 2D artifacts to $(3D_PLATFORM) directory"
-	@{ \
-	  NEW_RESULTS_DIR="$(WORK_HOME)/results/$(3D_PLATFORM)/$(DESIGN_NICKNAME)/$(FLOW_VARIANT)"; \
-	  mkdir -p "$$NEW_RESULTS_DIR"; \
-	  cp -rf "$(RESULTS_DIR)"/* "$$NEW_RESULTS_DIR"; \
-	  \
-	  echo "[CDS] Running TritonPart in Docker..."; \
-	  export RESULTS_DIR="$$NEW_RESULTS_DIR"; \
-	  $(call _or_docker,$(CADENCE_SCRIPTS_DIR)/tritonpart_tier_partition.tcl,$(LOG_DIR)/2_tritonpart.log); \
-	}
-
-.PHONY: cds-docker-partition
-cds-docker-partition:
-	@set -e; \
-	cname="$(CONTAINER)"; \
-	if [ -z "$$($(DOCKER) ps -q -f name=^$${cname}$$)" ]; then echo "[ERR] container '$$cname' is not running."; exit 1; fi; \
-	if $(DOCKER) exec "$$cname" id -u "$(CONTAINER_USER)" >/dev/null 2>&1; then user_arg="-u $(CONTAINER_USER)"; else user_arg="-u $(shell id -u):$(shell id -g)"; fi; \
-	$(DOCKER) exec $$user_arg -e DESIGN_CONFIG="$(DESIGN_CONFIG)" -w / "$$cname" \
-	  /bin/bash -lc "cd ~ && [ -f ~/.bashrc ] && source ~/.bashrc || true; cd '$(INNER_DIR)' && make DESIGN_CONFIG='$(DESIGN_CONFIG)' FLOW_VARIANT='$(FLOW_VARIANT)' OPENROAD_CMD_DOCKER='$(OPENROAD_CMD_DOCKER)' cds-docker-tier-partition"
-
 .PHONY: cds-pre
 cds-pre:
 	@$(call _mkstdirs)

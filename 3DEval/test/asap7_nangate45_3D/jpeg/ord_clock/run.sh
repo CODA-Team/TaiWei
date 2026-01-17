@@ -34,21 +34,4 @@ make DESIGN_CONFIG=designs/asap7_nangate45_3D/${DESIGN_NICKNAME}/config_upper_co
 make DESIGN_CONFIG=designs/asap7_nangate45_3D/${DESIGN_NICKNAME}/config_bottom_cover.mk ord-legalize-upper
 make DESIGN_CONFIG=designs/asap7_nangate45_3D/${DESIGN_NICKNAME}/config_upper_cover.mk ord-cts
 make DESIGN_CONFIG=designs/asap7_nangate45_3D/${DESIGN_NICKNAME}/config.mk ord-route
-if [[ "${ORD_EVAL_MODE}" == "remote" ]]; then
-    SSH_OPTS=()
-    if [[ -n "${ORD_EVAL_SSH_OPTS:-}" ]]; then
-        read -r -a SSH_OPTS <<< "${ORD_EVAL_SSH_OPTS}"
-    fi
-    ssh "${SSH_OPTS[@]}" -t "${ORD_EVAL_REMOTE_USER}@${ORD_EVAL_REMOTE_HOST}" "
-        cd ${ORD_EVAL_REMOTE_PROJECT_DIR} || exit
-        source env.sh
-        export DESIGN_DIMENSION=\"${DESIGN_DIMENSION}\"
-        export DESIGN_NICKNAME=\"${DESIGN_NICKNAME}\"
-        export USE_FLOW=\"${USE_FLOW}\"
-        export FLOW_VARIANT=\"${FLOW_VARIANT}\"
-        export CLK_PERIOD=\"${CLK_PERIOD}\"
-        make DESIGN_CONFIG=designs/asap7_nangate45_3D/\${DESIGN_NICKNAME}/config.mk cds-final
-    "
-else
-    make DESIGN_CONFIG=designs/asap7_nangate45_3D/${DESIGN_NICKNAME}/config.mk cds-final
-fi
+make DESIGN_CONFIG=designs/asap7_nangate45_3D/${DESIGN_NICKNAME}/config.mk cds-final
