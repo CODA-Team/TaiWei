@@ -95,5 +95,5 @@
 
 ## 联系方式
 
-更多信息请参考项目文档。
+*   **王志昂 （复旦大学集成电路与微纳电子创新学院助理教授）** — [zhiangwang@fudan.edu.cn](mailto:zhiangwang@fudan.edu.cn)
 
