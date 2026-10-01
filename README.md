@@ -14,6 +14,12 @@
 
 - [TaiWei 快速入门](DOC/TaiWei-QuickStart.md)
 
+## 演示视频
+
+<video src="images/taiwei-demo.mp4" controls width="720">
+  <a href="images/taiwei-demo.mp4">下载太维演示视频</a>
+</video>
+
 ## 项目背景
 
 进入后摩尔时代，单纯依赖工艺微缩已难以持续支撑高性能计算、人工智能等复杂系统芯片对性能、能效与集成度的需求。以芯粒化、三维堆叠和异构集成为代表的三维系统集成，正在成为突破系统级瓶颈的关键技术路径。
