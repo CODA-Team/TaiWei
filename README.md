@@ -16,9 +16,9 @@
 
 ## 演示视频
 
-<video src="images/taiwei-demo.mp4" controls width="720">
-  <a href="images/taiwei-demo.mp4">下载太维演示视频</a>
-</video>
+![太维演示视频](images/taiwei-demo.avif)
+
+[播放或下载原始 MP4 视频](images/taiwei-demo.mp4)
 
 ## 项目背景
 
