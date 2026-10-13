@@ -50,7 +50,6 @@ submodules are not used.
 
 ```bash
 cd ORFS-Research
-sudo ./setup.sh
 ./build_openroad.sh --local --no_init --threads 16
 ```
 
