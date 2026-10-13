@@ -10,10 +10,10 @@ TaiWei stage to be selected without changing the default stage.
 ## Integration Layout
 
 ```text
-TaiWei-Integration/
+TaiWei/
 ├── ORFS-Research/
 │   └── tools/
-│       ├── yosys/
+│       ├── yosys-research/
 │       │   └── passes/3dsyn/
 │       ├── OpenROAD/
 │       │   └── src/
@@ -35,22 +35,23 @@ configuration and stage contracts are documented in each adapter directory.
 
 ## Clone
 
-Clone the repository normally. Do not use `--recurse-submodules`.
+Once the integration branches have been published, clone the integration
+branch with its pinned submodules. During local review, use the existing checkout:
 
 ```bash
-git clone <private-repository-url> TaiWei-Integration
-cd TaiWei-Integration
+git clone --branch integration/2610 --recurse-submodules https://github.com/CODA-Team/TaiWei.git
+cd TaiWei
 ```
 
 ## Build OpenROAD and Yosys
 
 Install the ORFS dependencies, then build the OpenROAD and Yosys sources stored
-in this repository. `--no_init` is required because the original ORFS
-submodules are not used.
+in the pinned submodules. The build defaults to `tools/yosys-research`,
+which contains the integrated 3D-Syn passes.
 
 ```bash
 cd ORFS-Research
-./build_openroad.sh --local --no_init --threads 16
+./build_openroad.sh --local --threads 16
 ```
 
 The default installation is written below:
@@ -62,8 +63,8 @@ ORFS-Research/tools/install/yosys
 
 Use another positive value for `--threads` as appropriate for the build host.
 Do not use `--latest`, `--or_branch`, or `--or_repo` in this source checkout:
-those options are intended for a nested OpenROAD Git repository and may bypass
-the integrated source snapshot.
+those options can replace the pinned OpenROAD version and bypass the
+integrated changes.
 
 ## Build the CPU D3D Partitioner
 
