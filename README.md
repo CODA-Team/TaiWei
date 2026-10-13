@@ -114,3 +114,34 @@
 *   **[王志昂](https://icmne.fudan.edu.cn/97/b8/c48925a759736/page.htm)**：助理教授，复旦大学集成芯片与系统全国重点实验室/集成电路与微纳电子创新学院
 *   **邮箱**： [zhiangwang@fudan.edu.cn](mailto:zhiangwang@fudan.edu.cn)
 
+
+## True-3D integration branch
+
+The `integration/2610` branch adds coarse-grained 3D synthesis, CPU D3D tier
+partitioning, True-3D detailed placement and True-3D clock-tree synthesis.
+Clone this branch with its pinned dependencies:
+
+```bash
+git clone --branch integration/2610 --recurse-submodules https://github.com/CODA-Team/TaiWei.git
+```
+
+ORFS builds the 3D-Syn-enabled `tools/yosys-research` sources into the existing
+`tools/install/yosys` prefix. The research sources use the same upstream
+Yosys baseline as the pinned original tool. OpenROAD includes the TDP and
+3D-CTS modules.
+D3D Partitioner has an independent CPU environment and installation target:
+
+```bash
+cd ORFS-Research
+./build_openroad.sh --local --threads 16
+make -C tools/D3D-Partitioner/d3d-partition-driver setup JOBS=16
+```
+
+Flow adapters and stage contracts are described in
+`TaiWei-Pin-3D/scripts_3dsyn/README.md`,
+`TaiWei-Pin-3D/scripts_d3d_partition/README.md`,
+`TaiWei-Pin-3D/scripts_3ddp/README.md` and
+`TaiWei-Pin-3D/scripts_3dcts/README.md`. 3D-Syn synthesis stages use Cadence
+Genus; choosing OpenROAD for the physical backend does not remove that
+dependency. These features are opt-in Make targets; the original targets
+remain available.
