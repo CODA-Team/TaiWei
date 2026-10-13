@@ -12,3 +12,6 @@ openroad.sh
 /ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/example/unit/unit
 /ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/unittest/path
 /ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/unittest/util
+
+# Integration flow artifact exclusions
+/TaiWei-Pin-3D/rc_model.bin
