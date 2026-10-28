@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository integrates 3D Synthesis, D3D Partitioning, True-3D Detailed
+This repository integrates 3D Synthesis, True-3D Detailed
 Placement, and True-3D CTS into the TaiWei flow. Each point tool has a matching
 adapter and explicit Make target in `TaiWei-Pin-3D`, allowing the corresponding
 TaiWei stage to be selected without changing the default stage.
@@ -15,14 +15,12 @@ TaiWei/
 │   └── tools/
 │       ├── yosys-research/
 │       │   └── passes/3dsyn/
-│       ├── OpenROAD/
-│       │   └── src/
-│       │       ├── 3ddp/
-│       │       └── 3dcts/
-│       └── D3D-Partitioner/
+│       └── OpenROAD/
+│           └── src/
+│               ├── 3ddp/
+│               └── 3dcts/
 └── TaiWei-Pin-3D/
     ├── scripts_3dsyn/
-    ├── scripts_d3d_partition/
     ├── scripts_3ddp/
     ├── scripts_3dcts/
     └── Makefile
@@ -66,41 +64,6 @@ Do not use `--latest`, `--or_branch`, or `--or_repo` in this source checkout:
 those options can replace the pinned OpenROAD version and bypass the
 integrated changes.
 
-## Build the CPU D3D Partitioner
-
-D3D Partitioner has an independent build and does not participate in
-`build_openroad.sh`.
-
-From `ORFS-Research`, run:
-
-```bash
-make -C tools/D3D-Partitioner/d3d-partition-driver setup JOBS=16
-```
-
-If no supported Conda executable is on `PATH`, specify it explicitly:
-
-```bash
-make -C tools/D3D-Partitioner/d3d-partition-driver setup \
-  CONDA_EXE=/path/to/micromamba \
-  JOBS=16
-```
-
-The default environment, build tree, and installation are isolated under:
-
-```text
-ORFS-Research/.conda/taiwei-d3d-cpu
-ORFS-Research/tools/build/d3d-partitioner
-ORFS-Research/tools/install/d3d-partitioner
-```
-
-The setup target performs its own installation check. It can also be repeated
-explicitly with:
-
-```bash
-make -C tools/D3D-Partitioner/d3d-partition-driver check \
-  ENV_PREFIX="$PWD/.conda/taiwei-d3d-cpu"
-```
-
 ## Initialize and Run TaiWei
 
 `TaiWei-Pin-3D/env.sh` currently derives `FLOW_HOME` from the current working
@@ -137,20 +100,6 @@ SYN3D_BACKEND=ord \
 ```
 
 Cadence Genus must be available even when `SYN3D_BACKEND=ord`.
-
-### D3D Partitioner
-
-After the normal synthesis, floorplan, and IO stages have produced the
-partition input handoff, run:
-
-```bash
-make DESIGN_CONFIG=designs/asap7_3D/gcd/config2d.mk \
-     FLOW_VARIANT=d3d_gcd \
-     ord-tier-partition-d3d
-```
-
-The stage publishes TaiWei's standard `partition.txt`; the original
-`ord-tier-partition` target remains available for TritonPart.
 
 ### True-3D Detailed Placement
 

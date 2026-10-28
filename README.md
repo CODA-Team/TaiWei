@@ -117,8 +117,8 @@
 
 ## True-3D integration branch
 
-The `integration/2610` branch adds coarse-grained 3D synthesis, CPU D3D tier
-partitioning, True-3D detailed placement and True-3D clock-tree synthesis.
+The `integration/2610` branch adds coarse-grained 3D synthesis, True-3D detailed
+placement and True-3D clock-tree synthesis.
 Clone this branch with its pinned dependencies:
 
 ```bash
@@ -129,17 +129,15 @@ ORFS builds the 3D-Syn-enabled `tools/yosys-research` sources into the existing
 `tools/install/yosys` prefix. The research sources use the same upstream
 Yosys baseline as the pinned original tool. OpenROAD includes the TDP and
 3D-CTS modules.
-D3D Partitioner has an independent CPU environment and installation target:
+Build the integrated OpenROAD and Yosys tools:
 
 ```bash
 cd ORFS-Research
 ./build_openroad.sh --local --threads 16
-make -C tools/D3D-Partitioner/d3d-partition-driver setup JOBS=16
 ```
 
 Flow adapters and stage contracts are described in
 `TaiWei-Pin-3D/scripts_3dsyn/README.md`,
-`TaiWei-Pin-3D/scripts_d3d_partition/README.md`,
 `TaiWei-Pin-3D/scripts_3ddp/README.md` and
 `TaiWei-Pin-3D/scripts_3dcts/README.md`. 3D-Syn synthesis stages use Cadence
 Genus; choosing OpenROAD for the physical backend does not remove that

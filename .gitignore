@@ -5,13 +5,4 @@ core.*
 openroad.sh
 
 # Integration flow artifact exclusions
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/example/incremental/incremental
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/example/optimizer/optimizer
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/example/simple/simple
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/example/sizer/sizer
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/example/unit/unit
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/unittest/path
-/ORFS-Research/tools/D3D-Partitioner/thirdparty/DREAMPlace/thirdparty/OpenTimer/unittest/util
-
-# Integration flow artifact exclusions
 /TaiWei-Pin-3D/rc_model.bin
