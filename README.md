@@ -36,10 +36,10 @@ make cts DESIGN_CONFIG=./designs/asap7/gcd/config.mk
 
 `DESIGN_CONFIG` 的相对路径以 `ORFS-Research/flow` 为基准；自定义外部配置可传绝对路径。
 根 Makefile 默认使用本目录内构建的 OpenROAD、OpenSTA 和 Yosys；显式命令行变量仍可覆盖。
-默认流程不调用 `TaiWei-Pin-3D`，后者保留 integration 基线供参考。
+本分支已移除 `TaiWei-Pin-3D` 子模块；2D 流程直接使用官方 ORFS。
 下方项目介绍及其他 3D 文档描述 TaiWei 的研究能力，2D 分支请使用本节入口。
 
-固定版本（建立基线时）：
+固定版本（2026-11-06 已重新 fetch 并核对官方 ORFS `master`）：
 
 | 组件 | 提交 |
 | --- | --- |
