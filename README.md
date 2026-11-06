@@ -8,6 +8,49 @@
 
 太维（TaiWei）是我国首个支持系统工艺协同优化（STCO）的自主智能三维物理设计软件平台。项目面向后摩尔时代的高性能计算、人工智能等复杂系统芯片设计需求，致力于突破三维系统集成在物理设计方面的技术瓶颈。
 
+## official-2d 分支默认入口
+
+本分支以 `integration/2610` 为项目外壳，默认执行官方 ORFS 的二维 RTL → GDSII 流程。
+`ORFS-Research` 保留原目录名，子模块来源已改为
+[官方 OpenROAD-flow-scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)。
+OpenROAD 和 Yosys 使用该 ORFS 提交固定的官方子模块版本。
+
+初始化并构建工具（系统依赖按官方 ORFS 安装说明准备）：
+
+```bash
+git submodule sync --recursive
+git submodule update --init --recursive
+cd ORFS-Research
+./build_openroad.sh --local --threads 16
+source ./env.sh
+cd ..
+make
+```
+
+默认设计为官方 `nangate45/gcd`。也可选择设计或单独运行阶段：
+
+```bash
+make DESIGN_CONFIG=./designs/asap7/gcd/config.mk
+make cts DESIGN_CONFIG=./designs/asap7/gcd/config.mk
+```
+
+`DESIGN_CONFIG` 的相对路径以 `ORFS-Research/flow` 为基准；自定义外部配置可传绝对路径。
+根 Makefile 默认使用本目录内构建的 OpenROAD、OpenSTA 和 Yosys；显式命令行变量仍可覆盖。
+默认流程不调用 `TaiWei-Pin-3D`，后者保留 integration 基线供参考。
+下方项目介绍及其他 3D 文档描述 TaiWei 的研究能力，2D 分支请使用本节入口。
+
+固定版本（建立基线时）：
+
+| 组件 | 提交 |
+| --- | --- |
+| TaiWei integration 基础 | `02b2550964333efdbdd1fa51862b2caaa3c0105e` |
+| 官方 ORFS | `3f8ab4ebeb3a886a88fc0774b176c77a18905718` |
+| 官方 OpenROAD | `f131605002c80444f79b18e95e0c7cb657ec024d` |
+| 官方 Yosys | `a5af9d690a43744bf6b2cc3dea2717c16b54621c` |
+
+版本由 Git 子模块提交固定。构建时使用上面的命令，不加 `--latest`。
+本分支的创建和入口检查不代表已经完成工具编译或 RTL → GDSII 验证。
+
 ## 快速入门
 
 快速上手指南请参考：

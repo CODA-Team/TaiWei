@@ -1,6 +1,6 @@
 [submodule "ORFS-Research"]
 	path = ORFS-Research
-	url = https://github.com/ieee-ceda-datc/ORFS-Research.git
+	url = https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git
 [submodule "TaiWei-Pin-3D"]
 	path = TaiWei-Pin-3D
 	url = https://github.com/CODA-Team/TaiWei-Pin-3D.git

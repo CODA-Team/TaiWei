@@ -1,3 +1,5 @@
+> **official-2d 分支：** 默认 2D 入口为根目录 `make`，使用官方 ORFS 及其固定工具版本。构建和设计配置请先阅读 [README 的 2D 入口](../README.md#official-2d-分支默认入口)。以下内容为研究版 3D 流程说明。
+
 # TaiWei
 
 **TaiWei** is an open-source end-to-end 3D IC physical design platform that supports research exploration, fair benchmarking and industrial prototyping. It provides a unified RTL-to-GDS 3D reference flow powered by open-source engines, while enabling seamless integration with commercial toolchains and AI-driven autotuning for efficient and scalable optimization.
