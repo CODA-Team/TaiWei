@@ -9,15 +9,11 @@
 
 ## 🚀 Quick Start
 
-### 1. Clone with Submodules
+### 1. Use the native-3d checkout
 
-TaiWei relies on several sub-repositories. Ensure you use the `--recurse-submodules` flag:
-
-```bash
-git clone --recurse-submodules https://github.com/CODA-Team/TaiWei.git
-cd TaiWei
-
-```
+Use the prepared `native-3d` checkout with its pinned submodules. This branch
+selects 3D-Syn, TDP and 3DCTS automatically for OpenROAD runs. The branches are
+currently local; see [the integration guide](True-3D-Integration.md).
 
 ### 2. Build the Open-Source Toolchain
 
@@ -32,17 +28,17 @@ sudo ./setup.sh
 
 ### 3. Run a 3D Flow
 
-Execute the main entry point to run a sample experiment (e.g., the GCD case using the open-source flow). 
+Execute the main entry point to run a sample experiment (e.g., the GCD case using the native OpenROAD flow).
 You can also inspect the script to see the underlying `make` commands used by the flow.
 
 ```bash
 cd ../TaiWei-Pin-3D
 source env.sh
-bash experiment_scripts/gcd.sh
+bash test/asap7_3D/gcd/ord/run.sh
 
 ```
 
-> **Output:** All results, including logs and design data, are generated under the `WORK_DIR/` directory.
+> **Output:** All results, including logs and design data, are generated under `TaiWei-Pin-3D/{logs,objects,reports,results}/<platform>/<design>/<variant>/`.
 
 ---
 
@@ -62,14 +58,14 @@ TaiWei is a **meta-repository**. All components are pinned via Git submodules to
 
 Users can choose between different toolchains depending on their local environment:
 
-* **`ord`**: Fully open-source (OpenROAD-based). **Recommended** for most researchers.
+* **`ord`**: Native OpenROAD physical flow with 3D-Syn, TDP and 3DCTS. Genus is required for synthesis.
 * **`cds`**: Cadence-based commercial flow.
 * **`mixed`**: A hybrid flow combining open-source and commercial toolchains.
 
 **Examples:**
 
 ```bash
-# Run open-source flow
+# Run native OpenROAD flow (Genus required for 3D-Syn)
 python3 run_experiments.py --flow ord --tech asap7_3D --case gcd
 
 # Run commercial flow
@@ -106,7 +102,7 @@ The `TaiWei-flow-Agent` provides an LLM-based agent for:
 
 
 * **Optional:** Docker / Apptainer (for containerized execution)
-* Cadence Tools (required for the `cds` flow)
+* Cadence Genus (required for the native `ord` 3D-Syn frontend); Innovus for the `cds` flow and Cadence evaluation
 
 ---
 

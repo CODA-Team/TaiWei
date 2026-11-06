@@ -4,8 +4,9 @@
 
 This repository integrates 3D Synthesis, True-3D Detailed
 Placement, and True-3D CTS into the TaiWei flow. Each point tool has a matching
-adapter and explicit Make target in `TaiWei-Pin-3D`, allowing the corresponding
-TaiWei stage to be selected without changing the default stage.
+adapter and Make target in `TaiWei-Pin-3D`. On `native-3d`, the default
+OpenROAD launcher selects all three integrations automatically. Global
+placement still uses the existing tier-by-tier preparation before TDP.
 
 ## Integration Layout
 
@@ -31,15 +32,13 @@ toolchain. The matching `scripts_*` directories in `TaiWei-Pin-3D` provide the
 flow adapters, input/output validation, and standard TaiWei handoffs. Detailed
 configuration and stage contracts are documented in each adapter directory.
 
-## Clone
+## Branches
 
-Once the integration branches have been published, clone the integration
-branch with its pinned submodules. During local review, use the existing checkout:
-
-```bash
-git clone --branch integration/2610 --recurse-submodules https://github.com/CODA-Team/TaiWei.git
-cd TaiWei
-```
+The `native-3d` checkout is based on the pinned `integration/2610` versions.
+The TaiWei, TaiWei-Pin-3D, ORFS-Research, OpenROAD-Research and yosys-research
+repositories each have a local `native-3d` branch. The parallel `pesudo-3d`
+branches preserve the original integration flow. These local branches need
+to be published before they can be cloned by name from the remote servers.
 
 ## Build OpenROAD and Yosys
 
@@ -74,7 +73,7 @@ cd ../TaiWei-Pin-3D
 source ./env.sh
 ```
 
-A baseline open-source GCD run can then be launched with:
+The default native GCD run can then be launched with (Genus is required):
 
 ```bash
 python3 run_experiments.py --flow ord --tech asap7_3D --case gcd
@@ -83,6 +82,42 @@ python3 run_experiments.py --flow ord --tech asap7_3D --case gcd
 Generated logs, intermediate databases, reports, and results are written below
 `logs/`, `objects/`, `reports/`, and `results/`. These directories are ignored
 by Git.
+
+## Default stage sequence
+
+The normal `run_experiments.py --flow ord` command, per-case `run.sh` wrappers
+and `test/openroad/ORD_3D_NEW_FLOW.sh` run:
+
+1. `cds-coarse-synth` → `ord-coarse-partition` → `cds-per-tier-synth` →
+   `ord-3dsyn-handoff`, using `config2d.mk` and the 3D variant output paths.
+2. `ord-3d-floorplan` and the existing IO, split-net, macro, PDN and global
+   placement stages, using `config.mk`.
+3. `ord-gp2lg` → `ord-detail-place-3d` → `ord-cts-3d` →
+   `ord-route-3d-cts` → `ord-final`.
+
+The synthesis handoff produces `<design>_3D.fp.v/.def`. Running `ord-pre`
+afterwards would overwrite it using the coarse-partition netlist. 3DCTS
+publishes the complete `4_cts.*` handoff, including clock-cell legalization,
+so no legacy `ord-cts-post` call follows it.
+
+For Make-level operation, `ord-3d-synth` runs the frontend with `config2d.mk`;
+`ord-3d-flow` continues its handoff with `config.mk`:
+
+```bash
+make DESIGN_CONFIG=designs/asap7_3D/gcd/config2d.mk FLOW_VARIANT=native ord-3d-synth
+make DESIGN_CONFIG=designs/asap7_3D/gcd/config.mk FLOW_VARIANT=native ord-3d-flow
+```
+
+Resume without cleaning completed stages using the native target name:
+
+```bash
+START_FROM=ord-detail-place-3d FLOW_VARIANT=native \
+bash test/asap7_3D/gcd/ord/run.sh
+```
+
+`START_FROM=ord-3d-floorplan` reuses an existing 3D-Syn handoff. Legacy
+`SKIP_2D_PART` and `REUSE_2DPART_FROM_VARIANT` controls are rejected on this
+branch. Stage failures stop the pipeline before downstream tools run.
 
 ## Point-Tool Entry Examples
 
@@ -122,5 +157,5 @@ make DESIGN_CONFIG=designs/asap7_3D/gcd/config.mk \
      ord-cts-3d
 ```
 
-Continue with `ord-route` and `ord-final` using the same configuration and
+Continue with `ord-route-3d-cts` and `ord-final` using the same configuration and
 variant.

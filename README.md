@@ -115,31 +115,33 @@
 *   **邮箱**： [zhiangwang@fudan.edu.cn](mailto:zhiangwang@fudan.edu.cn)
 
 
-## True-3D integration branch
+## Native-3D default flow
 
-The `integration/2610` branch adds coarse-grained 3D synthesis, True-3D detailed
-placement and True-3D clock-tree synthesis.
-Clone this branch with its pinned dependencies:
+The `native-3d` branch is based on `integration/2610` and selects 3D-Syn,
+True-3D detailed placement (TDP) and True-3D clock-tree synthesis by default
+for OpenROAD runs. The default launcher keeps the existing tier-by-tier
+global-placement preparation, then runs TDP and 3DCTS.
 
-```bash
-git clone --branch integration/2610 --recurse-submodules https://github.com/CODA-Team/TaiWei.git
-```
-
-ORFS builds the 3D-Syn-enabled `tools/yosys-research` sources into the existing
-`tools/install/yosys` prefix. The research sources use the same upstream
-Yosys baseline as the pinned original tool. OpenROAD includes the TDP and
-3D-CTS modules.
-Build the integrated OpenROAD and Yosys tools:
+Build the pinned OpenROAD and Yosys research tools from this checkout:
 
 ```bash
 cd ORFS-Research
 ./build_openroad.sh --local --threads 16
+cd ../TaiWei-Pin-3D
+source ./env.sh
+python3 run_experiments.py --flow ord --tech asap7_3D --case gcd
 ```
 
-Flow adapters and stage contracts are described in
-`TaiWei-Pin-3D/scripts_3dsyn/README.md`,
-`TaiWei-Pin-3D/scripts_3ddp/README.md` and
-`TaiWei-Pin-3D/scripts_3dcts/README.md`. 3D-Syn synthesis stages use Cadence
-Genus; choosing OpenROAD for the physical backend does not remove that
-dependency. These features are opt-in Make targets; the original targets
-remain available.
+3D-Syn synthesis requires Cadence Genus even with the OpenROAD physical
+backend. ORFS builds `tools/yosys-research` into `tools/install/yosys`;
+OpenROAD-Research includes the TDP and 3DCTS modules.
+
+The default launcher runs the four 3D-Syn stages, consumes their backend
+handoff, and selects `ord-detail-place-3d`, `ord-cts-3d`, and
+`ord-route-3d-cts` automatically. The legacy tier legalization and CTS targets
+are available for explicit experiments. The Cadence launcher keeps its own
+stage sequence.
+
+See `DOC/True-3D-Integration.md` and `TaiWei-Pin-3D/test/README.md` for stage
+contracts and resume commands. The `native-3d` and `pesudo-3d` branches are
+local until published; the latter retains the integration baseline flow.
