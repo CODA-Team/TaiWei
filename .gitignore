@@ -3,3 +3,6 @@
 core.*
 # local scripts
 openroad.sh
+
+# Integration flow artifact exclusions
+/TaiWei-Pin-3D/rc_model.bin
